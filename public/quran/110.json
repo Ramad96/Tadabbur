@@ -1,0 +1,22 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 110,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    {
+      "n": 1,
+      "ar": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+      "en": "When Allah's succour and the triumph cometh"
+    },
+    {
+      "n": 2,
+      "ar": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًا",
+      "en": "And thou seest mankind entering the religion of Allah in troops,"
+    },
+    {
+      "n": 3,
+      "ar": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
+      "en": "Then hymn the praises of thy Lord, and seek forgiveness of Him. Lo! He is ever ready to show mercy."
+    }
+  ]
+}

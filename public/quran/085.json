@@ -1,0 +1,69 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 85,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ", "en": "By the heaven, holding mansions of the stars," },
+    { "n": 2, "ar": "وَٱلْيَوْمِ ٱلْمَوْعُودِ", "en": "And by the Promised Day." },
+    {
+      "n": 3,
+      "ar": "وَشَاهِدٍ وَمَشْهُودٍ",
+      "en": "And by the witness and that whereunto he beareth testimony,"
+    },
+    { "n": 4, "ar": "قُتِلَ أَصْحَـٰبُ ٱلْأُخْدُودِ", "en": "(Self-)destroyed were the owners of the ditch" },
+    { "n": 5, "ar": "ٱلنَّارِ ذَاتِ ٱلْوَقُودِ", "en": "Of the fuel-fed fire," },
+    { "n": 6, "ar": "إِذْ هُمْ عَلَيْهَا قُعُودٌ", "en": "When they sat by it," },
+    {
+      "n": 7,
+      "ar": "وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِٱلْمُؤْمِنِينَ شُهُودٌ",
+      "en": "And were themselves the witnesses of what they did to the believers."
+    },
+    {
+      "n": 8,
+      "ar": "وَمَا نَقَمُوا۟ مِنْهُمْ إِلَّآ أَن يُؤْمِنُوا۟ بِٱللَّهِ ٱلْعَزِيزِ ٱلْحَمِيدِ",
+      "en": "They had naught against them save that they believed in Allah, the Mighty, the Owner of Praise,"
+    },
+    {
+      "n": 9,
+      "ar": "ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ",
+      "en": "Him unto Whom belongeth the Sovereignty of the heavens and the earth; and Allah is of all things the Witness."
+    },
+    {
+      "n": 10,
+      "ar": "إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ ٱلْحَرِيقِ",
+      "en": "Lo! they who persecute believing men and believing women and repent not, theirs verily will be the doom of hell, and theirs the doom of burning."
+    },
+    {
+      "n": 11,
+      "ar": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ",
+      "en": "Lo! those who believe and do good works, theirs will be Gardens underneath which rivers flow. That is the Great Success."
+    },
+    { "n": 12, "ar": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ", "en": "Lo! the punishment of thy Lord is stern." },
+    {
+      "n": 13,
+      "ar": "إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ",
+      "en": "Lo! He it is Who produceth, then reproduceth,"
+    },
+    { "n": 14, "ar": "وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ", "en": "And He is the Forgiving, the Loving," },
+    { "n": 15, "ar": "ذُو ٱلْعَرْشِ ٱلْمَجِيدُ", "en": "Lord of the Throne of Glory," },
+    { "n": 16, "ar": "فَعَّالٌ لِّمَا يُرِيدُ", "en": "Doer of what He will." },
+    {
+      "n": 17,
+      "ar": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْجُنُودِ",
+      "en": "Hath there come unto thee the story of the hosts"
+    },
+    { "n": 18, "ar": "فِرْعَوْنَ وَثَمُودَ", "en": "Of Pharaoh and (the tribe of) Thamud?" },
+    {
+      "n": 19,
+      "ar": "بَلِ ٱلَّذِينَ كَفَرُوا۟ فِى تَكْذِيبٍ",
+      "en": "Nay, but those who disbelieve live in denial"
+    },
+    {
+      "n": 20,
+      "ar": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطٌۢ",
+      "en": "And Allah, all unseen, surroundeth them."
+    },
+    { "n": 21, "ar": "بَلْ هُوَ قُرْءَانٌ مَّجِيدٌ", "en": "Nay, but it is a glorious Qur'an." },
+    { "n": 22, "ar": "فِى لَوْحٍ مَّحْفُوظٍۭ", "en": "On a guarded tablet." }
+  ]
+}

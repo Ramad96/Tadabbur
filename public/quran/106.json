@@ -1,0 +1,23 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 106,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "لِإِيلَـٰفِ قُرَيْشٍ", "en": "For the taming of Qureysh." },
+    {
+      "n": 2,
+      "ar": "إِۦلَـٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+      "en": "For their taming (We cause) the caravans to set forth in winter and summer."
+    },
+    {
+      "n": 3,
+      "ar": "فَلْيَعْبُدُوا۟ رَبَّ هَـٰذَا ٱلْبَيْتِ",
+      "en": "So let them worship the Lord of this House,"
+    },
+    {
+      "n": 4,
+      "ar": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+      "en": "Who hath fed them against hunger and hath made them safe from fear."
+    }
+  ]
+}

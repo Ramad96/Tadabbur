@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tadabbur · تَدَبُّر
 
-## Getting Started
+_Hear the Qur'an in the voices of the living._ Recitations from people who pray in mosques around
+the world, each pinned to the mosque where it was recorded, with a short profile of the reciter.
 
-First, run the development server:
+Live at **https://tadabbur.amanahdigital.co.uk**: a static Next.js site on GitHub Pages, reading
+from Supabase (Postgres + PostGIS) in the browser. Row-level security is what keeps it safe.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Run it locally
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Install Node 22+ and pnpm 9, then `pnpm install`.
+2. Copy `.env.example` to `.env.local` and fill in your Supabase project's URL and anon key
+   (Project Settings → API).
+3. In the Supabase SQL Editor, run each file in `supabase/migrations/` in order.
+4. In Project Settings → Data API → Exposed schemas, add `tadabbur` and save.
+5. Seed the London samples: run `supabase/seed.sql` in the SQL Editor (or `pnpm db:seed` with
+   `SUPABASE_SERVICE_ROLE_KEY` set).
+6. `pnpm db:check` confirms the live project is set up and that visitors can't write.
+7. `pnpm dev` and open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deploy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Repository → Settings → Secrets and variables → Actions → **Variables**: add
+   `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
+2. Settings → Pages: Source **GitHub Actions**; custom domain `tadabbur.amanahdigital.co.uk`;
+   tick **Enforce HTTPS** once the certificate is issued.
+3. DNS for `amanahdigital.co.uk`: a `CNAME` record `tadabbur` → `<github-user>.github.io`.
+4. Actions → **Deploy** → **Run workflow**. Deploys are manual: each run rebuilds every page and
+   link-preview image from what is approved at that moment. A recitation approved since the last
+   deploy still opens (it loads live), just without its preview image until the next run.
 
-## Learn More
+## Checks
 
-To learn more about Next.js, take a look at the following resources:
+| Command                                            | What it does                                                                                                                                                          |
+| -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `pnpm test`                                        | Unit tests, plus database tests: the real migrations run in an in-memory Postgres (PGlite + PostGIS) and every RLS rule is exercised as a visitor, uploader and admin |
+| `pnpm test:e2e`                                    | Playwright against the built site (`pnpm build` first), on desktop and a 375px phone, including WCAG 2.2 AA audits of every page in both themes                       |
+| `pnpm lint`, `pnpm typecheck`, `pnpm format:check` | ESLint, TypeScript (strict), Prettier                                                                                                                                 |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+CI runs all of them on every push. e2e builds use `TADABBUR_BUILD_DATA=fixture` (the London seed),
+so they need no database or secrets.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## How it fits together
 
-## Deploy on Vercel
+- `app/`: pages. Listen (`/`), Map (`/map/`), and pre-rendered detail pages `/r/[id]`,
+  `/reciters/[id]` and `/mosques/[id]`. Upload is "coming soon"; moderation happens in Supabase.
+- `components/`: the player (one `<audio>` in the layout, so playback survives navigation),
+  map (MapLibre on free OpenFreeMap tiles), profiles and Arabic text.
+- `lib/`: Qur'an helpers, search, data loading and geometry (qibla bearing).
+- `data/quran/source/`: the Tanzil downloads, verbatim. `pnpm quran:build` derives
+  `data/quran/surahs.json` and `public/quran/*.json`; a test proves every ayah is byte-identical.
+- `supabase/`: migrations (everything in the `tadabbur` schema) and the London seed.
+- `scripts/`: Qur'an data, seeding, link-preview images (`build-og.ts`), the MapLibre worker
+  copy and the Amiri font subset.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Rules this codebase keeps
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Qur'an text** is never typed or altered: it is always read from the Tanzil source, rendered
+  only in the Amiri font, and checked by tests. Credit to Tanzil is in the footer.
+- **Privacy**: pins go on mosques, never homes. Names, ages and photos appear only with recorded
+  consent, and every profile has a "Request removal" link.
+- **Nothing is public until approved**: enforced by row-level security, not the UI.
+
+## Before launch
+
+The London data is fictional sample content. Remove it with
+`delete from tadabbur.reciters where is_sample;` (recitations and reflections cascade).
+
+## Credits and licences
+
+Qur'an text: [Tanzil Project](https://tanzil.net) (CC BY 3.0, verbatim). Translation:
+M. M. Pickthall (1930), public domain. Fonts: Amiri (OFL-1.1, subset; `app/fonts/Amiri-OFL.txt`),
+Aref Ruqaa, Instrument Serif, IBM Plex. Map: OpenFreeMap, © OpenMapTiles, © OpenStreetMap contributors.

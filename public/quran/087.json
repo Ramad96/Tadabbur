@@ -1,0 +1,50 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 87,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى", "en": "Praise the name of thy Lord the Most High," },
+    { "n": 2, "ar": "ٱلَّذِى خَلَقَ فَسَوَّىٰ", "en": "Who createth, then disposeth;" },
+    { "n": 3, "ar": "وَٱلَّذِى قَدَّرَ فَهَدَىٰ", "en": "Who measureth, then guideth;" },
+    { "n": 4, "ar": "وَٱلَّذِىٓ أَخْرَجَ ٱلْمَرْعَىٰ", "en": "Who bringeth forth the pasturage," },
+    { "n": 5, "ar": "فَجَعَلَهُۥ غُثَآءً أَحْوَىٰ", "en": "Then turneth it to russet stubble." },
+    {
+      "n": 6,
+      "ar": "سَنُقْرِئُكَ فَلَا تَنسَىٰٓ",
+      "en": "We shall make thee read (O Muhammad) so that thou shalt not forget"
+    },
+    {
+      "n": 7,
+      "ar": "إِلَّا مَا شَآءَ ٱللَّهُ ۚ إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ وَمَا يَخْفَىٰ",
+      "en": "Save that which Allah willeth. Lo! He knoweth the disclosed and that which still is hidden;"
+    },
+    { "n": 8, "ar": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ", "en": "And We shall ease thy way unto the state of ease." },
+    {
+      "n": 9,
+      "ar": "فَذَكِّرْ إِن نَّفَعَتِ ٱلذِّكْرَىٰ",
+      "en": "Therefor remind (men), for of use is the reminder."
+    },
+    { "n": 10, "ar": "سَيَذَّكَّرُ مَن يَخْشَىٰ", "en": "He will heed who feareth," },
+    { "n": 11, "ar": "وَيَتَجَنَّبُهَا ٱلْأَشْقَى", "en": "But the most hapless will flout it," },
+    { "n": 12, "ar": "ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ", "en": "He who will be flung to the great Fire" },
+    {
+      "n": 13,
+      "ar": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ",
+      "en": "Wherein he will neither die nor live."
+    },
+    { "n": 14, "ar": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ", "en": "He is successful who groweth," },
+    {
+      "n": 15,
+      "ar": "وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ",
+      "en": "And remembereth the name of his Lord, so prayeth,"
+    },
+    { "n": 16, "ar": "بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا", "en": "But ye prefer the life of the world" },
+    {
+      "n": 17,
+      "ar": "وَٱلْـَٔاخِرَةُ خَيْرٌ وَأَبْقَىٰٓ",
+      "en": "Although the Hereafter is better and more lasting."
+    },
+    { "n": 18, "ar": "إِنَّ هَـٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ", "en": "Lo! This is in the former scrolls." },
+    { "n": 19, "ar": "صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ", "en": "The Books of Abraham and Moses." }
+  ]
+}

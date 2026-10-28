@@ -1,0 +1,28 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 113,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    {
+      "n": 1,
+      "ar": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+      "en": "Say: I seek refuge in the Lord of the Daybreak"
+    },
+    { "n": 2, "ar": "مِن شَرِّ مَا خَلَقَ", "en": "From the evil of that which He created;" },
+    {
+      "n": 3,
+      "ar": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+      "en": "From the evil of the darkness when it is intense,"
+    },
+    {
+      "n": 4,
+      "ar": "وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ",
+      "en": "And from the evil of malignant witchcraft,"
+    },
+    {
+      "n": 5,
+      "ar": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+      "en": "And from the evil of the envier when he envieth."
+    }
+  ]
+}

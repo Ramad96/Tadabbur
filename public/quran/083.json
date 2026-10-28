@@ -1,0 +1,147 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 83,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "وَيْلٌ لِّلْمُطَفِّفِينَ", "en": "Woe unto the defrauders:" },
+    {
+      "n": 2,
+      "ar": "ٱلَّذِينَ إِذَا ٱكْتَالُوا۟ عَلَى ٱلنَّاسِ يَسْتَوْفُونَ",
+      "en": "Those who when they take the measure from mankind demand it full,"
+    },
+    {
+      "n": 3,
+      "ar": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ",
+      "en": "But if they measure unto them or weight for them, they cause them loss."
+    },
+    {
+      "n": 4,
+      "ar": "أَلَا يَظُنُّ أُو۟لَـٰٓئِكَ أَنَّهُم مَّبْعُوثُونَ",
+      "en": "Do such (men) not consider that they will be raised again"
+    },
+    { "n": 5, "ar": "لِيَوْمٍ عَظِيمٍ", "en": "Unto an Awful Day," },
+    {
+      "n": 6,
+      "ar": "يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَـٰلَمِينَ",
+      "en": "The day when (all) mankind stand before the Lord of the Worlds?"
+    },
+    {
+      "n": 7,
+      "ar": "كَلَّآ إِنَّ كِتَـٰبَ ٱلْفُجَّارِ لَفِى سِجِّينٍ",
+      "en": "Nay, but the record of the vile is in Sijjin -"
+    },
+    {
+      "n": 8,
+      "ar": "وَمَآ أَدْرَىٰكَ مَا سِجِّينٌ",
+      "en": "Ah! what will convey unto thee what Sijjin is! -"
+    },
+    { "n": 9, "ar": "كِتَـٰبٌ مَّرْقُومٌ", "en": "A written record." },
+    { "n": 10, "ar": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ", "en": "Woe unto the repudiators on that day!" },
+    { "n": 11, "ar": "ٱلَّذِينَ يُكَذِّبُونَ بِيَوْمِ ٱلدِّينِ", "en": "Those who deny the Day of Judgment" },
+    {
+      "n": 12,
+      "ar": "وَمَا يُكَذِّبُ بِهِۦٓ إِلَّا كُلُّ مُعْتَدٍ أَثِيمٍ",
+      "en": "Which none denieth save each criminal transgressor,"
+    },
+    {
+      "n": 13,
+      "ar": "إِذَا تُتْلَىٰ عَلَيْهِ ءَايَـٰتُنَا قَالَ أَسَـٰطِيرُ ٱلْأَوَّلِينَ",
+      "en": "Who, when thou readest unto him Our revelations, saith: (Mere) fables of the men of old."
+    },
+    {
+      "n": 14,
+      "ar": "كَلَّا ۖ بَلْ ۜ رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُوا۟ يَكْسِبُونَ",
+      "en": "Nay, but that which they have earned is rust upon their hearts."
+    },
+    {
+      "n": 15,
+      "ar": "كَلَّآ إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍ لَّمَحْجُوبُونَ",
+      "en": "Nay, but surely on that day they will be covered from (the mercy of) their Lord."
+    },
+    {
+      "n": 16,
+      "ar": "ثُمَّ إِنَّهُمْ لَصَالُوا۟ ٱلْجَحِيمِ",
+      "en": "Then lo! they verily will burn in hell,"
+    },
+    {
+      "n": 17,
+      "ar": "ثُمَّ يُقَالُ هَـٰذَا ٱلَّذِى كُنتُم بِهِۦ تُكَذِّبُونَ",
+      "en": "And it will be said (unto them): This is that which ye used to deny."
+    },
+    {
+      "n": 18,
+      "ar": "كَلَّآ إِنَّ كِتَـٰبَ ٱلْأَبْرَارِ لَفِى عِلِّيِّينَ",
+      "en": "Nay, but the record of the righteous is in 'Illiyin -"
+    },
+    {
+      "n": 19,
+      "ar": "وَمَآ أَدْرَىٰكَ مَا عِلِّيُّونَ",
+      "en": "Ah, what will convey unto thee what 'Illiyin is! -"
+    },
+    { "n": 20, "ar": "كِتَـٰبٌ مَّرْقُومٌ", "en": "A written record," },
+    {
+      "n": 21,
+      "ar": "يَشْهَدُهُ ٱلْمُقَرَّبُونَ",
+      "en": "Attested by those who are brought near (unto their Lord)."
+    },
+    { "n": 22, "ar": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍ", "en": "Lo! the righteous verily are in delight," },
+    { "n": 23, "ar": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ", "en": "On couches, gazing," },
+    {
+      "n": 24,
+      "ar": "تَعْرِفُ فِى وُجُوهِهِمْ نَضْرَةَ ٱلنَّعِيمِ",
+      "en": "Thou wilt know in their faces the radiance of delight."
+    },
+    {
+      "n": 25,
+      "ar": "يُسْقَوْنَ مِن رَّحِيقٍ مَّخْتُومٍ",
+      "en": "They are given to drink of a pure wine, sealed,"
+    },
+    {
+      "n": 26,
+      "ar": "خِتَـٰمُهُۥ مِسْكٌ ۚ وَفِى ذَٰلِكَ فَلْيَتَنَافَسِ ٱلْمُتَنَـٰفِسُونَ",
+      "en": "Whose seal is musk - for this let (all) those strive who strive for bliss -"
+    },
+    { "n": 27, "ar": "وَمِزَاجُهُۥ مِن تَسْنِيمٍ", "en": "And mixed with water of Tasnim," },
+    {
+      "n": 28,
+      "ar": "عَيْنًا يَشْرَبُ بِهَا ٱلْمُقَرَّبُونَ",
+      "en": "A spring whence those brought near (to Allah) drink."
+    },
+    {
+      "n": 29,
+      "ar": "إِنَّ ٱلَّذِينَ أَجْرَمُوا۟ كَانُوا۟ مِنَ ٱلَّذِينَ ءَامَنُوا۟ يَضْحَكُونَ",
+      "en": "Lo! the guilty used to laugh at those who believed,"
+    },
+    {
+      "n": 30,
+      "ar": "وَإِذَا مَرُّوا۟ بِهِمْ يَتَغَامَزُونَ",
+      "en": "And wink one to another when they passed them;"
+    },
+    {
+      "n": 31,
+      "ar": "وَإِذَا ٱنقَلَبُوٓا۟ إِلَىٰٓ أَهْلِهِمُ ٱنقَلَبُوا۟ فَكِهِينَ",
+      "en": "And when they returned to their own folk, they returned jesting;"
+    },
+    {
+      "n": 32,
+      "ar": "وَإِذَا رَأَوْهُمْ قَالُوٓا۟ إِنَّ هَـٰٓؤُلَآءِ لَضَآلُّونَ",
+      "en": "And when they saw them they said: Lo! these have gone astray."
+    },
+    {
+      "n": 33,
+      "ar": "وَمَآ أُرْسِلُوا۟ عَلَيْهِمْ حَـٰفِظِينَ",
+      "en": "Yet they were not sent as guardians over them."
+    },
+    {
+      "n": 34,
+      "ar": "فَٱلْيَوْمَ ٱلَّذِينَ ءَامَنُوا۟ مِنَ ٱلْكُفَّارِ يَضْحَكُونَ",
+      "en": "This day it is those who believe who have the laugh of disbelievers,"
+    },
+    { "n": 35, "ar": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ", "en": "On high couches, gazing." },
+    {
+      "n": 36,
+      "ar": "هَلْ ثُوِّبَ ٱلْكُفَّارُ مَا كَانُوا۟ يَفْعَلُونَ",
+      "en": "Are not the disbelievers paid for what they used to do?"
+    }
+  ]
+}

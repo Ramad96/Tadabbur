@@ -1,0 +1,31 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 99,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    {
+      "n": 1,
+      "ar": "إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
+      "en": "When Earth is shaken with her (final) earthquake"
+    },
+    { "n": 2, "ar": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا", "en": "And Earth yieldeth up her burdens," },
+    { "n": 3, "ar": "وَقَالَ ٱلْإِنسَـٰنُ مَا لَهَا", "en": "And man saith: What aileth her?" },
+    { "n": 4, "ar": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا", "en": "That day she will relate her chronicles," },
+    { "n": 5, "ar": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا", "en": "Because thy Lord inspireth her." },
+    {
+      "n": 6,
+      "ar": "يَوْمَئِذٍ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًا لِّيُرَوْا۟ أَعْمَـٰلَهُمْ",
+      "en": "That day mankind will issue forth in scattered groups to be shown their deeds."
+    },
+    {
+      "n": 7,
+      "ar": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُۥ",
+      "en": "And whoso doeth good an atom's weight will see it then,"
+    },
+    {
+      "n": 8,
+      "ar": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُۥ",
+      "en": "And whoso doeth ill an atom's weight will see it then."
+    }
+  ]
+}

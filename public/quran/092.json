@@ -1,0 +1,76 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 92,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "وَٱلَّيْلِ إِذَا يَغْشَىٰ", "en": "By the night enshrouding" },
+    { "n": 2, "ar": "وَٱلنَّهَارِ إِذَا تَجَلَّىٰ", "en": "And the day resplendent" },
+    {
+      "n": 3,
+      "ar": "وَمَا خَلَقَ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ",
+      "en": "And Him Who hath created male and female,"
+    },
+    {
+      "n": 4,
+      "ar": "إِنَّ سَعْيَكُمْ لَشَتَّىٰ",
+      "en": "Lo! your effort is dispersed (toward divers ends)."
+    },
+    {
+      "n": 5,
+      "ar": "فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ",
+      "en": "As for him who giveth and is dutiful (toward Allah)"
+    },
+    { "n": 6, "ar": "وَصَدَّقَ بِٱلْحُسْنَىٰ", "en": "And believeth in goodness;" },
+    {
+      "n": 7,
+      "ar": "فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ",
+      "en": "Surely We will ease his way unto the state of ease."
+    },
+    {
+      "n": 8,
+      "ar": "وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ",
+      "en": "But as for him who hoardeth and deemeth himself independent,"
+    },
+    { "n": 9, "ar": "وَكَذَّبَ بِٱلْحُسْنَىٰ", "en": "And disbelieveth in goodness;" },
+    { "n": 10, "ar": "فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ", "en": "Surely We will ease his way unto adversity." },
+    {
+      "n": 11,
+      "ar": "وَمَا يُغْنِى عَنْهُ مَالُهُۥٓ إِذَا تَرَدَّىٰٓ",
+      "en": "His riches will not save him when he perisheth."
+    },
+    { "n": 12, "ar": "إِنَّ عَلَيْنَا لَلْهُدَىٰ", "en": "Lo! Ours it is (to give) the guidance" },
+    {
+      "n": 13,
+      "ar": "وَإِنَّ لَنَا لَلْـَٔاخِرَةَ وَٱلْأُولَىٰ",
+      "en": "And lo! unto Us belong the latter portion and the former."
+    },
+    {
+      "n": 14,
+      "ar": "فَأَنذَرْتُكُمْ نَارًا تَلَظَّىٰ",
+      "en": "Therefor have I warned you of the flaming Fire"
+    },
+    {
+      "n": 15,
+      "ar": "لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى",
+      "en": "Which only the most wretched must endure,"
+    },
+    { "n": 16, "ar": "ٱلَّذِى كَذَّبَ وَتَوَلَّىٰ", "en": "He who denieth and turneth away." },
+    { "n": 17, "ar": "وَسَيُجَنَّبُهَا ٱلْأَتْقَى", "en": "Far removed from it will be the righteous" },
+    {
+      "n": 18,
+      "ar": "ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ",
+      "en": "Who giveth his wealth that he may grow (in goodness)."
+    },
+    {
+      "n": 19,
+      "ar": "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍ تُجْزَىٰٓ",
+      "en": "And none hath with him any favour for reward,"
+    },
+    {
+      "n": 20,
+      "ar": "إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ",
+      "en": "Except as seeking (to fulfil) the purpose of his Lord Most High."
+    },
+    { "n": 21, "ar": "وَلَسَوْفَ يَرْضَىٰ", "en": "He verily will be content." }
+  ]
+}

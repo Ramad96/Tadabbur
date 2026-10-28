@@ -1,0 +1,129 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 77,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "وَٱلْمُرْسَلَـٰتِ عُرْفًا", "en": "By the emissary winds, (sent) one after another" },
+    { "n": 2, "ar": "فَٱلْعَـٰصِفَـٰتِ عَصْفًا", "en": "By the raging hurricanes," },
+    { "n": 3, "ar": "وَٱلنَّـٰشِرَٰتِ نَشْرًا", "en": "By those which cause earth's vegetation to revive;" },
+    { "n": 4, "ar": "فَٱلْفَـٰرِقَـٰتِ فَرْقًا", "en": "By those who winnow with a winnowing," },
+    { "n": 5, "ar": "فَٱلْمُلْقِيَـٰتِ ذِكْرًا", "en": "By those who bring down the Reminder," },
+    { "n": 6, "ar": "عُذْرًا أَوْ نُذْرًا", "en": "To excuse or to warn," },
+    { "n": 7, "ar": "إِنَّمَا تُوعَدُونَ لَوَٰقِعٌ", "en": "Surely that which ye are promised will befall." },
+    { "n": 8, "ar": "فَإِذَا ٱلنُّجُومُ طُمِسَتْ", "en": "So when the stars are put out," },
+    { "n": 9, "ar": "وَإِذَا ٱلسَّمَآءُ فُرِجَتْ", "en": "And when the sky is riven asunder," },
+    { "n": 10, "ar": "وَإِذَا ٱلْجِبَالُ نُسِفَتْ", "en": "And when the mountains are blown away," },
+    {
+      "n": 11,
+      "ar": "وَإِذَا ٱلرُّسُلُ أُقِّتَتْ",
+      "en": "And when the messengers are brought unto their time appointed -"
+    },
+    { "n": 12, "ar": "لِأَىِّ يَوْمٍ أُجِّلَتْ", "en": "For what day is the time appointed?" },
+    { "n": 13, "ar": "لِيَوْمِ ٱلْفَصْلِ", "en": "For the Day of Decision." },
+    {
+      "n": 14,
+      "ar": "وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلْفَصْلِ",
+      "en": "And what will convey unto thee what the Day of Decision is! -"
+    },
+    { "n": 15, "ar": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ", "en": "Woe unto the repudiators on that day!" },
+    { "n": 16, "ar": "أَلَمْ نُهْلِكِ ٱلْأَوَّلِينَ", "en": "Destroyed We not the former folk," },
+    {
+      "n": 17,
+      "ar": "ثُمَّ نُتْبِعُهُمُ ٱلْـَٔاخِرِينَ",
+      "en": "Then caused the latter folk to follow after?"
+    },
+    { "n": 18, "ar": "كَذَٰلِكَ نَفْعَلُ بِٱلْمُجْرِمِينَ", "en": "Thus deal We ever with the guilty." },
+    { "n": 19, "ar": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ", "en": "Woe unto the repudiators on that day!" },
+    {
+      "n": 20,
+      "ar": "أَلَمْ نَخْلُقكُّم مِّن مَّآءٍ مَّهِينٍ",
+      "en": "Did We not create you from a base fluid"
+    },
+    { "n": 21, "ar": "فَجَعَلْنَـٰهُ فِى قَرَارٍ مَّكِينٍ", "en": "Which We laid up in a safe abode" },
+    { "n": 22, "ar": "إِلَىٰ قَدَرٍ مَّعْلُومٍ", "en": "For a known term?" },
+    {
+      "n": 23,
+      "ar": "فَقَدَرْنَا فَنِعْمَ ٱلْقَـٰدِرُونَ",
+      "en": "Thus We arranged. How excellent is Our arranging!"
+    },
+    { "n": 24, "ar": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ", "en": "Woe unto the repudiators on that day!" },
+    { "n": 25, "ar": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ كِفَاتًا", "en": "Have We not made the earth a receptacle" },
+    { "n": 26, "ar": "أَحْيَآءً وَأَمْوَٰتًا", "en": "Both for the living and the dead," },
+    {
+      "n": 27,
+      "ar": "وَجَعَلْنَا فِيهَا رَوَٰسِىَ شَـٰمِخَـٰتٍ وَأَسْقَيْنَـٰكُم مَّآءً فُرَاتًا",
+      "en": "And placed therein high mountains and given you to drink sweet water therein?"
+    },
+    { "n": 28, "ar": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ", "en": "Woe unto the repudiators on that day!" },
+    {
+      "n": 29,
+      "ar": "ٱنطَلِقُوٓا۟ إِلَىٰ مَا كُنتُم بِهِۦ تُكَذِّبُونَ",
+      "en": "(It will be said unto them:) Depart unto that (doom) which ye used to deny;"
+    },
+    {
+      "n": 30,
+      "ar": "ٱنطَلِقُوٓا۟ إِلَىٰ ظِلٍّ ذِى ثَلَـٰثِ شُعَبٍ",
+      "en": "Depart unto the shadow falling threefold,"
+    },
+    {
+      "n": 31,
+      "ar": "لَّا ظَلِيلٍ وَلَا يُغْنِى مِنَ ٱللَّهَبِ",
+      "en": "(Which yet is) no relief nor shelter from the flame."
+    },
+    {
+      "n": 32,
+      "ar": "إِنَّهَا تَرْمِى بِشَرَرٍ كَٱلْقَصْرِ",
+      "en": "Lo! it throweth up sparks like the castles,"
+    },
+    {
+      "n": 33,
+      "ar": "كَأَنَّهُۥ جِمَـٰلَتٌ صُفْرٌ",
+      "en": "(Or) as it might be camels of bright yellow hue."
+    },
+    { "n": 34, "ar": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ", "en": "Woe unto the repudiators on that day!" },
+    { "n": 35, "ar": "هَـٰذَا يَوْمُ لَا يَنطِقُونَ", "en": "This is a day wherein they speak not," },
+    {
+      "n": 36,
+      "ar": "وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ",
+      "en": "Nor are they suffered to put forth excuses."
+    },
+    { "n": 37, "ar": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ", "en": "Woe unto the repudiators on that day!" },
+    {
+      "n": 38,
+      "ar": "هَـٰذَا يَوْمُ ٱلْفَصْلِ ۖ جَمَعْنَـٰكُمْ وَٱلْأَوَّلِينَ",
+      "en": "This is the Day of Decision, We have brought you and the men of old together."
+    },
+    { "n": 39, "ar": "فَإِن كَانَ لَكُمْ كَيْدٌ فَكِيدُونِ", "en": "If now ye have any wit, outwit Me." },
+    { "n": 40, "ar": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ", "en": "Woe unto the repudiators on that day!" },
+    {
+      "n": 41,
+      "ar": "إِنَّ ٱلْمُتَّقِينَ فِى ظِلَـٰلٍ وَعُيُونٍ",
+      "en": "Lo! those who kept their duty are amid shade and fountains,"
+    },
+    { "n": 42, "ar": "وَفَوَٰكِهَ مِمَّا يَشْتَهُونَ", "en": "And fruits such as they desire." },
+    {
+      "n": 43,
+      "ar": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَا كُنتُمْ تَعْمَلُونَ",
+      "en": "(Unto them it is said:) Eat, drink and welcome, O ye blessed, in return for what ye did."
+    },
+    { "n": 44, "ar": "إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ", "en": "Thus do We reward the good." },
+    { "n": 45, "ar": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ", "en": "Woe unto the repudiators on that day!" },
+    {
+      "n": 46,
+      "ar": "كُلُوا۟ وَتَمَتَّعُوا۟ قَلِيلًا إِنَّكُم مُّجْرِمُونَ",
+      "en": "Eat and take your ease (on earth) a little. Lo! ye are guilty."
+    },
+    { "n": 47, "ar": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ", "en": "Woe unto the repudiators on that day!" },
+    {
+      "n": 48,
+      "ar": "وَإِذَا قِيلَ لَهُمُ ٱرْكَعُوا۟ لَا يَرْكَعُونَ",
+      "en": "When it is said unto them: Bow down, they bow not down!"
+    },
+    { "n": 49, "ar": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ", "en": "Woe unto the repudiators on that day!" },
+    {
+      "n": 50,
+      "ar": "فَبِأَىِّ حَدِيثٍۭ بَعْدَهُۥ يُؤْمِنُونَ",
+      "en": "In what statement, after this, will they believe?"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 56,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "إِذَا وَقَعَتِ ٱلْوَاقِعَةُ", "en": "When the event befalleth -" },
+    { "n": 2, "ar": "لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ", "en": "There is no denying that it will befall -" },
+    { "n": 3, "ar": "خَافِضَةٌ رَّافِعَةٌ", "en": "Abasing (some), exalting (others);" },
+    { "n": 4, "ar": "إِذَا رُجَّتِ ٱلْأَرْضُ رَجًّا", "en": "When the earth is shaken with a shock" },
+    { "n": 5, "ar": "وَبُسَّتِ ٱلْجِبَالُ بَسًّا", "en": "And the hills are ground to powder" },
+    { "n": 6, "ar": "فَكَانَتْ هَبَآءً مُّنۢبَثًّا", "en": "So that they become a scattered dust," },
+    { "n": 7, "ar": "وَكُنتُمْ أَزْوَٰجًا ثَلَـٰثَةً", "en": "And ye will be three kinds:" },
+    {
+      "n": 8,
+      "ar": "فَأَصْحَـٰبُ ٱلْمَيْمَنَةِ مَآ أَصْحَـٰبُ ٱلْمَيْمَنَةِ",
+      "en": "(First) those on the right hand; what of those on the right hand?"
+    },
+    {
+      "n": 9,
+      "ar": "وَأَصْحَـٰبُ ٱلْمَشْـَٔمَةِ مَآ أَصْحَـٰبُ ٱلْمَشْـَٔمَةِ",
+      "en": "And (then) those on the left hand; what of those on the left hand?"
+    },
+    {
+      "n": 10,
+      "ar": "وَٱلسَّـٰبِقُونَ ٱلسَّـٰبِقُونَ",
+      "en": "And the foremost in the race, the foremost in the race:"
+    },
+    { "n": 11, "ar": "أُو۟لَـٰٓئِكَ ٱلْمُقَرَّبُونَ", "en": "Those are they who will be brought nigh" },
+    { "n": 12, "ar": "فِى جَنَّـٰتِ ٱلنَّعِيمِ", "en": "In gardens of delight;" },
+    { "n": 13, "ar": "ثُلَّةٌ مِّنَ ٱلْأَوَّلِينَ", "en": "A multitude of those of old" },
+    { "n": 14, "ar": "وَقَلِيلٌ مِّنَ ٱلْـَٔاخِرِينَ", "en": "And a few of those of later time." },
+    { "n": 15, "ar": "عَلَىٰ سُرُرٍ مَّوْضُونَةٍ", "en": "On lined couches," },
+    { "n": 16, "ar": "مُّتَّكِـِٔينَ عَلَيْهَا مُتَقَـٰبِلِينَ", "en": "Reclining therein face to face." },
+    {
+      "n": 17,
+      "ar": "يَطُوفُ عَلَيْهِمْ وِلْدَٰنٌ مُّخَلَّدُونَ",
+      "en": "There wait on them immortal youths"
+    },
+    {
+      "n": 18,
+      "ar": "بِأَكْوَابٍ وَأَبَارِيقَ وَكَأْسٍ مِّن مَّعِينٍ",
+      "en": "With bowls and ewers and a cup from a pure spring"
+    },
+    {
+      "n": 19,
+      "ar": "لَّا يُصَدَّعُونَ عَنْهَا وَلَا يُنزِفُونَ",
+      "en": "Wherefrom they get no aching of the head nor any madness,"
+    },
+    { "n": 20, "ar": "وَفَـٰكِهَةٍ مِّمَّا يَتَخَيَّرُونَ", "en": "And fruit that they prefer" },
+    { "n": 21, "ar": "وَلَحْمِ طَيْرٍ مِّمَّا يَشْتَهُونَ", "en": "And flesh of fowls that they desire." },
+    { "n": 22, "ar": "وَحُورٌ عِينٌ", "en": "And (there are) fair ones with wide, lovely eyes," },
+    { "n": 23, "ar": "كَأَمْثَـٰلِ ٱللُّؤْلُؤِ ٱلْمَكْنُونِ", "en": "Like unto hidden pearls," },
+    { "n": 24, "ar": "جَزَآءًۢ بِمَا كَانُوا۟ يَعْمَلُونَ", "en": "Reward for what they used to do." },
+    {
+      "n": 25,
+      "ar": "لَا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا تَأْثِيمًا",
+      "en": "There hear they no vain speaking nor recrimination"
+    },
+    {
+      "n": 26,
+      "ar": "إِلَّا قِيلًا سَلَـٰمًا سَلَـٰمًا",
+      "en": "(Naught) but the saying: Peace, (and again) Peace."
+    },
+    {
+      "n": 27,
+      "ar": "وَأَصْحَـٰبُ ٱلْيَمِينِ مَآ أَصْحَـٰبُ ٱلْيَمِينِ",
+      "en": "And those on the right hand; what of those on the right hand?"
+    },
+    { "n": 28, "ar": "فِى سِدْرٍ مَّخْضُودٍ", "en": "Among thornless lote-trees" },
+    { "n": 29, "ar": "وَطَلْحٍ مَّنضُودٍ", "en": "And clustered plantains," },
+    { "n": 30, "ar": "وَظِلٍّ مَّمْدُودٍ", "en": "And spreading shade," },
+    { "n": 31, "ar": "وَمَآءٍ مَّسْكُوبٍ", "en": "And water gushing," },
+    { "n": 32, "ar": "وَفَـٰكِهَةٍ كَثِيرَةٍ", "en": "And fruit in plenty" },
+    { "n": 33, "ar": "لَّا مَقْطُوعَةٍ وَلَا مَمْنُوعَةٍ", "en": "Neither out of reach nor yet forbidden," },
+    { "n": 34, "ar": "وَفُرُشٍ مَّرْفُوعَةٍ", "en": "And raised couches;" },
+    {
+      "n": 35,
+      "ar": "إِنَّآ أَنشَأْنَـٰهُنَّ إِنشَآءً",
+      "en": "Lo! We have created them a (new) creation"
+    },
+    { "n": 36, "ar": "فَجَعَلْنَـٰهُنَّ أَبْكَارًا", "en": "And made them virgins," },
+    { "n": 37, "ar": "عُرُبًا أَتْرَابًا", "en": "Lovers, friends," },
+    { "n": 38, "ar": "لِّأَصْحَـٰبِ ٱلْيَمِينِ", "en": "For those on the right hand;" },
+    { "n": 39, "ar": "ثُلَّةٌ مِّنَ ٱلْأَوَّلِينَ", "en": "A multitude of those of old" },
+    { "n": 40, "ar": "وَثُلَّةٌ مِّنَ ٱلْـَٔاخِرِينَ", "en": "And a multitude of those of later time." },
+    {
+      "n": 41,
+      "ar": "وَأَصْحَـٰبُ ٱلشِّمَالِ مَآ أَصْحَـٰبُ ٱلشِّمَالِ",
+      "en": "And those on the left hand: What of those on the left hand?"
+    },
+    { "n": 42, "ar": "فِى سَمُومٍ وَحَمِيمٍ", "en": "In scorching wind and scalding water" },
+    { "n": 43, "ar": "وَظِلٍّ مِّن يَحْمُومٍ", "en": "And shadow of black smoke," },
+    { "n": 44, "ar": "لَّا بَارِدٍ وَلَا كَرِيمٍ", "en": "Neither cool nor refreshing." },
+    {
+      "n": 45,
+      "ar": "إِنَّهُمْ كَانُوا۟ قَبْلَ ذَٰلِكَ مُتْرَفِينَ",
+      "en": "Lo! heretofore they were effete with luxury"
+    },
+    {
+      "n": 46,
+      "ar": "وَكَانُوا۟ يُصِرُّونَ عَلَى ٱلْحِنثِ ٱلْعَظِيمِ",
+      "en": "And used to persist in the awful sin."
+    },
+    {
+      "n": 47,
+      "ar": "وَكَانُوا۟ يَقُولُونَ أَئِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَـٰمًا أَءِنَّا لَمَبْعُوثُونَ",
+      "en": "And they used to say: When we are dead and have become dust and bones, shall we then, forsooth, be raised again,"
+    },
+    { "n": 48, "ar": "أَوَءَابَآؤُنَا ٱلْأَوَّلُونَ", "en": "And also our forefathers?" },
+    {
+      "n": 49,
+      "ar": "قُلْ إِنَّ ٱلْأَوَّلِينَ وَٱلْـَٔاخِرِينَ",
+      "en": "Say (unto them, O Muhammad): Lo! those of old and those of later time"
+    },
+    {
+      "n": 50,
+      "ar": "لَمَجْمُوعُونَ إِلَىٰ مِيقَـٰتِ يَوْمٍ مَّعْلُومٍ",
+      "en": "Will all be brought together to the tryst of an appointed day."
+    },
+    {
+      "n": 51,
+      "ar": "ثُمَّ إِنَّكُمْ أَيُّهَا ٱلضَّآلُّونَ ٱلْمُكَذِّبُونَ",
+      "en": "Then lo! ye, the erring, the deniers,"
+    },
+    {
+      "n": 52,
+      "ar": "لَـَٔاكِلُونَ مِن شَجَرٍ مِّن زَقُّومٍ",
+      "en": "Ye verily will eat of a tree called Zaqqum"
+    },
+    { "n": 53, "ar": "فَمَالِـُٔونَ مِنْهَا ٱلْبُطُونَ", "en": "And will fill your bellies therewith;" },
+    {
+      "n": 54,
+      "ar": "فَشَـٰرِبُونَ عَلَيْهِ مِنَ ٱلْحَمِيمِ",
+      "en": "And thereon ye will drink of boiling water,"
+    },
+    { "n": 55, "ar": "فَشَـٰرِبُونَ شُرْبَ ٱلْهِيمِ", "en": "Drinking even as the camel drinketh." },
+    {
+      "n": 56,
+      "ar": "هَـٰذَا نُزُلُهُمْ يَوْمَ ٱلدِّينِ",
+      "en": "This will be their welcome on the Day of Judgment."
+    },
+    {
+      "n": 57,
+      "ar": "نَحْنُ خَلَقْنَـٰكُمْ فَلَوْلَا تُصَدِّقُونَ",
+      "en": "We created you. Will ye then admit the truth?"
+    },
+    { "n": 58, "ar": "أَفَرَءَيْتُم مَّا تُمْنُونَ", "en": "Have ye seen that which ye emit?" },
+    {
+      "n": 59,
+      "ar": "ءَأَنتُمْ تَخْلُقُونَهُۥٓ أَمْ نَحْنُ ٱلْخَـٰلِقُونَ",
+      "en": "Do ye create it or are We the Creator?"
+    },
+    {
+      "n": 60,
+      "ar": "نَحْنُ قَدَّرْنَا بَيْنَكُمُ ٱلْمَوْتَ وَمَا نَحْنُ بِمَسْبُوقِينَ",
+      "en": "We mete out death among you, and We are not to be outrun,"
+    },
+    {
+      "n": 61,
+      "ar": "عَلَىٰٓ أَن نُّبَدِّلَ أَمْثَـٰلَكُمْ وَنُنشِئَكُمْ فِى مَا لَا تَعْلَمُونَ",
+      "en": "That We may transfigure you and make you what ye know not."
+    },
+    {
+      "n": 62,
+      "ar": "وَلَقَدْ عَلِمْتُمُ ٱلنَّشْأَةَ ٱلْأُولَىٰ فَلَوْلَا تَذَكَّرُونَ",
+      "en": "And verily ye know the first creation. Why, then, do ye not reflect?"
+    },
+    { "n": 63, "ar": "أَفَرَءَيْتُم مَّا تَحْرُثُونَ", "en": "Have ye seen that which ye cultivate?" },
+    {
+      "n": 64,
+      "ar": "ءَأَنتُمْ تَزْرَعُونَهُۥٓ أَمْ نَحْنُ ٱلزَّٰرِعُونَ",
+      "en": "Is it ye who foster it, or are We the Fosterer?"
+    },
+    {
+      "n": 65,
+      "ar": "لَوْ نَشَآءُ لَجَعَلْنَـٰهُ حُطَـٰمًا فَظَلْتُمْ تَفَكَّهُونَ",
+      "en": "If We willed, We verily could make it chaff, then would ye cease not to exclaim:"
+    },
+    { "n": 66, "ar": "إِنَّا لَمُغْرَمُونَ", "en": "Lo! we are laden with debt!" },
+    { "n": 67, "ar": "بَلْ نَحْنُ مَحْرُومُونَ", "en": "Nay, but we are deprived!" },
+    {
+      "n": 68,
+      "ar": "أَفَرَءَيْتُمُ ٱلْمَآءَ ٱلَّذِى تَشْرَبُونَ",
+      "en": "Have ye observed the water which ye drink?"
+    },
+    {
+      "n": 69,
+      "ar": "ءَأَنتُمْ أَنزَلْتُمُوهُ مِنَ ٱلْمُزْنِ أَمْ نَحْنُ ٱلْمُنزِلُونَ",
+      "en": "Is it ye who shed it from the raincloud, or are We the Shedder?"
+    },
+    {
+      "n": 70,
+      "ar": "لَوْ نَشَآءُ جَعَلْنَـٰهُ أُجَاجًا فَلَوْلَا تَشْكُرُونَ",
+      "en": "If We willed We verily could make it bitter. Why then, give ye not thanks?"
+    },
+    {
+      "n": 71,
+      "ar": "أَفَرَءَيْتُمُ ٱلنَّارَ ٱلَّتِى تُورُونَ",
+      "en": "Have ye observed the fire which ye strike out;"
+    },
+    {
+      "n": 72,
+      "ar": "ءَأَنتُمْ أَنشَأْتُمْ شَجَرَتَهَآ أَمْ نَحْنُ ٱلْمُنشِـُٔونَ",
+      "en": "Was it ye who made the tree thereof to grow, or were We the grower?"
+    },
+    {
+      "n": 73,
+      "ar": "نَحْنُ جَعَلْنَـٰهَا تَذْكِرَةً وَمَتَـٰعًا لِّلْمُقْوِينَ",
+      "en": "We, even We, appointed it a memorial and a comfort for the dwellers in the wilderness."
+    },
+    {
+      "n": 74,
+      "ar": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+      "en": "Therefor (O Muhammad), praise the name of thy Lord, the Tremendous."
+    },
+    {
+      "n": 75,
+      "ar": "۞ فَلَآ أُقْسِمُ بِمَوَٰقِعِ ٱلنُّجُومِ",
+      "en": "Nay, I swear by the places of the stars -"
+    },
+    {
+      "n": 76,
+      "ar": "وَإِنَّهُۥ لَقَسَمٌ لَّوْ تَعْلَمُونَ عَظِيمٌ",
+      "en": "And lo! that verily is a tremendous oath, if ye but knew -"
+    },
+    { "n": 77, "ar": "إِنَّهُۥ لَقُرْءَانٌ كَرِيمٌ", "en": "That (this) is indeed a noble Qur'an" },
+    { "n": 78, "ar": "فِى كِتَـٰبٍ مَّكْنُونٍ", "en": "In a Book kept hidden" },
+    {
+      "n": 79,
+      "ar": "لَّا يَمَسُّهُۥٓ إِلَّا ٱلْمُطَهَّرُونَ",
+      "en": "Which none toucheth save the purified,"
+    },
+    {
+      "n": 80,
+      "ar": "تَنزِيلٌ مِّن رَّبِّ ٱلْعَـٰلَمِينَ",
+      "en": "A revelation from the Lord of the Worlds."
+    },
+    {
+      "n": 81,
+      "ar": "أَفَبِهَـٰذَا ٱلْحَدِيثِ أَنتُم مُّدْهِنُونَ",
+      "en": "Is it this Statement that ye scorn,"
+    },
+    {
+      "n": 82,
+      "ar": "وَتَجْعَلُونَ رِزْقَكُمْ أَنَّكُمْ تُكَذِّبُونَ",
+      "en": "And make denial thereof your livelihood?"
+    },
+    {
+      "n": 83,
+      "ar": "فَلَوْلَآ إِذَا بَلَغَتِ ٱلْحُلْقُومَ",
+      "en": "Why, then, when (the soul) cometh up to the throat (of the dying)"
+    },
+    { "n": 84, "ar": "وَأَنتُمْ حِينَئِذٍ تَنظُرُونَ", "en": "And ye are at that moment looking" },
+    {
+      "n": 85,
+      "ar": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنكُمْ وَلَـٰكِن لَّا تُبْصِرُونَ",
+      "en": "- And We are nearer unto him than ye are, but ye see not -"
+    },
+    {
+      "n": 86,
+      "ar": "فَلَوْلَآ إِن كُنتُمْ غَيْرَ مَدِينِينَ",
+      "en": "Why then, if ye are not in bondage (unto Us),"
+    },
+    {
+      "n": 87,
+      "ar": "تَرْجِعُونَهَآ إِن كُنتُمْ صَـٰدِقِينَ",
+      "en": "Do ye not force it back, if ye are truthful?"
+    },
+    {
+      "n": 88,
+      "ar": "فَأَمَّآ إِن كَانَ مِنَ ٱلْمُقَرَّبِينَ",
+      "en": "Thus if he is of those brought nigh,"
+    },
+    {
+      "n": 89,
+      "ar": "فَرَوْحٌ وَرَيْحَانٌ وَجَنَّتُ نَعِيمٍ",
+      "en": "Then breath of life, and plenty, and a Garden of delight."
+    },
+    {
+      "n": 90,
+      "ar": "وَأَمَّآ إِن كَانَ مِنْ أَصْحَـٰبِ ٱلْيَمِينِ",
+      "en": "And if he is of those on the right hand,"
+    },
+    {
+      "n": 91,
+      "ar": "فَسَلَـٰمٌ لَّكَ مِنْ أَصْحَـٰبِ ٱلْيَمِينِ",
+      "en": "Then (the greeting) \"Peace be unto thee\" from those on the right hand."
+    },
+    {
+      "n": 92,
+      "ar": "وَأَمَّآ إِن كَانَ مِنَ ٱلْمُكَذِّبِينَ ٱلضَّآلِّينَ",
+      "en": "But if he is of the rejecters, the erring,"
+    },
+    { "n": 93, "ar": "فَنُزُلٌ مِّنْ حَمِيمٍ", "en": "Then the welcome will be boiling water" },
+    { "n": 94, "ar": "وَتَصْلِيَةُ جَحِيمٍ", "en": "And roasting at hell-fire." },
+    { "n": 95, "ar": "إِنَّ هَـٰذَا لَهُوَ حَقُّ ٱلْيَقِينِ", "en": "Lo! this is certain truth." },
+    {
+      "n": 96,
+      "ar": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
+      "en": "Therefor (O Muhammad) praise the name of thy Lord, the Tremendous."
+    }
+  ]
+}

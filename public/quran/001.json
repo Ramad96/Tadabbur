@@ -1,0 +1,30 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 1,
+  "basmala": null,
+  "ayahs": [
+    {
+      "n": 1,
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+      "en": "In the name of Allah, the Beneficent, the Merciful."
+    },
+    {
+      "n": 2,
+      "ar": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
+      "en": "Praise be to Allah, Lord of the Worlds,"
+    },
+    { "n": 3, "ar": "ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ", "en": "The Beneficent, the Merciful." },
+    { "n": 4, "ar": "مَـٰلِكِ يَوْمِ ٱلدِّينِ", "en": "Master of the Day of Judgment," },
+    {
+      "n": 5,
+      "ar": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "en": "Thee (alone) we worship; Thee (alone) we ask for help."
+    },
+    { "n": 6, "ar": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ", "en": "Show us the straight path," },
+    {
+      "n": 7,
+      "ar": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+      "en": "The path of those whom Thou hast favoured; Not the (path) of those who earn Thine anger nor of those who go astray."
+    }
+  ]
+}

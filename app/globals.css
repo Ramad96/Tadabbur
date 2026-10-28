@@ -1,26 +1,151 @@
 @import "tailwindcss";
 
+/*
+ * Design tokens. A quiet "night prayer" room: deep teal-black, warm lamp amber
+ * as the one accent. Dark is the default; light is the same token set redefined.
+ * tests/unit/contrast.test.ts parses these two blocks, so keep one token per line.
+ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #0e1819;
+  --panel: #152224;
+  --raise: #1c2c2f;
+  --line: #2a3c3f;
+  --fg: #ece6d8;
+  --muted: #97a6a2;
+  --lamp: #e2a64c;
+  --lamp-ink: #1a1206;
+  --water: #1f4250;
+  --land: #16252a;
+  --land-line: #2c4248;
+  --road: #22363b;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --bg: #eef1ed;
+  --panel: #ffffff;
+  --raise: #f5f7f3;
+  --line: #d4dcd6;
+  --fg: #13201f;
+  --muted: #5b6b67;
+  --lamp: #975f10; /* spec #a86a12 failed WCAG AA as text (3.9:1 on --bg) */
+  --lamp-ink: #ffffff;
+  --water: #bcd7dc;
+  --land: #f8faf6;
+  --land-line: #c9d5cf;
+  --road: #e3e9e4;
+  color-scheme: light;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-panel: var(--panel);
+  --color-raise: var(--raise);
+  --color-line: var(--line);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-lamp: var(--lamp);
+  --color-lamp-ink: var(--lamp-ink);
+  --color-water: var(--water);
+
+  --font-brand: var(--font-aref), var(--font-amiri), serif;
+  --font-ayah: var(--font-amiri), "Scheherazade New", "Traditional Arabic", serif;
+  --font-display: var(--font-instrument), Georgia, serif;
+  --font-sans: var(--font-plex-sans), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, Menlo, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.55;
+  }
+  :focus-visible {
+    outline: 2px solid var(--lamp);
+    outline-offset: 2px;
+  }
+  /* Arabic blocks flip; the page itself stays left-to-right. */
+  [lang="ar"] {
+    font-family: var(--font-ayah);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  /* Small uppercase data labels (times, eyebrows, facts). */
+  .label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .ayah {
+    font-family: var(--font-ayah);
+    line-height: 1.9;
+    text-wrap: balance;
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+  }
+  .btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid var(--line);
+    background: var(--raise);
+    border-radius: 999px;
+    padding: 9px 16px;
+    font-weight: 500;
+  }
+  .btn-ghost:hover {
+    border-color: var(--lamp);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* MapLibre's built-in controls, in the site's palette. */
+.maplibregl-ctrl-group,
+.maplibregl-ctrl-attrib,
+.maplibregl-ctrl-attrib.maplibregl-compact {
+  background: var(--panel) !important;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  box-shadow: none !important;
+}
+.maplibregl-ctrl-attrib-inner {
+  color: var(--muted) !important;
+}
+.maplibregl-ctrl-attrib a {
+  color: var(--fg) !important;
+}
+.maplibregl-ctrl-group button + button {
+  border-top-color: var(--line) !important;
+}
+.maplibregl-ctrl-group button .maplibregl-ctrl-icon,
+.maplibregl-ctrl-attrib-button {
+  filter: var(--map-icon-filter);
+}
+:root {
+  --map-icon-filter: invert(0.9);
+}
+:root[data-theme="light"] {
+  --map-icon-filter: none;
 }

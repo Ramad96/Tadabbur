@@ -1,0 +1,30 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 100,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "وَٱلْعَـٰدِيَـٰتِ ضَبْحًا", "en": "By the snorting courses," },
+    { "n": 2, "ar": "فَٱلْمُورِيَـٰتِ قَدْحًا", "en": "Striking sparks of fire" },
+    { "n": 3, "ar": "فَٱلْمُغِيرَٰتِ صُبْحًا", "en": "And scouring to the raid at dawn," },
+    { "n": 4, "ar": "فَأَثَرْنَ بِهِۦ نَقْعًا", "en": "Then, therewith, with their trail of dust," },
+    { "n": 5, "ar": "فَوَسَطْنَ بِهِۦ جَمْعًا", "en": "Cleaving, as one, the centre (of the foe)," },
+    { "n": 6, "ar": "إِنَّ ٱلْإِنسَـٰنَ لِرَبِّهِۦ لَكَنُودٌ", "en": "Lo! man is an ingrate unto his Lord" },
+    { "n": 7, "ar": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌ", "en": "And lo! he is a witness unto that;" },
+    {
+      "n": 8,
+      "ar": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
+      "en": "And lo! in the love of wealth he is violent."
+    },
+    {
+      "n": 9,
+      "ar": "۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ",
+      "en": "Knoweth he not that, when the contents of the graves are poured forth"
+    },
+    { "n": 10, "ar": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ", "en": "And the secrets of the breasts are made known," },
+    {
+      "n": 11,
+      "ar": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍ لَّخَبِيرٌۢ",
+      "en": "On that day will their Lord be perfectly informed concerning them."
+    }
+  ]
+}

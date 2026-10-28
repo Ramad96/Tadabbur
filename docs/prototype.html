@@ -1,0 +1,420 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Tadabbur</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Aref+Ruqaa:wght@700&family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a night-prayer listening room — brand bar, two tabs (Listen / Map), one focus at a time */
+:root{
+  --bg:#0e1819; --panel:#152224; --raise:#1c2c2f; --line:#2a3c3f;
+  --fg:#ece6d8; --muted:#97a6a2; --lamp:#e2a64c; --lamp-ink:#1a1206;
+  --land:#16252a; --land-line:#2c4248; --water:#1f4250; --road:#22363b;
+  --f-brand:"Aref Ruqaa","Amiri",serif;
+  --f-ayah:"Amiri","Scheherazade New","Traditional Arabic",serif;
+  --f-display:"Instrument Serif",Georgia,serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){
+  --bg:#eef1ed; --panel:#ffffff; --raise:#f5f7f3; --line:#d4dcd6;
+  --fg:#13201f; --muted:#5b6b67; --lamp:#a86a12; --lamp-ink:#ffffff;
+  --land:#f8faf6; --land-line:#c9d5cf; --water:#bcd7dc; --road:#e3e9e4; color-scheme:light}}
+:root[data-theme="light"]{
+  --bg:#eef1ed; --panel:#ffffff; --raise:#f5f7f3; --line:#d4dcd6;
+  --fg:#13201f; --muted:#5b6b67; --lamp:#a86a12; --lamp-ink:#ffffff;
+  --land:#f8faf6; --land-line:#c9d5cf; --water:#bcd7dc; --road:#e3e9e4; color-scheme:light}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 48px}
+.wrap{max-width:1180px;margin:0 auto}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--lamp);outline-offset:2px}
+
+/* Brand */
+header.brand{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px 32px;padding-block:28px 20px;border-bottom:1px solid var(--line)}
+.mark{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
+.mark .ar{font-family:var(--f-brand);font-size:clamp(46px,8vw,72px);line-height:1;color:var(--lamp)}
+.mark .lat{display:flex;flex-direction:column;gap:2px}
+.mark .lat b{font-family:var(--f-display);font-weight:400;font-size:26px;letter-spacing:.01em}
+.mark .lat span{color:var(--muted);font-size:14px}
+.tabs{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:4px}
+.tabs button{border:0;background:none;padding:8px 20px;border-radius:999px;font-weight:500;color:var(--muted)}
+.tabs button[aria-selected="true"]{background:var(--lamp);color:var(--lamp-ink)}
+.sample{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding-top:12px}
+
+/* Listen */
+.listen{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:24px;padding-top:24px}
+@media (max-width:860px){.listen{grid-template-columns:1fr}}
+.stage{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:28px;display:flex;flex-direction:column;gap:20px;min-width:0}
+.eyebrow{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.ayah{font-family:var(--f-ayah);direction:rtl;text-align:center;font-size:clamp(28px,4.4vw,42px);line-height:1.9;padding-block:8px;text-wrap:balance}
+.trans{text-align:center;font-family:var(--f-display);font-style:italic;font-size:20px;color:var(--muted);max-width:52ch;margin:0 auto;text-wrap:balance}
+.ref{text-align:center;font-family:var(--f-mono);font-size:12px;color:var(--lamp)}
+.who{display:flex;align-items:center;gap:14px;padding-top:16px;border-top:1px solid var(--line)}
+.who .meta{min-width:0}
+.who .meta b{display:block;font-weight:600}
+.who .meta span{color:var(--muted);font-size:13px}
+.avatar{flex:none;border-radius:12px;overflow:hidden;display:block}
+.wave{display:flex;align-items:center;gap:2px;height:48px}
+.wave i{flex:1;background:var(--line);border-radius:2px;transition:background .15s}
+.wave i.on{background:var(--lamp)}
+.controls{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.play{width:56px;height:56px;border-radius:50%;border:0;background:var(--lamp);color:var(--lamp-ink);display:grid;place-items:center}
+.ghost{border:1px solid var(--line);background:var(--raise);border-radius:999px;padding:9px 16px;font-weight:500;display:inline-flex;align-items:center;gap:8px}
+.ghost:hover{border-color:var(--lamp)}
+.time{font-family:var(--f-mono);font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums;margin-left:auto}
+
+.library{display:flex;flex-direction:column;gap:12px;min-width:0}
+.search{display:flex;gap:8px}
+.search input{flex:1;min-width:0;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:11px 14px;font:inherit;color:var(--fg)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:none;border-radius:999px;padding:4px 12px;font-size:13px;color:var(--muted)}
+.chip[aria-pressed="true"]{border-color:var(--lamp);color:var(--lamp)}
+.list{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--panel);max-height:560px;overflow-y:auto}
+.row{display:grid;grid-template-columns:40px minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px 14px;border:0;border-bottom:1px solid var(--line);background:none;text-align:left;width:100%}
+.row:last-child{border-bottom:0}
+.row:hover{background:var(--raise)}
+.row.cur{background:var(--raise);box-shadow:inset 3px 0 0 var(--lamp)}
+.row b{font-weight:600;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row span{font-size:13px;color:var(--muted);display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .sar{font-family:var(--f-ayah);font-size:20px;color:var(--lamp)}
+.empty{padding:24px;color:var(--muted);text-align:center}
+
+/* Map */
+.mapgrid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:24px;padding-top:24px}
+@media (max-width:860px){.mapgrid{grid-template-columns:1fr}}
+.mapbox{position:relative;background:var(--land);border:1px solid var(--line);border-radius:14px;overflow:hidden;aspect-ratio:4/3;max-width:100%;touch-action:none}
+.mapbox svg{width:100%;height:100%;display:block;cursor:grab}
+.mapbox svg.drag{cursor:grabbing}
+.mapui{position:absolute;top:12px;right:12px;display:flex;flex-direction:column;gap:6px}
+.mapui button{width:36px;height:36px;border-radius:8px;border:1px solid var(--line);background:var(--panel);font-size:18px}
+.legend{position:absolute;left:12px;bottom:12px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:12px;color:var(--muted);display:flex;gap:10px;align-items:center}
+.pin{cursor:pointer}
+.pin circle.halo{fill:var(--lamp);opacity:.18}
+.pin circle.dot{fill:var(--lamp);stroke:var(--bg);stroke-width:2}
+.pin.sel circle.halo{opacity:.4}
+.pin.sel circle.dot{fill:var(--fg)}
+.lbl{font-family:var(--f-body);fill:var(--muted);font-size:11px;letter-spacing:.06em;text-transform:uppercase;pointer-events:none}
+.mlabel{font-family:var(--f-body);fill:var(--fg);font-size:12px;font-weight:500;pointer-events:none;paint-order:stroke;stroke:var(--land);stroke-width:3px}
+
+.profile{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:24px;display:flex;flex-direction:column;gap:16px;min-width:0;align-self:start}
+.profile h2{font-family:var(--f-display);font-weight:400;font-size:30px;line-height:1.1;margin:0;text-wrap:balance}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font-size:14px;margin:0}
+.facts dt{color:var(--muted);font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding-top:3px}
+.facts dd{margin:0}
+.qa{display:flex;flex-direction:column;gap:12px;margin:0;padding:0;list-style:none}
+.qa li{border-top:1px solid var(--line);padding-top:12px}
+.qa li b{display:block;font-size:13px;color:var(--lamp);font-weight:500;margin-bottom:2px}
+.qa .ar{font-family:var(--f-ayah);direction:rtl;font-size:22px;display:block;margin-top:4px}
+.bio{color:var(--muted);margin:0}
+.hint{color:var(--muted);text-align:center;padding:40px 8px}
+
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header class="brand">
+    <div class="mark">
+      <span class="ar" lang="ar">تَدَبُّر</span>
+      <div class="lat"><b>Tadabbur</b><span>Hear the Qur'an in the voices of the living.</span></div>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button role="tab" id="t-listen" aria-selected="true" data-tab="listen">Listen</button>
+      <button role="tab" id="t-map" aria-selected="false" data-tab="map">Map</button>
+    </nav>
+  </header>
+  <div class="sample">Prototype · sample data for London · audio not included</div>
+
+  <section id="listen" class="listen" role="tabpanel" aria-labelledby="t-listen">
+    <div class="stage">
+      <div class="eyebrow" id="np-eyebrow">Now playing</div>
+      <div class="ayah" id="np-ayah" lang="ar"></div>
+      <div class="trans" id="np-trans"></div>
+      <div class="ref" id="np-ref"></div>
+      <div class="wave" id="wave" aria-hidden="true"></div>
+      <div class="controls">
+        <button class="play" id="play" aria-label="Play">
+          <svg width="22" height="22" viewBox="0 0 24 24" id="playicon"><path d="M7 4l13 8-13 8z" fill="currentColor"/></svg>
+        </button>
+        <button class="ghost" id="shuffle">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>Random ayah</button>
+        <button class="ghost" id="onmap">See on map</button>
+        <span class="time" id="time">0:00 / 0:00</span>
+      </div>
+      <div class="who" id="np-who"></div>
+    </div>
+
+    <div class="library">
+      <div class="search">
+        <input id="q" type="search" placeholder="Search surah, reciter or mosque" aria-label="Search recitations">
+      </div>
+      <div class="chips" id="chips"></div>
+      <div class="list" id="list"></div>
+    </div>
+  </section>
+
+  <section id="map" class="mapgrid" role="tabpanel" aria-labelledby="t-map" hidden>
+    <div class="mapbox" id="mapbox">
+      <svg id="svg" viewBox="0 0 800 600" role="img" aria-label="Map of London with recitation pins"></svg>
+      <div class="mapui">
+        <button id="zin" aria-label="Zoom in">+</button>
+        <button id="zout" aria-label="Zoom out">−</button>
+        <button id="zreset" aria-label="Reset view">⟲</button>
+      </div>
+      <div class="legend"><svg width="12" height="12"><circle cx="6" cy="6" r="5" fill="var(--lamp)"/></svg><span id="count"></span></div>
+    </div>
+    <aside class="profile" id="profile">
+      <div class="hint">Tap a pin to meet the reciter.</div>
+    </aside>
+  </section>
+</div>
+
+<script>
+const R = [
+ {id:1,name:"Yusuf Rahman",age:34,job:"Paramedic",origin:"Born in Tower Hamlets, family from Sylhet",
+  mosque:"East London Mosque",area:"Whitechapel",lat:51.5175,lng:-0.0653,
+  surah:"Ash-Sharh",sar:"الشرح",ref:"94:5–6",prayer:"Isha",date:"2026-09-14",time:"20:41",dur:96,
+  ayah:"فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا ۝ إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+  tr:"So surely with hardship comes ease. Surely with hardship comes ease.",
+  why:"I recite this after long night shifts. It is a promise I need to hear out loud.",
+  fav:"فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",favRef:"94:5",
+  learn:"My grandfather taught me in Bangladesh before I could read English."},
+ {id:2,name:"Ibrahim Al-Hashimi",age:61,job:"Retired engineer",origin:"Came to London from Baghdad in 1991",
+  mosque:"London Central Mosque",area:"Regent's Park",lat:51.5287,lng:-0.1675,
+  surah:"Ar-Rahman",sar:"الرحمن",ref:"55:13",prayer:"Fajr",date:"2026-08-02",time:"04:52",dur:184,
+  ayah:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+  tr:"Then which of your Lord's favours will you both deny?",
+  why:"At Fajr the hall is quiet. Ar-Rahman fills it with a question I never tire of.",
+  fav:"فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",favRef:"55:13",
+  learn:"Memorised it as a boy in Adhamiyah. I recite it the way my teacher did."},
+ {id:3,name:"Amina Okafor",age:27,job:"Architect",origin:"Nigerian-British, raised in Peckham",
+  mosque:"Brixton Mosque",area:"Brixton",lat:51.4630,lng:-0.1110,
+  surah:"Ad-Duha",sar:"الضحى",ref:"93:3",prayer:"Sisters' halaqah",date:"2026-10-03",time:"11:15",dur:72,
+  ayah:"مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+  tr:"Your Lord has not abandoned you, nor is He displeased.",
+  why:"I chose it for a friend going through a hard year. It is a surah of reassurance.",
+  fav:"وَلَلْءَاخِرَةُ خَيْرٌ لَّكَ مِنَ ٱلْأُولَىٰ",favRef:"93:4",
+  learn:"I started tajweed classes at 22. This was my first full surah with proper makharij."},
+ {id:4,name:"Hamza Siddiqui",age:19,job:"Maths student, UCL",origin:"Grew up in Harrow",
+  mosque:"Harrow Central Mosque",area:"Harrow",lat:51.5850,lng:-0.3380,
+  surah:"Al-Mulk",sar:"الملك",ref:"67:1",prayer:"Taraweeh",date:"2026-03-08",time:"21:30",dur:240,
+  ayah:"تَبَٰرَكَ ٱلَّذِى بِيَدِهِ ٱلْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+  tr:"Blessed is the One in whose hand is all dominion, and He has power over all things.",
+  why:"My dad recites Al-Mulk every night. Leading it in Taraweeh felt like giving it back to him.",
+  fav:"ٱلَّذِى خَلَقَ ٱلْمَوْتَ وَٱلْحَيَوٰةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا",favRef:"67:2",
+  learn:"Hifz completed at 15 at the local madrasah."},
+ {id:5,name:"Mehmet Yıldız",age:45,job:"Baker",origin:"From Kayseri, in Dalston since 2004",
+  mosque:"Suleymaniye Mosque",area:"Dalston",lat:51.5389,lng:-0.0757,
+  surah:"Al-Ikhlas",sar:"الإخلاص",ref:"112:1",prayer:"Dhuhr",date:"2026-07-21",time:"13:20",dur:38,
+  ayah:"قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+  tr:"Say: He is Allah, the One.",
+  why:"Short, but it holds everything. I recite it between batches at the bakery too.",
+  fav:"قُلْ هُوَ ٱللَّهُ أَحَدٌ",favRef:"112:1",
+  learn:"In Kayseri, from the imam of our neighbourhood masjid."},
+ {id:6,name:"Abdullah Farah",age:38,job:"Bus driver, Route 29",origin:"Somali-British, lives in Haringey",
+  mosque:"Finsbury Park Mosque",area:"Finsbury Park",lat:51.5636,lng:-0.1069,
+  surah:"Ar-Ra'd",sar:"الرعد",ref:"13:28",prayer:"Asr",date:"2026-06-11",time:"17:05",dur:110,
+  ayah:"أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ",
+  tr:"Truly, in the remembrance of Allah do hearts find rest.",
+  why:"London traffic tests your patience. This ayah is how I reset between shifts.",
+  fav:"أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ",favRef:"13:28",
+  learn:"Dugsi in Mogadishu, then Saturday classes in Tottenham."},
+ {id:7,name:"Naveed Ahmad",age:52,job:"Pharmacist",origin:"Family from Rabwah, lives in Morden",
+  mosque:"Baitul Futuh",area:"Morden",lat:51.3962,lng:-0.1934,
+  surah:"Al-Fatihah",sar:"الفاتحة",ref:"1:5",prayer:"Maghrib",date:"2026-05-19",time:"20:58",dur:64,
+  ayah:"إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+  tr:"You alone we worship, and You alone we ask for help.",
+  why:"We recite it in every prayer. I wanted to slow down and mean every word.",
+  fav:"ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",favRef:"1:6",
+  learn:"From my mother at the kitchen table."},
+ {id:8,name:"Bilal Hussain",age:29,job:"Software developer",origin:"Born in Southall, family from Mirpur",
+  mosque:"Abu Bakr Mosque",area:"Southall",lat:51.5070,lng:-0.3770,
+  surah:"Ya-Sin",sar:"يس",ref:"36:58",prayer:"Jumu'ah",date:"2026-09-25",time:"13:45",dur:150,
+  ayah:"سَلَٰمٌ قَوْلًا مِّن رَّبٍّ رَّحِيمٍ",
+  tr:"\"Peace\", a word from a Merciful Lord.",
+  why:"Recited for my nani the week after she passed. It is the ayah of greeting in Paradise.",
+  fav:"سَلَٰمٌ قَوْلًا مِّن رَّبٍّ رَّحِيمٍ",favRef:"36:58",
+  learn:"Evening madrasah above a shop on the Broadway."},
+ {id:9,name:"Khadija Benali",age:33,job:"Primary school teacher",origin:"Moroccan-British, from Leyton",
+  mosque:"Masjid Al-Tawhid",area:"Leyton",lat:51.5640,lng:-0.0110,
+  surah:"Al-Asr",sar:"العصر",ref:"103:1–2",prayer:"Sisters' circle",date:"2026-04-12",time:"16:30",dur:45,
+  ayah:"وَٱلْعَصْرِ ۝ إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ",
+  tr:"By time. Surely humanity is in loss,",
+  why:"I teach this to my pupils' mums. Three ayat that sum up how to live.",
+  fav:"وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",favRef:"103:3",
+  learn:"Warsh recitation from my father, Hafs from London teachers."},
+ {id:10,name:"Tariq Mahmood",age:47,job:"Taxi driver",origin:"From Lahore, in Tooting since 1999",
+  mosque:"Tooting Islamic Centre",area:"Tooting",lat:51.4278,lng:-0.1680,
+  surah:"Al-Baqarah",sar:"البقرة",ref:"2:186",prayer:"Taraweeh",date:"2026-03-15",time:"22:10",dur:132,
+  ayah:"وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ",
+  tr:"And when My servants ask you about Me, I am near.",
+  why:"It sits in the middle of the fasting ayat. Allah says He is near, right when we are hungry.",
+  fav:"فَإِنِّى قَرِيبٌ",favRef:"2:186",
+  learn:"Mosque school in Lahore, refreshed with my son's teacher here."},
+ {id:11,name:"Sumaya Patel",age:24,job:"Junior doctor, Whipps Cross",origin:"Gujarati heritage, raised in Ilford",
+  mosque:"Ilford Islamic Centre",area:"Ilford",lat:51.5590,lng:0.0790,
+  surah:"Az-Zumar",sar:"الزمر",ref:"39:53",prayer:"Women's Qiyam",date:"2026-03-26",time:"02:15",dur:118,
+  ayah:"لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ",
+  tr:"Do not despair of the mercy of Allah.",
+  why:"The most hopeful ayah I know. Hospital life needs it.",
+  fav:"إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا",favRef:"39:53",
+  learn:"Weekend madrasah, then an online ijazah course during med school."},
+ {id:12,name:"Musa Adeyemi",age:41,job:"Electrician",origin:"Yoruba-British, lives in Woolwich",
+  mosque:"Greenwich Islamic Centre",area:"Woolwich",lat:51.4890,lng:0.0640,
+  surah:"Al-Ikhlas",sar:"الإخلاص",ref:"112:1–4",prayer:"Fajr",date:"2026-10-10",time:"05:58",dur:41,
+  ayah:"قُلْ هُوَ ٱللَّهُ أَحَدٌ ۝ ٱللَّهُ ٱلصَّمَدُ",
+  tr:"Say: He is Allah, the One. Allah, the Eternal Refuge.",
+  why:"My son just memorised it. I led Fajr with it so he could hear his surah in the masjid.",
+  fav:"وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌ",favRef:"112:4",
+  learn:"From an imam in Ibadan, polished at the Woolwich circle."}
+];
+
+const $=s=>document.querySelector(s);
+const fmt=s=>Math.floor(s/60)+":"+String(Math.floor(s%60)).padStart(2,"0");
+const fmtDate=d=>new Date(d+"T12:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});
+const initials=n=>n.split(" ").map(w=>w[0]).slice(0,2).join("");
+
+/* Avatar: an eight-point star tile, hue per person (stands in for a photo) */
+function avatar(p,size){
+  const h=(p.id*47)%360, c=`hsl(${h} 38% 34%)`, c2=`hsl(${h} 45% 52%)`;
+  return `<svg class="avatar" width="${size}" height="${size}" viewBox="0 0 40 40" aria-hidden="true">
+    <rect width="40" height="40" fill="${c}"/>
+    <g fill="${c2}" opacity=".55"><rect x="8" y="8" width="24" height="24"/><rect x="8" y="8" width="24" height="24" transform="rotate(45 20 20)"/></g>
+    <text x="20" y="24.5" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="12" font-weight="600" fill="#fff">${initials(p.name)}</text></svg>`;
+}
+
+/* ---------- Tabs ---------- */
+function showTab(t){
+  document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===t));
+  $("#listen").hidden=t!=="listen"; $("#map").hidden=t!=="map";
+}
+document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>showTab(b.dataset.tab));
+if(location.hash==="#map") showTab("map");
+
+/* ---------- Player (simulated) ---------- */
+let cur=R[0], pos=0, playing=false, timer=null;
+const BARS=64;
+function seedBars(id){let s=id*9301+49297;return Array.from({length:BARS},(_,i)=>{s=(s*9301+49297)%233280;return 18+Math.round((s/233280)*70*Math.abs(Math.sin(i/7+id)))})}
+function renderPlayer(){
+  $("#np-ayah").textContent=cur.ayah;
+  $("#np-trans").textContent=cur.tr;
+  $("#np-ref").textContent=`Surah ${cur.surah} · ${cur.ref}`;
+  $("#np-who").innerHTML=`${avatar(cur,48)}<div class="meta"><b>${cur.name}</b><span>${cur.mosque}, ${cur.area} · ${cur.prayer} · ${fmtDate(cur.date)}, ${cur.time}</span></div>`;
+  $("#wave").innerHTML=seedBars(cur.id).map(h=>`<i style="height:${h}%"></i>`).join("");
+  updateProgress(); renderList();
+}
+function updateProgress(){
+  const n=Math.round(pos/cur.dur*BARS);
+  [...$("#wave").children].forEach((b,i)=>b.classList.toggle("on",i<n));
+  $("#time").textContent=`${fmt(pos)} / ${fmt(cur.dur)}`;
+}
+function setPlaying(v){
+  playing=v; clearInterval(timer);
+  $("#playicon").innerHTML=v?'<path d="M6 4h4v16H6zM14 4h4v16h-4z" fill="currentColor"/>':'<path d="M7 4l13 8-13 8z" fill="currentColor"/>';
+  $("#play").setAttribute("aria-label",v?"Pause":"Play");
+  $("#np-eyebrow").textContent=v?"Now playing":"Ready to play";
+  if(v) timer=setInterval(()=>{pos+=1; if(pos>=cur.dur){pos=cur.dur;setPlaying(false)} updateProgress()},1000);
+}
+function load(p,autoplay){cur=p;pos=0;renderPlayer();setPlaying(!!autoplay)}
+$("#play").onclick=()=>{if(pos>=cur.dur)pos=0;setPlaying(!playing)};
+$("#shuffle").onclick=()=>{let n;do{n=R[Math.floor(Math.random()*R.length)]}while(n===cur&&R.length>1);load(n,true)};
+$("#onmap").onclick=()=>{showTab("map");select(cur.id,true)};
+
+/* ---------- Library ---------- */
+let q="", surahFilter=null;
+const surahs=[...new Set(R.map(r=>r.surah))];
+$("#chips").innerHTML=`<button class="chip" aria-pressed="true" data-s="">All</button>`+surahs.map(s=>`<button class="chip" aria-pressed="false" data-s="${s}">${s}</button>`).join("");
+$("#chips").onclick=e=>{const b=e.target.closest(".chip");if(!b)return;surahFilter=b.dataset.s||null;
+  document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c===b));renderList()};
+$("#q").oninput=e=>{q=e.target.value.toLowerCase().trim();renderList()};
+function renderList(){
+  const rows=R.filter(r=>(!surahFilter||r.surah===surahFilter)&&(!q||[r.surah,r.name,r.mosque,r.area,r.sar].join(" ").toLowerCase().includes(q)));
+  $("#list").innerHTML=rows.length?rows.map(r=>`<button class="row${r===cur?" cur":""}" data-id="${r.id}">
+    ${avatar(r,40)}<div style="min-width:0"><b>${r.surah} <span style="display:inline;color:var(--muted);font-weight:400">${r.ref}</span></b><span>${r.name} · ${r.mosque}</span></div>
+    <span class="sar" lang="ar">${r.sar}</span></button>`).join(""):`<div class="empty">No recitations match "${q}". Try a surah name like "Mulk".</div>`;
+}
+$("#list").onclick=e=>{const b=e.target.closest(".row");if(b)load(R.find(r=>r.id==b.dataset.id),true)};
+
+/* ---------- Map ---------- */
+const W=800,H=600, LNG0=-0.47,LNG1=0.17,LAT0=51.36,LAT1=51.65;
+const kx=W/(LNG1-LNG0), ky=H/(LAT1-LAT0);
+const P=(lng,lat)=>[(lng-LNG0)*kx,(LAT1-lat)*ky];
+const pts=a=>a.map(([lng,lat])=>P(lng,lat).map(v=>v.toFixed(1)).join(",")).join(" ");
+const thames=[[-0.47,51.40],[-0.37,51.41],[-0.31,51.41],[-0.305,51.445],[-0.30,51.465],[-0.28,51.48],[-0.25,51.49],[-0.23,51.488],[-0.22,51.468],[-0.19,51.465],[-0.17,51.478],[-0.14,51.483],[-0.125,51.49],[-0.122,51.502],[-0.11,51.509],[-0.09,51.509],[-0.075,51.506],[-0.05,51.502],[-0.035,51.509],[-0.025,51.495],[-0.01,51.484],[0.005,51.49],[0.0,51.503],[0.01,51.509],[0.04,51.50],[0.07,51.495],[0.10,51.505],[0.13,51.51],[0.17,51.49]];
+const lea=[[-0.06,51.65],[-0.045,51.60],[-0.04,51.565],[-0.02,51.54],[-0.005,51.51]];
+const boundary=[[-0.51,51.52],[-0.47,51.60],[-0.38,51.63],[-0.25,51.67],[-0.10,51.69],[0.02,51.66],[0.15,51.62],[0.33,51.56],[0.31,51.49],[0.21,51.42],[0.15,51.33],[0.0,51.30],[-0.13,51.29],[-0.27,51.33],[-0.36,51.38],[-0.46,51.43],[-0.51,51.47]];
+const areas=[["City",-0.09,51.515],["Camden",-0.143,51.545],["Hackney",-0.055,51.548],["Lambeth",-0.12,51.475],["Wimbledon",-0.21,51.43],["Ealing",-0.30,51.515],["Stratford",-0.005,51.543],["Croydon",-0.10,51.375],["Barnet",-0.20,51.625],["Greenwich",0.0,51.475]];
+
+const svg=$("#svg");
+function drawMap(){
+  const [cx,cy]=P(-0.1276,51.5072);
+  // Qibla bearing from London ≈ 119° from north
+  const qa=119*Math.PI/180, qx=cx+Math.sin(qa)*900, qy=cy-Math.cos(qa)*900;
+  let s=`<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="var(--road)" stroke-width="1"/></pattern></defs>
+  <rect x="-2000" y="-2000" width="5000" height="5000" fill="var(--bg)"/>
+  <polygon points="${pts(boundary)}" fill="var(--land)" stroke="var(--land-line)" stroke-width="1.5"/>
+  <polygon points="${pts(boundary)}" fill="url(#grid)" opacity=".6"/>
+  <line x1="${cx}" y1="${cy}" x2="${qx}" y2="${qy}" stroke="var(--lamp)" stroke-width="1" stroke-dasharray="4 6" opacity=".45"/>
+  <text class="lbl" x="${cx+Math.sin(qa)*330}" y="${cy-Math.cos(qa)*330-8}" style="fill:var(--lamp)">Qibla 119° →</text>
+  <polyline points="${pts(lea)}" fill="none" stroke="var(--water)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="${pts(thames)}" fill="none" stroke="var(--water)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  ${areas.map(([n,lng,lat])=>{const[x,y]=P(lng,lat);return`<text class="lbl" x="${x}" y="${y}" text-anchor="middle">${n}</text>`}).join("")}
+  <g id="pins">${R.map(r=>{const[x,y]=P(r.lng,r.lat);return`<g class="pin" data-id="${r.id}" transform="translate(${x} ${y})" tabindex="0" role="button" aria-label="${r.name}, ${r.mosque}">
+    <g class="s"><circle class="halo" r="14"/><circle class="dot" r="6"/><text class="mlabel" x="10" y="-10">${r.area}</text></g></g>`}).join("")}</g>`;
+  svg.innerHTML=s;
+  $("#count").textContent=`${R.length} recitations across ${new Set(R.map(r=>r.mosque)).size} London mosques`;
+}
+drawMap();
+
+/* pan & zoom */
+let vb={x:0,y:0,w:W,h:H};
+function applyVB(){
+  svg.setAttribute("viewBox",`${vb.x} ${vb.y} ${vb.w} ${vb.h}`);
+  const k=vb.w/W; svg.querySelectorAll(".pin .s").forEach(g=>g.setAttribute("transform",`scale(${k})`));
+}
+function zoom(f,cx=vb.x+vb.w/2,cy=vb.y+vb.h/2){
+  const nw=Math.min(W*1.4,Math.max(W/6,vb.w*f)), r=nw/vb.w;
+  vb={x:cx-(cx-vb.x)*r,y:cy-(cy-vb.y)*r,w:nw,h:nw*H/W}; applyVB();
+}
+$("#zin").onclick=()=>zoom(.7); $("#zout").onclick=()=>zoom(1/.7); $("#zreset").onclick=()=>{vb={x:0,y:0,w:W,h:H};applyVB()};
+svg.addEventListener("wheel",e=>{e.preventDefault();const r=svg.getBoundingClientRect();
+  zoom(e.deltaY<0?.85:1/.85,vb.x+(e.clientX-r.left)/r.width*vb.w,vb.y+(e.clientY-r.top)/r.height*vb.h)},{passive:false});
+let drag=null,moved=false;
+svg.addEventListener("pointerdown",e=>{drag={x:e.clientX,y:e.clientY,vx:vb.x,vy:vb.y};moved=false});
+window.addEventListener("pointermove",e=>{if(!drag)return;const r=svg.getBoundingClientRect(),dx=e.clientX-drag.x,dy=e.clientY-drag.y;
+  if(Math.abs(dx)+Math.abs(dy)>4){moved=true;svg.classList.add("drag")}
+  vb.x=drag.vx-dx/r.width*vb.w; vb.y=drag.vy-dy/r.height*vb.h; applyVB()});
+window.addEventListener("pointerup",()=>{drag=null;svg.classList.remove("drag")});
+svg.addEventListener("click",e=>{if(moved)return;const p=e.target.closest(".pin");if(p)select(+p.dataset.id)});
+svg.addEventListener("keydown",e=>{const p=e.target.closest(".pin");if(p&&(e.key==="Enter"||e.key===" ")){e.preventDefault();select(+p.dataset.id)}});
+
+function select(id,center){
+  const r=R.find(x=>x.id===id);
+  svg.querySelectorAll(".pin").forEach(p=>p.classList.toggle("sel",+p.dataset.id===id));
+  const sel=svg.querySelector(`.pin[data-id="${id}"]`); sel.parentNode.appendChild(sel);
+  if(center){const[x,y]=P(r.lng,r.lat);vb.w=W/2;vb.h=H/2;vb.x=x-vb.w/2;vb.y=y-vb.h/2;applyVB()}
+  $("#profile").innerHTML=`
+    <div class="who" style="border:0;padding:0">${avatar(r,64)}<div class="meta"><div class="eyebrow">${r.mosque}</div><h2>${r.name}</h2></div></div>
+    <p class="bio">${r.age} · ${r.job}. ${r.origin}.</p>
+    <dl class="facts">
+      <dt>Surah</dt><dd>${r.surah} <span lang="ar" style="font-family:var(--f-ayah)">${r.sar}</span> · ${r.ref}</dd>
+      <dt>Prayer</dt><dd>${r.prayer}</dd>
+      <dt>When</dt><dd>${fmtDate(r.date)}, ${r.time}</dd>
+      <dt>Where</dt><dd>${r.mosque}, ${r.area}</dd>
+      <dt>Length</dt><dd>${fmt(r.dur)}</dd>
+    </dl>
+    <ul class="qa">
+      <li><b>Why this surah?</b>${r.why}</li>
+      <li><b>Favourite ayah</b><span class="ar" lang="ar">${r.fav}</span><span style="color:var(--muted);font-size:13px">${r.surah} ${r.favRef}</span></li>
+      <li><b>Where did you learn to recite?</b>${r.learn}</li>
+    </ul>
+    <button class="play" style="width:auto;height:auto;border-radius:999px;padding:12px 20px;font-weight:600" id="playthis">▶ Play this recitation</button>`;
+  $("#playthis").onclick=()=>{load(r,true);showTab("listen")};
+}
+
+applyVB(); renderPlayer();
+</script>
+
+</body></html>

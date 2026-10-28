@@ -1,0 +1,38 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 91,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "وَٱلشَّمْسِ وَضُحَىٰهَا", "en": "By the sun and his brightness," },
+    { "n": 2, "ar": "وَٱلْقَمَرِ إِذَا تَلَىٰهَا", "en": "And the moon when she followeth him," },
+    { "n": 3, "ar": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا", "en": "And the day when it revealeth him," },
+    { "n": 4, "ar": "وَٱلَّيْلِ إِذَا يَغْشَىٰهَا", "en": "And the night when it enshroudeth him," },
+    { "n": 5, "ar": "وَٱلسَّمَآءِ وَمَا بَنَىٰهَا", "en": "And the heaven and Him Who built it," },
+    { "n": 6, "ar": "وَٱلْأَرْضِ وَمَا طَحَىٰهَا", "en": "And the earth and Him Who spread it," },
+    { "n": 7, "ar": "وَنَفْسٍ وَمَا سَوَّىٰهَا", "en": "And a soul and Him Who perfected it" },
+    {
+      "n": 8,
+      "ar": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا",
+      "en": "And inspired it (with conscience of) what is wrong for it and (what is) right for it."
+    },
+    { "n": 9, "ar": "قَدْ أَفْلَحَ مَن زَكَّىٰهَا", "en": "He is indeed successful who causeth it to grow," },
+    { "n": 10, "ar": "وَقَدْ خَابَ مَن دَسَّىٰهَا", "en": "And he is indeed a failure who stunteth it." },
+    {
+      "n": 11,
+      "ar": "كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ",
+      "en": "(The tribe of) Thamud denied (the truth) in their rebellious pride,"
+    },
+    { "n": 12, "ar": "إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا", "en": "When the basest of them broke forth" },
+    {
+      "n": 13,
+      "ar": "فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَـٰهَا",
+      "en": "And the messenger of Allah said: It is the she-camel of Allah, so let her drink!"
+    },
+    {
+      "n": 14,
+      "ar": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا",
+      "en": "But they denied him, and they hamstrung her, so Allah doomed them for their sin and rased (their dwellings)."
+    },
+    { "n": 15, "ar": "وَلَا يَخَافُ عُقْبَـٰهَا", "en": "He dreadeth not the sequel (of events)." }
+  ]
+}

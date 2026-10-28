@@ -1,0 +1,105 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 89,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "وَٱلْفَجْرِ", "en": "By the Dawn" },
+    { "n": 2, "ar": "وَلَيَالٍ عَشْرٍ", "en": "And ten nights," },
+    { "n": 3, "ar": "وَٱلشَّفْعِ وَٱلْوَتْرِ", "en": "And the Even and the Odd," },
+    { "n": 4, "ar": "وَٱلَّيْلِ إِذَا يَسْرِ", "en": "And the night when it departeth," },
+    {
+      "n": 5,
+      "ar": "هَلْ فِى ذَٰلِكَ قَسَمٌ لِّذِى حِجْرٍ",
+      "en": "There surely is an oath for thinking man."
+    },
+    {
+      "n": 6,
+      "ar": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ",
+      "en": "Dost thou not consider how thy Lord dealt with (the tribe of) A'ad,"
+    },
+    { "n": 7, "ar": "إِرَمَ ذَاتِ ٱلْعِمَادِ", "en": "With many-columned Iram," },
+    {
+      "n": 8,
+      "ar": "ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَـٰدِ",
+      "en": "The like of which was not created in the lands;"
+    },
+    {
+      "n": 9,
+      "ar": "وَثَمُودَ ٱلَّذِينَ جَابُوا۟ ٱلصَّخْرَ بِٱلْوَادِ",
+      "en": "And with (the tribe of) Thamud, who clove the rocks in the valley;"
+    },
+    { "n": 10, "ar": "وَفِرْعَوْنَ ذِى ٱلْأَوْتَادِ", "en": "And with Pharaoh, firm of might," },
+    {
+      "n": 11,
+      "ar": "ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَـٰدِ",
+      "en": "Who (all) were rebellious (to Allah) in these lands,"
+    },
+    { "n": 12, "ar": "فَأَكْثَرُوا۟ فِيهَا ٱلْفَسَادَ", "en": "And multiplied iniquity therein?" },
+    {
+      "n": 13,
+      "ar": "فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ",
+      "en": "Therefore thy Lord poured on them the disaster of His punishment."
+    },
+    { "n": 14, "ar": "إِنَّ رَبَّكَ لَبِٱلْمِرْصَادِ", "en": "Lo! thy Lord is ever watchful." },
+    {
+      "n": 15,
+      "ar": "فَأَمَّا ٱلْإِنسَـٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ",
+      "en": "As for man, whenever his Lord trieth him by honouring him, and is gracious unto him, he saith: My Lord honoureth me."
+    },
+    {
+      "n": 16,
+      "ar": "وَأَمَّآ إِذَا مَا ٱبْتَلَىٰهُ فَقَدَرَ عَلَيْهِ رِزْقَهُۥ فَيَقُولُ رَبِّىٓ أَهَـٰنَنِ",
+      "en": "But whenever He trieth him by straitening his means of life, he saith: My Lord despiseth me."
+    },
+    {
+      "n": 17,
+      "ar": "كَلَّا ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ",
+      "en": "Nay, but ye (for your part) honour not the orphan"
+    },
+    {
+      "n": 18,
+      "ar": "وَلَا تَحَـٰٓضُّونَ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+      "en": "And urge not on the feeding of the poor."
+    },
+    {
+      "n": 19,
+      "ar": "وَتَأْكُلُونَ ٱلتُّرَاثَ أَكْلًا لَّمًّا",
+      "en": "And ye devour heritages with devouring greed."
+    },
+    { "n": 20, "ar": "وَتُحِبُّونَ ٱلْمَالَ حُبًّا جَمًّا", "en": "And love wealth with abounding love." },
+    {
+      "n": 21,
+      "ar": "كَلَّآ إِذَا دُكَّتِ ٱلْأَرْضُ دَكًّا دَكًّا",
+      "en": "Nay, but when the earth is ground to atoms, grinding, grinding,"
+    },
+    {
+      "n": 22,
+      "ar": "وَجَآءَ رَبُّكَ وَٱلْمَلَكُ صَفًّا صَفًّا",
+      "en": "And thy Lord shall come with angels, rank on rank,"
+    },
+    {
+      "n": 23,
+      "ar": "وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍ يَتَذَكَّرُ ٱلْإِنسَـٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ",
+      "en": "And hell is brought near that day; on that day man will remember, but how will the remembrance (then avail him)?"
+    },
+    {
+      "n": 24,
+      "ar": "يَقُولُ يَـٰلَيْتَنِى قَدَّمْتُ لِحَيَاتِى",
+      "en": "He will say: Ah, would that I had sent before me (some provision) for my life!"
+    },
+    {
+      "n": 25,
+      "ar": "فَيَوْمَئِذٍ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٌ",
+      "en": "None punisheth as He will punish on that day!"
+    },
+    { "n": 26, "ar": "وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٌ", "en": "None bindeth as He then will bind." },
+    { "n": 27, "ar": "يَـٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ", "en": "But ah! thou soul at peace!" },
+    {
+      "n": 28,
+      "ar": "ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةً مَّرْضِيَّةً",
+      "en": "Return unto thy Lord, content in His good pleasure!"
+    },
+    { "n": 29, "ar": "فَٱدْخُلِى فِى عِبَـٰدِى", "en": "Enter thou among My bondmen!" },
+    { "n": 30, "ar": "وَٱدْخُلِى جَنَّتِى", "en": "Enter thou My Garden!" }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 101,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "ٱلْقَارِعَةُ", "en": "The Calamity!" },
+    { "n": 2, "ar": "مَا ٱلْقَارِعَةُ", "en": "What is the Calamity?" },
+    {
+      "n": 3,
+      "ar": "وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ",
+      "en": "Ah, what will convey unto thee what the Calamity is!"
+    },
+    {
+      "n": 4,
+      "ar": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ",
+      "en": "A day wherein mankind will be as thickly-scattered moths"
+    },
+    {
+      "n": 5,
+      "ar": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
+      "en": "And the mountains will become as carded wool."
+    },
+    {
+      "n": 6,
+      "ar": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ",
+      "en": "Then, as for him whose scales are heavy (with good works),"
+    },
+    { "n": 7, "ar": "فَهُوَ فِى عِيشَةٍ رَّاضِيَةٍ", "en": "He will live a pleasant life." },
+    { "n": 8, "ar": "وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ", "en": "But as for him whose scales are light," },
+    { "n": 9, "ar": "فَأُمُّهُۥ هَاوِيَةٌ", "en": "A bereft and Hungry One will be his mother," },
+    { "n": 10, "ar": "وَمَآ أَدْرَىٰكَ مَا هِيَهْ", "en": "Ah, what will convey unto thee what she is! -" },
+    { "n": 11, "ar": "نَارٌ حَامِيَةٌۢ", "en": "Raging Fire." }
+  ]
+}

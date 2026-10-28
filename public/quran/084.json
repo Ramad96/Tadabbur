@@ -1,0 +1,84 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 84,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "إِذَا ٱلسَّمَآءُ ٱنشَقَّتْ", "en": "When the heaven is split asunder" },
+    { "n": 2, "ar": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ", "en": "And attentive to her Lord in fear," },
+    { "n": 3, "ar": "وَإِذَا ٱلْأَرْضُ مُدَّتْ", "en": "And when the earth is spread out" },
+    {
+      "n": 4,
+      "ar": "وَأَلْقَتْ مَا فِيهَا وَتَخَلَّتْ",
+      "en": "And hath cast out all that was in her, and is empty"
+    },
+    { "n": 5, "ar": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ", "en": "And attentive to her Lord in fear!" },
+    {
+      "n": 6,
+      "ar": "يَـٰٓأَيُّهَا ٱلْإِنسَـٰنُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًا فَمُلَـٰقِيهِ",
+      "en": "Thou, verily, O man, art working toward thy Lord a work which thou wilt meet (in His presence)."
+    },
+    {
+      "n": 7,
+      "ar": "فَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ بِيَمِينِهِۦ",
+      "en": "Then whoso is given his account in his right hand"
+    },
+    { "n": 8, "ar": "فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا", "en": "He truly will receive an easy reckoning" },
+    {
+      "n": 9,
+      "ar": "وَيَنقَلِبُ إِلَىٰٓ أَهْلِهِۦ مَسْرُورًا",
+      "en": "And will return unto his folk in joy."
+    },
+    {
+      "n": 10,
+      "ar": "وَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ وَرَآءَ ظَهْرِهِۦ",
+      "en": "But whoso is given his account behind his back,"
+    },
+    { "n": 11, "ar": "فَسَوْفَ يَدْعُوا۟ ثُبُورًا", "en": "He surely will invoke destruction" },
+    { "n": 12, "ar": "وَيَصْلَىٰ سَعِيرًا", "en": "And be thrown to scorching fire." },
+    {
+      "n": 13,
+      "ar": "إِنَّهُۥ كَانَ فِىٓ أَهْلِهِۦ مَسْرُورًا",
+      "en": "He verily lived joyous with his folk,"
+    },
+    {
+      "n": 14,
+      "ar": "إِنَّهُۥ ظَنَّ أَن لَّن يَحُورَ",
+      "en": "He verily deemed that he would never return (unto Allah)."
+    },
+    {
+      "n": 15,
+      "ar": "بَلَىٰٓ إِنَّ رَبَّهُۥ كَانَ بِهِۦ بَصِيرًا",
+      "en": "Nay, but lo! his Lord is ever looking on him!"
+    },
+    { "n": 16, "ar": "فَلَآ أُقْسِمُ بِٱلشَّفَقِ", "en": "Oh, I swear by the afterglow of sunset," },
+    { "n": 17, "ar": "وَٱلَّيْلِ وَمَا وَسَقَ", "en": "And by the night and all that it enshroudeth," },
+    { "n": 18, "ar": "وَٱلْقَمَرِ إِذَا ٱتَّسَقَ", "en": "And by the moon when she is at the full," },
+    {
+      "n": 19,
+      "ar": "لَتَرْكَبُنَّ طَبَقًا عَن طَبَقٍ",
+      "en": "That ye shall journey on from plane to plane."
+    },
+    { "n": 20, "ar": "فَمَا لَهُمْ لَا يُؤْمِنُونَ", "en": "What aileth them, then, that they believe not" },
+    {
+      "n": 21,
+      "ar": "وَإِذَا قُرِئَ عَلَيْهِمُ ٱلْقُرْءَانُ لَا يَسْجُدُونَ ۩",
+      "en": "And, when the Qur'an is recited unto them, worship not (Allah)?"
+    },
+    {
+      "n": 22,
+      "ar": "بَلِ ٱلَّذِينَ كَفَرُوا۟ يُكَذِّبُونَ",
+      "en": "Nay, but those who disbelieve will deny;"
+    },
+    {
+      "n": 23,
+      "ar": "وَٱللَّهُ أَعْلَمُ بِمَا يُوعُونَ",
+      "en": "And Allah knoweth best what they are hiding."
+    },
+    { "n": 24, "ar": "فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ", "en": "So give them tidings of a painful doom," },
+    {
+      "n": 25,
+      "ar": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۭ",
+      "en": "Save those who believe and do good works, for theirs is a reward unfailing."
+    }
+  ]
+}

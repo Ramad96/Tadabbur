@@ -1,0 +1,97 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 80,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "عَبَسَ وَتَوَلَّىٰٓ", "en": "He frowned and turned away" },
+    { "n": 2, "ar": "أَن جَآءَهُ ٱلْأَعْمَىٰ", "en": "Because the blind man came unto him." },
+    {
+      "n": 3,
+      "ar": "وَمَا يُدْرِيكَ لَعَلَّهُۥ يَزَّكَّىٰٓ",
+      "en": "What could inform thee but that he might grow (in grace)"
+    },
+    {
+      "n": 4,
+      "ar": "أَوْ يَذَّكَّرُ فَتَنفَعَهُ ٱلذِّكْرَىٰٓ",
+      "en": "Or take heed and so the reminder might avail him?"
+    },
+    { "n": 5, "ar": "أَمَّا مَنِ ٱسْتَغْنَىٰ", "en": "As for him who thinketh himself independent," },
+    { "n": 6, "ar": "فَأَنتَ لَهُۥ تَصَدَّىٰ", "en": "Unto him thou payest regard." },
+    {
+      "n": 7,
+      "ar": "وَمَا عَلَيْكَ أَلَّا يَزَّكَّىٰ",
+      "en": "Yet it is not thy concern if he grow not (in grace)."
+    },
+    {
+      "n": 8,
+      "ar": "وَأَمَّا مَن جَآءَكَ يَسْعَىٰ",
+      "en": "But as for him who cometh unto thee with earnest purpose"
+    },
+    { "n": 9, "ar": "وَهُوَ يَخْشَىٰ", "en": "And hath fear," },
+    { "n": 10, "ar": "فَأَنتَ عَنْهُ تَلَهَّىٰ", "en": "From him thou art distracted." },
+    { "n": 11, "ar": "كَلَّآ إِنَّهَا تَذْكِرَةٌ", "en": "Nay, but verily it is an Admonishment," },
+    { "n": 12, "ar": "فَمَن شَآءَ ذَكَرَهُۥ", "en": "So let whosoever will pay heed to it," },
+    { "n": 13, "ar": "فِى صُحُفٍ مُّكَرَّمَةٍ", "en": "On honoured leaves" },
+    { "n": 14, "ar": "مَّرْفُوعَةٍ مُّطَهَّرَةٍۭ", "en": "Exalted, purified," },
+    { "n": 15, "ar": "بِأَيْدِى سَفَرَةٍ", "en": "(Set down) by scribes" },
+    { "n": 16, "ar": "كِرَامٍۭ بَرَرَةٍ", "en": "Noble and righteous." },
+    {
+      "n": 17,
+      "ar": "قُتِلَ ٱلْإِنسَـٰنُ مَآ أَكْفَرَهُۥ",
+      "en": "Man is (self-)destroyed: how ungrateful!"
+    },
+    { "n": 18, "ar": "مِنْ أَىِّ شَىْءٍ خَلَقَهُۥ", "en": "From what thing doth He create him?" },
+    {
+      "n": 19,
+      "ar": "مِن نُّطْفَةٍ خَلَقَهُۥ فَقَدَّرَهُۥ",
+      "en": "From a drop of seed. He createth him and proportioneth him,"
+    },
+    { "n": 20, "ar": "ثُمَّ ٱلسَّبِيلَ يَسَّرَهُۥ", "en": "Then maketh the way easy for him," },
+    { "n": 21, "ar": "ثُمَّ أَمَاتَهُۥ فَأَقْبَرَهُۥ", "en": "Then causeth him to die, and burieth him;" },
+    {
+      "n": 22,
+      "ar": "ثُمَّ إِذَا شَآءَ أَنشَرَهُۥ",
+      "en": "Then, when He will, He bringeth him again to life."
+    },
+    {
+      "n": 23,
+      "ar": "كَلَّا لَمَّا يَقْضِ مَآ أَمَرَهُۥ",
+      "en": "Nay, but (man) hath not done what He commanded him."
+    },
+    { "n": 24, "ar": "فَلْيَنظُرِ ٱلْإِنسَـٰنُ إِلَىٰ طَعَامِهِۦٓ", "en": "Let man consider his food:" },
+    { "n": 25, "ar": "أَنَّا صَبَبْنَا ٱلْمَآءَ صَبًّا", "en": "How We pour water in showers" },
+    { "n": 26, "ar": "ثُمَّ شَقَقْنَا ٱلْأَرْضَ شَقًّا", "en": "Then split the earth in clefts" },
+    { "n": 27, "ar": "فَأَنۢبَتْنَا فِيهَا حَبًّا", "en": "And cause the grain to grow therein" },
+    { "n": 28, "ar": "وَعِنَبًا وَقَضْبًا", "en": "And grapes and green fodder" },
+    { "n": 29, "ar": "وَزَيْتُونًا وَنَخْلًا", "en": "And olive-trees and palm-trees" },
+    { "n": 30, "ar": "وَحَدَآئِقَ غُلْبًا", "en": "And garden-closes of thick foliage" },
+    { "n": 31, "ar": "وَفَـٰكِهَةً وَأَبًّا", "en": "And fruits and grasses:" },
+    { "n": 32, "ar": "مَّتَـٰعًا لَّكُمْ وَلِأَنْعَـٰمِكُمْ", "en": "Provision for you and your cattle." },
+    { "n": 33, "ar": "فَإِذَا جَآءَتِ ٱلصَّآخَّةُ", "en": "But when the Shout cometh" },
+    {
+      "n": 34,
+      "ar": "يَوْمَ يَفِرُّ ٱلْمَرْءُ مِنْ أَخِيهِ",
+      "en": "On the day when a man fleeth from his brother"
+    },
+    { "n": 35, "ar": "وَأُمِّهِۦ وَأَبِيهِ", "en": "And his mother and his father" },
+    { "n": 36, "ar": "وَصَـٰحِبَتِهِۦ وَبَنِيهِ", "en": "And his wife and his children," },
+    {
+      "n": 37,
+      "ar": "لِكُلِّ ٱمْرِئٍ مِّنْهُمْ يَوْمَئِذٍ شَأْنٌ يُغْنِيهِ",
+      "en": "Every man that day will have concern enough to make him heedless (of others)."
+    },
+    { "n": 38, "ar": "وُجُوهٌ يَوْمَئِذٍ مُّسْفِرَةٌ", "en": "On that day faces will be bright as dawn," },
+    { "n": 39, "ar": "ضَاحِكَةٌ مُّسْتَبْشِرَةٌ", "en": "Laughing, rejoicing at good news;" },
+    {
+      "n": 40,
+      "ar": "وَوُجُوهٌ يَوْمَئِذٍ عَلَيْهَا غَبَرَةٌ",
+      "en": "And other faces, on that day, with dust upon them,"
+    },
+    { "n": 41, "ar": "تَرْهَقُهَا قَتَرَةٌ", "en": "Veiled in darkness," },
+    {
+      "n": 42,
+      "ar": "أُو۟لَـٰٓئِكَ هُمُ ٱلْكَفَرَةُ ٱلْفَجَرَةُ",
+      "en": "Those are the disbelievers, the wicked."
+    }
+  ]
+}

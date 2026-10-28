@@ -1,0 +1,22 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 107,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    {
+      "n": 1,
+      "ar": "أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
+      "en": "Hast thou observed him who belieth religion?"
+    },
+    { "n": 2, "ar": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ", "en": "That is he who repelleth the orphan," },
+    {
+      "n": 3,
+      "ar": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+      "en": "And urgeth not the feeding of the needy."
+    },
+    { "n": 4, "ar": "فَوَيْلٌ لِّلْمُصَلِّينَ", "en": "Ah, woe unto worshippers" },
+    { "n": 5, "ar": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ", "en": "Who are heedless of their prayer;" },
+    { "n": 6, "ar": "ٱلَّذِينَ هُمْ يُرَآءُونَ", "en": "Who would be seen (at worship)" },
+    { "n": 7, "ar": "وَيَمْنَعُونَ ٱلْمَاعُونَ", "en": "Yet refuse small kindnesses!" }
+  ]
+}

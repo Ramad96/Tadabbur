@@ -1,0 +1,27 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 102,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "أَلْهَىٰكُمُ ٱلتَّكَاثُرُ", "en": "Rivalry in worldly increase distracteth you" },
+    { "n": 2, "ar": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ", "en": "Until ye come to the graves." },
+    { "n": 3, "ar": "كَلَّا سَوْفَ تَعْلَمُونَ", "en": "Nay, but ye will come to know!" },
+    { "n": 4, "ar": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ", "en": "Nay, but ye will come to know!" },
+    {
+      "n": 5,
+      "ar": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ",
+      "en": "Nay, would that ye knew (now) with a sure knowledge!"
+    },
+    { "n": 6, "ar": "لَتَرَوُنَّ ٱلْجَحِيمَ", "en": "For ye will behold hell-fire." },
+    {
+      "n": 7,
+      "ar": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ",
+      "en": "Aye, ye will behold it with sure vision."
+    },
+    {
+      "n": 8,
+      "ar": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ",
+      "en": "Then, on that day, ye will be asked concerning pleasure."
+    }
+  ]
+}

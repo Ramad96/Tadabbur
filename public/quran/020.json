@@ -1,0 +1,622 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 20,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "طه", "en": "Ta. Ha." },
+    {
+      "n": 2,
+      "ar": "مَآ أَنزَلْنَا عَلَيْكَ ٱلْقُرْءَانَ لِتَشْقَىٰٓ",
+      "en": "We have not revealed unto thee (Muhammad) this Qur'an that thou shouldst be distressed,"
+    },
+    { "n": 3, "ar": "إِلَّا تَذْكِرَةً لِّمَن يَخْشَىٰ", "en": "But as a reminder unto him who feareth," },
+    {
+      "n": 4,
+      "ar": "تَنزِيلًا مِّمَّنْ خَلَقَ ٱلْأَرْضَ وَٱلسَّمَـٰوَٰتِ ٱلْعُلَى",
+      "en": "A revelation from Him Who created the earth and the high heavens,"
+    },
+    {
+      "n": 5,
+      "ar": "ٱلرَّحْمَـٰنُ عَلَى ٱلْعَرْشِ ٱسْتَوَىٰ",
+      "en": "The Beneficent One, Who is established on the Throne."
+    },
+    {
+      "n": 6,
+      "ar": "لَهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ وَمَا بَيْنَهُمَا وَمَا تَحْتَ ٱلثَّرَىٰ",
+      "en": "Unto Him belongeth whatsoever is in the heavens and whatsoever is in the earth, and whatsoever is between them, and whatsoever is beneath the sod."
+    },
+    {
+      "n": 7,
+      "ar": "وَإِن تَجْهَرْ بِٱلْقَوْلِ فَإِنَّهُۥ يَعْلَمُ ٱلسِّرَّ وَأَخْفَى",
+      "en": "And if thou speakest aloud, then lo! He knoweth the secret (thought) and (that which is yet) more hidden."
+    },
+    {
+      "n": 8,
+      "ar": "ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ لَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ",
+      "en": "Allah! There is no Allah save Him. His are the most beautiful names."
+    },
+    {
+      "n": 9,
+      "ar": "وَهَلْ أَتَىٰكَ حَدِيثُ مُوسَىٰٓ",
+      "en": "Hath there come unto thee the story of Moses?"
+    },
+    {
+      "n": 10,
+      "ar": "إِذْ رَءَا نَارًا فَقَالَ لِأَهْلِهِ ٱمْكُثُوٓا۟ إِنِّىٓ ءَانَسْتُ نَارًا لَّعَلِّىٓ ءَاتِيكُم مِّنْهَا بِقَبَسٍ أَوْ أَجِدُ عَلَى ٱلنَّارِ هُدًى",
+      "en": "When he saw a fire and said unto his folk: Lo! Wait! I see a fire afar off. Peradventure I may bring you a brand therefrom or may find guidance at the fire."
+    },
+    {
+      "n": 11,
+      "ar": "فَلَمَّآ أَتَىٰهَا نُودِىَ يَـٰمُوسَىٰٓ",
+      "en": "And when he reached it, he was called by name: O Moses!"
+    },
+    {
+      "n": 12,
+      "ar": "إِنِّىٓ أَنَا۠ رَبُّكَ فَٱخْلَعْ نَعْلَيْكَ ۖ إِنَّكَ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى",
+      "en": "Lo! I, even I, am thy Lord, So take off thy shoes, for lo! thou art in the holy valley of Tuwa."
+    },
+    {
+      "n": 13,
+      "ar": "وَأَنَا ٱخْتَرْتُكَ فَٱسْتَمِعْ لِمَا يُوحَىٰٓ",
+      "en": "And I have chosen thee, so hearken unto that which is inspired."
+    },
+    {
+      "n": 14,
+      "ar": "إِنَّنِىٓ أَنَا ٱللَّهُ لَآ إِلَـٰهَ إِلَّآ أَنَا۠ فَٱعْبُدْنِى وَأَقِمِ ٱلصَّلَوٰةَ لِذِكْرِىٓ",
+      "en": "Lo! I, even I, am Allah, There is no Allah save Me. So serve Me and establish worship for My remembrance."
+    },
+    {
+      "n": 15,
+      "ar": "إِنَّ ٱلسَّاعَةَ ءَاتِيَةٌ أَكَادُ أُخْفِيهَا لِتُجْزَىٰ كُلُّ نَفْسٍۭ بِمَا تَسْعَىٰ",
+      "en": "Lo! the Hour is surely coming. But I will to keep it hidden, that every soul may be rewarded for that which it striveth (to achieve)."
+    },
+    {
+      "n": 16,
+      "ar": "فَلَا يَصُدَّنَّكَ عَنْهَا مَن لَّا يُؤْمِنُ بِهَا وَٱتَّبَعَ هَوَىٰهُ فَتَرْدَىٰ",
+      "en": "Therefor, let not him turn thee aside from (the thought of) it who believeth not therein but followeth his own desire, lest thou perish."
+    },
+    {
+      "n": 17,
+      "ar": "وَمَا تِلْكَ بِيَمِينِكَ يَـٰمُوسَىٰ",
+      "en": "And what is that in thy right hand, O Moses?"
+    },
+    {
+      "n": 18,
+      "ar": "قَالَ هِىَ عَصَاىَ أَتَوَكَّؤُا۟ عَلَيْهَا وَأَهُشُّ بِهَا عَلَىٰ غَنَمِى وَلِىَ فِيهَا مَـَٔارِبُ أُخْرَىٰ",
+      "en": "He said: This is my staff whereon I lean, and wherewith I bear down branches for my sheep, and wherein I find other uses."
+    },
+    { "n": 19, "ar": "قَالَ أَلْقِهَا يَـٰمُوسَىٰ", "en": "He said: Cast it down, O Moses!" },
+    {
+      "n": 20,
+      "ar": "فَأَلْقَىٰهَا فَإِذَا هِىَ حَيَّةٌ تَسْعَىٰ",
+      "en": "So he cast it down, and lo! it was a serpent, gliding."
+    },
+    {
+      "n": 21,
+      "ar": "قَالَ خُذْهَا وَلَا تَخَفْ ۖ سَنُعِيدُهَا سِيرَتَهَا ٱلْأُولَىٰ",
+      "en": "He said: Grasp it and fear not. We shall return it to its former state."
+    },
+    {
+      "n": 22,
+      "ar": "وَٱضْمُمْ يَدَكَ إِلَىٰ جَنَاحِكَ تَخْرُجْ بَيْضَآءَ مِنْ غَيْرِ سُوٓءٍ ءَايَةً أُخْرَىٰ",
+      "en": "And thrust thy hand within thine armpit, it will come forth white without hurt. (That will be) another token."
+    },
+    {
+      "n": 23,
+      "ar": "لِنُرِيَكَ مِنْ ءَايَـٰتِنَا ٱلْكُبْرَى",
+      "en": "That We may show thee (some) of Our greater portents,"
+    },
+    {
+      "n": 24,
+      "ar": "ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ",
+      "en": "Go thou unto Pharaoh! Lo! he hath transgressed (the bounds)."
+    },
+    { "n": 25, "ar": "قَالَ رَبِّ ٱشْرَحْ لِى صَدْرِى", "en": "(Moses) said: My Lord! relieve my mind" },
+    { "n": 26, "ar": "وَيَسِّرْ لِىٓ أَمْرِى", "en": "And ease my task for me;" },
+    { "n": 27, "ar": "وَٱحْلُلْ عُقْدَةً مِّن لِّسَانِى", "en": "And loose a knot from my tongue," },
+    { "n": 28, "ar": "يَفْقَهُوا۟ قَوْلِى", "en": "That they may understand my saying." },
+    {
+      "n": 29,
+      "ar": "وَٱجْعَل لِّى وَزِيرًا مِّنْ أَهْلِى",
+      "en": "Appoint for me a henchman from my folk,"
+    },
+    { "n": 30, "ar": "هَـٰرُونَ أَخِى", "en": "Aaron, my brother." },
+    { "n": 31, "ar": "ٱشْدُدْ بِهِۦٓ أَزْرِى", "en": "Confirm my strength with him" },
+    { "n": 32, "ar": "وَأَشْرِكْهُ فِىٓ أَمْرِى", "en": "And let him share my task," },
+    { "n": 33, "ar": "كَىْ نُسَبِّحَكَ كَثِيرًا", "en": "That we may glorify Thee much" },
+    { "n": 34, "ar": "وَنَذْكُرَكَ كَثِيرًا", "en": "And much remember Thee." },
+    { "n": 35, "ar": "إِنَّكَ كُنتَ بِنَا بَصِيرًا", "en": "Lo! Thou art ever Seeing us." },
+    {
+      "n": 36,
+      "ar": "قَالَ قَدْ أُوتِيتَ سُؤْلَكَ يَـٰمُوسَىٰ",
+      "en": "He said: Thou art granted thy request, O Moses."
+    },
+    {
+      "n": 37,
+      "ar": "وَلَقَدْ مَنَنَّا عَلَيْكَ مَرَّةً أُخْرَىٰٓ",
+      "en": "And indeed, another time, already We have shown thee favour,"
+    },
+    {
+      "n": 38,
+      "ar": "إِذْ أَوْحَيْنَآ إِلَىٰٓ أُمِّكَ مَا يُوحَىٰٓ",
+      "en": "When we inspired in thy mother that which is inspired,"
+    },
+    {
+      "n": 39,
+      "ar": "أَنِ ٱقْذِفِيهِ فِى ٱلتَّابُوتِ فَٱقْذِفِيهِ فِى ٱلْيَمِّ فَلْيُلْقِهِ ٱلْيَمُّ بِٱلسَّاحِلِ يَأْخُذْهُ عَدُوٌّ لِّى وَعَدُوٌّ لَّهُۥ ۚ وَأَلْقَيْتُ عَلَيْكَ مَحَبَّةً مِّنِّى وَلِتُصْنَعَ عَلَىٰ عَيْنِىٓ",
+      "en": "Saying: Throw him into the ark, and throw it into the river, then the river shall throw it on to the bank, and there an enemy to Me and an enemy to him shall take him. And I endued thee with love from Me that thou mightest be trained according to My will,"
+    },
+    {
+      "n": 40,
+      "ar": "إِذْ تَمْشِىٓ أُخْتُكَ فَتَقُولُ هَلْ أَدُلُّكُمْ عَلَىٰ مَن يَكْفُلُهُۥ ۖ فَرَجَعْنَـٰكَ إِلَىٰٓ أُمِّكَ كَىْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ ۚ وَقَتَلْتَ نَفْسًا فَنَجَّيْنَـٰكَ مِنَ ٱلْغَمِّ وَفَتَنَّـٰكَ فُتُونًا ۚ فَلَبِثْتَ سِنِينَ فِىٓ أَهْلِ مَدْيَنَ ثُمَّ جِئْتَ عَلَىٰ قَدَرٍ يَـٰمُوسَىٰ",
+      "en": "When thy sister went and said: Shall I show you one who will nurse him? and we restored thee to thy mother that her eyes might be refreshed and might not sorrow. And thou didst kill a man and We delivered thee from great distress, and tried thee with a heavy trial. And thou didst tarry years among the folk of Midian. Then camest thou (hither) by (My) providence, O Moses,"
+    },
+    { "n": 41, "ar": "وَٱصْطَنَعْتُكَ لِنَفْسِى", "en": "And I have attached thee to Myself." },
+    {
+      "n": 42,
+      "ar": "ٱذْهَبْ أَنتَ وَأَخُوكَ بِـَٔايَـٰتِى وَلَا تَنِيَا فِى ذِكْرِى",
+      "en": "Go, thou and thy brother, with My tokens, and be not faint in remembrance of Me."
+    },
+    {
+      "n": 43,
+      "ar": "ٱذْهَبَآ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ",
+      "en": "Go, both of you, unto Pharaoh. Lo! he hath transgressed (the bounds)."
+    },
+    {
+      "n": 44,
+      "ar": "فَقُولَا لَهُۥ قَوْلًا لَّيِّنًا لَّعَلَّهُۥ يَتَذَكَّرُ أَوْ يَخْشَىٰ",
+      "en": "And speak unto him a gentle word, that peradventure he may heed or fear."
+    },
+    {
+      "n": 45,
+      "ar": "قَالَا رَبَّنَآ إِنَّنَا نَخَافُ أَن يَفْرُطَ عَلَيْنَآ أَوْ أَن يَطْغَىٰ",
+      "en": "They said: Our Lord! Lo! we fear that he may be beforehand with us or that he may play the tyrant."
+    },
+    {
+      "n": 46,
+      "ar": "قَالَ لَا تَخَافَآ ۖ إِنَّنِى مَعَكُمَآ أَسْمَعُ وَأَرَىٰ",
+      "en": "He said: Fear not. Lo! I am with you twain, Hearing and Seeing."
+    },
+    {
+      "n": 47,
+      "ar": "فَأْتِيَاهُ فَقُولَآ إِنَّا رَسُولَا رَبِّكَ فَأَرْسِلْ مَعَنَا بَنِىٓ إِسْرَٰٓءِيلَ وَلَا تُعَذِّبْهُمْ ۖ قَدْ جِئْنَـٰكَ بِـَٔايَةٍ مِّن رَّبِّكَ ۖ وَٱلسَّلَـٰمُ عَلَىٰ مَنِ ٱتَّبَعَ ٱلْهُدَىٰٓ",
+      "en": "So go ye unto him and say: Lo! we are two messengers of thy Lord. So let the children of Israel go with us, and torment them not. We bring thee a token from thy Lord. And peace will be for him who followeth right guidance."
+    },
+    {
+      "n": 48,
+      "ar": "إِنَّا قَدْ أُوحِىَ إِلَيْنَآ أَنَّ ٱلْعَذَابَ عَلَىٰ مَن كَذَّبَ وَتَوَلَّىٰ",
+      "en": "Lo! it hath been revealed unto us that the doom will be for him who denieth and turneth away."
+    },
+    {
+      "n": 49,
+      "ar": "قَالَ فَمَن رَّبُّكُمَا يَـٰمُوسَىٰ",
+      "en": "(Pharaoh) said: Who then is the Lord of you twain, O Moses?"
+    },
+    {
+      "n": 50,
+      "ar": "قَالَ رَبُّنَا ٱلَّذِىٓ أَعْطَىٰ كُلَّ شَىْءٍ خَلْقَهُۥ ثُمَّ هَدَىٰ",
+      "en": "He said: Our Lord is He Who gave unto everything its nature, then guided it aright."
+    },
+    {
+      "n": 51,
+      "ar": "قَالَ فَمَا بَالُ ٱلْقُرُونِ ٱلْأُولَىٰ",
+      "en": "He said: What then is the state of the generations of old?"
+    },
+    {
+      "n": 52,
+      "ar": "قَالَ عِلْمُهَا عِندَ رَبِّى فِى كِتَـٰبٍ ۖ لَّا يَضِلُّ رَبِّى وَلَا يَنسَى",
+      "en": "He said: The knowledge thereof is with my Lord in a Record. My Lord neither erreth nor forgetteth,"
+    },
+    {
+      "n": 53,
+      "ar": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ مَهْدًا وَسَلَكَ لَكُمْ فِيهَا سُبُلًا وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦٓ أَزْوَٰجًا مِّن نَّبَاتٍ شَتَّىٰ",
+      "en": "Who hath appointed the earth as a bed and hath threaded roads for you therein and hath sent down water from the sky and thereby We have brought forth divers kinds of vegetation,"
+    },
+    {
+      "n": 54,
+      "ar": "كُلُوا۟ وَٱرْعَوْا۟ أَنْعَـٰمَكُمْ ۗ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّأُو۟لِى ٱلنُّهَىٰ",
+      "en": "(Saying): Eat ye and feed your cattle. Lo! herein verily are portents for men of thought."
+    },
+    {
+      "n": 55,
+      "ar": "۞ مِنْهَا خَلَقْنَـٰكُمْ وَفِيهَا نُعِيدُكُمْ وَمِنْهَا نُخْرِجُكُمْ تَارَةً أُخْرَىٰ",
+      "en": "Thereof We created you, and thereunto We return you, and thence We bring you forth a second time."
+    },
+    {
+      "n": 56,
+      "ar": "وَلَقَدْ أَرَيْنَـٰهُ ءَايَـٰتِنَا كُلَّهَا فَكَذَّبَ وَأَبَىٰ",
+      "en": "And We verily did show him all Our tokens, but he denied them and refused."
+    },
+    {
+      "n": 57,
+      "ar": "قَالَ أَجِئْتَنَا لِتُخْرِجَنَا مِنْ أَرْضِنَا بِسِحْرِكَ يَـٰمُوسَىٰ",
+      "en": "He said: Hast come to drive us out from our land by thy magic, O Moses?"
+    },
+    {
+      "n": 58,
+      "ar": "فَلَنَأْتِيَنَّكَ بِسِحْرٍ مِّثْلِهِۦ فَٱجْعَلْ بَيْنَنَا وَبَيْنَكَ مَوْعِدًا لَّا نُخْلِفُهُۥ نَحْنُ وَلَآ أَنتَ مَكَانًا سُوًى",
+      "en": "But we surely can produce for thee magic the like thereof; so appoint a tryst between us and you, which neither we nor thou shall fail to keep, at a place convenient (to us both)."
+    },
+    {
+      "n": 59,
+      "ar": "قَالَ مَوْعِدُكُمْ يَوْمُ ٱلزِّينَةِ وَأَن يُحْشَرَ ٱلنَّاسُ ضُحًى",
+      "en": "(Moses) said: Your tryst shall be the day of the feast, and let the people assemble when the sun hath risen high."
+    },
+    {
+      "n": 60,
+      "ar": "فَتَوَلَّىٰ فِرْعَوْنُ فَجَمَعَ كَيْدَهُۥ ثُمَّ أَتَىٰ",
+      "en": "Then Pharaoh went and gathered his strength, then came (to the appointed tryst)."
+    },
+    {
+      "n": 61,
+      "ar": "قَالَ لَهُم مُّوسَىٰ وَيْلَكُمْ لَا تَفْتَرُوا۟ عَلَى ٱللَّهِ كَذِبًا فَيُسْحِتَكُم بِعَذَابٍ ۖ وَقَدْ خَابَ مَنِ ٱفْتَرَىٰ",
+      "en": "Moses said unto them: Woe unto you! Invent not a lie against Allah, lest He extirpate you by some punishment. He who lieth faileth miserably."
+    },
+    {
+      "n": 62,
+      "ar": "فَتَنَـٰزَعُوٓا۟ أَمْرَهُم بَيْنَهُمْ وَأَسَرُّوا۟ ٱلنَّجْوَىٰ",
+      "en": "Then they debated one with another what they must do, and they kept their counsel secret."
+    },
+    {
+      "n": 63,
+      "ar": "قَالُوٓا۟ إِنْ هَـٰذَٰنِ لَسَـٰحِرَٰنِ يُرِيدَانِ أَن يُخْرِجَاكُم مِّنْ أَرْضِكُم بِسِحْرِهِمَا وَيَذْهَبَا بِطَرِيقَتِكُمُ ٱلْمُثْلَىٰ",
+      "en": "They said: Lo! these are two wizards who would drive you out from your country by their magic, and destroy your best traditions;"
+    },
+    {
+      "n": 64,
+      "ar": "فَأَجْمِعُوا۟ كَيْدَكُمْ ثُمَّ ٱئْتُوا۟ صَفًّا ۚ وَقَدْ أَفْلَحَ ٱلْيَوْمَ مَنِ ٱسْتَعْلَىٰ",
+      "en": "So arrange your plan, and come in battle line. Whoso is uppermost this day will be indeed successful."
+    },
+    {
+      "n": 65,
+      "ar": "قَالُوا۟ يَـٰمُوسَىٰٓ إِمَّآ أَن تُلْقِىَ وَإِمَّآ أَن نَّكُونَ أَوَّلَ مَنْ أَلْقَىٰ",
+      "en": "They said: O Moses! Either throw first, or let us be the first to throw?"
+    },
+    {
+      "n": 66,
+      "ar": "قَالَ بَلْ أَلْقُوا۟ ۖ فَإِذَا حِبَالُهُمْ وَعِصِيُّهُمْ يُخَيَّلُ إِلَيْهِ مِن سِحْرِهِمْ أَنَّهَا تَسْعَىٰ",
+      "en": "He said: Nay, do ye throw! Then lo! their cords and their staves, by their magic, appeared to him as though they ran."
+    },
+    {
+      "n": 67,
+      "ar": "فَأَوْجَسَ فِى نَفْسِهِۦ خِيفَةً مُّوسَىٰ",
+      "en": "And Moses conceived a fear in his mind."
+    },
+    {
+      "n": 68,
+      "ar": "قُلْنَا لَا تَخَفْ إِنَّكَ أَنتَ ٱلْأَعْلَىٰ",
+      "en": "We said: Fear not! Lo! thou art the higher."
+    },
+    {
+      "n": 69,
+      "ar": "وَأَلْقِ مَا فِى يَمِينِكَ تَلْقَفْ مَا صَنَعُوٓا۟ ۖ إِنَّمَا صَنَعُوا۟ كَيْدُ سَـٰحِرٍ ۖ وَلَا يُفْلِحُ ٱلسَّاحِرُ حَيْثُ أَتَىٰ",
+      "en": "Throw that which is in thy right hand! It will eat up that which they have made. Lo! that which they have made is but a wizard's artifice, and a wizard shall not be successful to whatever point (of skill) he may attain."
+    },
+    {
+      "n": 70,
+      "ar": "فَأُلْقِىَ ٱلسَّحَرَةُ سُجَّدًا قَالُوٓا۟ ءَامَنَّا بِرَبِّ هَـٰرُونَ وَمُوسَىٰ",
+      "en": "Then the wizards were (all) flung down prostrate, crying: We believe in the Lord of Aaron and Moses."
+    },
+    {
+      "n": 71,
+      "ar": "قَالَ ءَامَنتُمْ لَهُۥ قَبْلَ أَنْ ءَاذَنَ لَكُمْ ۖ إِنَّهُۥ لَكَبِيرُكُمُ ٱلَّذِى عَلَّمَكُمُ ٱلسِّحْرَ ۖ فَلَأُقَطِّعَنَّ أَيْدِيَكُمْ وَأَرْجُلَكُم مِّنْ خِلَـٰفٍ وَلَأُصَلِّبَنَّكُمْ فِى جُذُوعِ ٱلنَّخْلِ وَلَتَعْلَمُنَّ أَيُّنَآ أَشَدُّ عَذَابًا وَأَبْقَىٰ",
+      "en": "(Pharaoh) said: Ye put faith in him before I give you leave. Lo! he is your chief who taught you magic. Now surely I shall cut off your hands and your feet alternately, and I shall crucify you on the trunks of palm trees, and ye shall know for certain which of us hath sterner and more lasting punishment."
+    },
+    {
+      "n": 72,
+      "ar": "قَالُوا۟ لَن نُّؤْثِرَكَ عَلَىٰ مَا جَآءَنَا مِنَ ٱلْبَيِّنَـٰتِ وَٱلَّذِى فَطَرَنَا ۖ فَٱقْضِ مَآ أَنتَ قَاضٍ ۖ إِنَّمَا تَقْضِى هَـٰذِهِ ٱلْحَيَوٰةَ ٱلدُّنْيَآ",
+      "en": "They said: We choose thee not above the clear proofs that have come unto us, and above Him Who created us. So decree what thou wilt decree. Thou wilt end for us only this life of the world."
+    },
+    {
+      "n": 73,
+      "ar": "إِنَّآ ءَامَنَّا بِرَبِّنَا لِيَغْفِرَ لَنَا خَطَـٰيَـٰنَا وَمَآ أَكْرَهْتَنَا عَلَيْهِ مِنَ ٱلسِّحْرِ ۗ وَٱللَّهُ خَيْرٌ وَأَبْقَىٰٓ",
+      "en": "Lo! we believe in our Lord, that He may forgive us our sins and the magic unto which thou didst force us. Allah is better and more lasting."
+    },
+    {
+      "n": 74,
+      "ar": "إِنَّهُۥ مَن يَأْتِ رَبَّهُۥ مُجْرِمًا فَإِنَّ لَهُۥ جَهَنَّمَ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ",
+      "en": "Lo! whoso cometh guilty unto his Lord, verily for him is hell. There he will neither die nor live."
+    },
+    {
+      "n": 75,
+      "ar": "وَمَن يَأْتِهِۦ مُؤْمِنًا قَدْ عَمِلَ ٱلصَّـٰلِحَـٰتِ فَأُو۟لَـٰٓئِكَ لَهُمُ ٱلدَّرَجَـٰتُ ٱلْعُلَىٰ",
+      "en": "But whoso cometh unto Him a believer, having done good works, for such are the high stations;"
+    },
+    {
+      "n": 76,
+      "ar": "جَنَّـٰتُ عَدْنٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا ۚ وَذَٰلِكَ جَزَآءُ مَن تَزَكَّىٰ",
+      "en": "Gardens of Eden underneath which rivers flow, wherein they will abide for ever. That is the reward of him who groweth."
+    },
+    {
+      "n": 77,
+      "ar": "وَلَقَدْ أَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنْ أَسْرِ بِعِبَادِى فَٱضْرِبْ لَهُمْ طَرِيقًا فِى ٱلْبَحْرِ يَبَسًا لَّا تَخَـٰفُ دَرَكًا وَلَا تَخْشَىٰ",
+      "en": "And verily We inspired Moses, saying: Take away My slaves by night and strike for them a dry path in the sea, fearing not to be overtaken, neither being afraid (of the sea)."
+    },
+    {
+      "n": 78,
+      "ar": "فَأَتْبَعَهُمْ فِرْعَوْنُ بِجُنُودِهِۦ فَغَشِيَهُم مِّنَ ٱلْيَمِّ مَا غَشِيَهُمْ",
+      "en": "Then Pharaoh followed them with his hosts and there covered them that which did cover them of the sea."
+    },
+    {
+      "n": 79,
+      "ar": "وَأَضَلَّ فِرْعَوْنُ قَوْمَهُۥ وَمَا هَدَىٰ",
+      "en": "And Pharaoh led his folk astray, he did not guide them."
+    },
+    {
+      "n": 80,
+      "ar": "يَـٰبَنِىٓ إِسْرَٰٓءِيلَ قَدْ أَنجَيْنَـٰكُم مِّنْ عَدُوِّكُمْ وَوَٰعَدْنَـٰكُمْ جَانِبَ ٱلطُّورِ ٱلْأَيْمَنَ وَنَزَّلْنَا عَلَيْكُمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ",
+      "en": "O Children of Israel! We delivered you from your enemy, and we made a covenant with you on the holy mountain's side, and sent down on you the manna and the quails,"
+    },
+    {
+      "n": 81,
+      "ar": "كُلُوا۟ مِن طَيِّبَـٰتِ مَا رَزَقْنَـٰكُمْ وَلَا تَطْغَوْا۟ فِيهِ فَيَحِلَّ عَلَيْكُمْ غَضَبِى ۖ وَمَن يَحْلِلْ عَلَيْهِ غَضَبِى فَقَدْ هَوَىٰ",
+      "en": "(Saying): Eat of the good things wherewith We have provided you, and transgress not in respect thereof lest My wrath come upon you: and he on whom My wrath cometh, he is lost indeed."
+    },
+    {
+      "n": 82,
+      "ar": "وَإِنِّى لَغَفَّارٌ لِّمَن تَابَ وَءَامَنَ وَعَمِلَ صَـٰلِحًا ثُمَّ ٱهْتَدَىٰ",
+      "en": "And lo! verily I am Forgiving toward him who repenteth and believeth and doeth good, and afterward walketh aright."
+    },
+    {
+      "n": 83,
+      "ar": "۞ وَمَآ أَعْجَلَكَ عَن قَوْمِكَ يَـٰمُوسَىٰ",
+      "en": "And (it was said): What hath made thee hasten from thy folk, O Moses?"
+    },
+    {
+      "n": 84,
+      "ar": "قَالَ هُمْ أُو۟لَآءِ عَلَىٰٓ أَثَرِى وَعَجِلْتُ إِلَيْكَ رَبِّ لِتَرْضَىٰ",
+      "en": "He said: They are close upon my track. I hastened unto Thee, my Lord, that Thou mightest be well pleased."
+    },
+    {
+      "n": 85,
+      "ar": "قَالَ فَإِنَّا قَدْ فَتَنَّا قَوْمَكَ مِنۢ بَعْدِكَ وَأَضَلَّهُمُ ٱلسَّامِرِىُّ",
+      "en": "He said: Lo! We have tried thy folk in thine absence, and As-Samiri hath misled them."
+    },
+    {
+      "n": 86,
+      "ar": "فَرَجَعَ مُوسَىٰٓ إِلَىٰ قَوْمِهِۦ غَضْبَـٰنَ أَسِفًا ۚ قَالَ يَـٰقَوْمِ أَلَمْ يَعِدْكُمْ رَبُّكُمْ وَعْدًا حَسَنًا ۚ أَفَطَالَ عَلَيْكُمُ ٱلْعَهْدُ أَمْ أَرَدتُّمْ أَن يَحِلَّ عَلَيْكُمْ غَضَبٌ مِّن رَّبِّكُمْ فَأَخْلَفْتُم مَّوْعِدِى",
+      "en": "Then Moses went back unto his folk, angry and sad. He said: O my people! Hath not your Lord promised you a fair promise? Did the time appointed then appear too long for you, or did ye wish that wrath from your Lord should come upon you, that ye broke tryst with me?"
+    },
+    {
+      "n": 87,
+      "ar": "قَالُوا۟ مَآ أَخْلَفْنَا مَوْعِدَكَ بِمَلْكِنَا وَلَـٰكِنَّا حُمِّلْنَآ أَوْزَارًا مِّن زِينَةِ ٱلْقَوْمِ فَقَذَفْنَـٰهَا فَكَذَٰلِكَ أَلْقَى ٱلسَّامِرِىُّ",
+      "en": "They said: We broke not tryst with thee of our own will, but we were laden with burdens of ornaments of the folk, then cast them (in the fire), for thus As-Samiri proposed."
+    },
+    {
+      "n": 88,
+      "ar": "فَأَخْرَجَ لَهُمْ عِجْلًا جَسَدًا لَّهُۥ خُوَارٌ فَقَالُوا۟ هَـٰذَآ إِلَـٰهُكُمْ وَإِلَـٰهُ مُوسَىٰ فَنَسِىَ",
+      "en": "Then he produced for them a calf, of saffron hue, which gave forth a lowing sound. And they cried: This is your god and the god of Moses, but he hath forgotten."
+    },
+    {
+      "n": 89,
+      "ar": "أَفَلَا يَرَوْنَ أَلَّا يَرْجِعُ إِلَيْهِمْ قَوْلًا وَلَا يَمْلِكُ لَهُمْ ضَرًّا وَلَا نَفْعًا",
+      "en": "See they not, then, that it returneth no saying unto them and possesseth for them neither hurt nor use?"
+    },
+    {
+      "n": 90,
+      "ar": "وَلَقَدْ قَالَ لَهُمْ هَـٰرُونُ مِن قَبْلُ يَـٰقَوْمِ إِنَّمَا فُتِنتُم بِهِۦ ۖ وَإِنَّ رَبَّكُمُ ٱلرَّحْمَـٰنُ فَٱتَّبِعُونِى وَأَطِيعُوٓا۟ أَمْرِى",
+      "en": "And Aaron indeed had told them beforehand: O my people! Ye are but being seduced therewith, for lo! your Lord is the Beneficent, so follow me and obey my order."
+    },
+    {
+      "n": 91,
+      "ar": "قَالُوا۟ لَن نَّبْرَحَ عَلَيْهِ عَـٰكِفِينَ حَتَّىٰ يَرْجِعَ إِلَيْنَا مُوسَىٰ",
+      "en": "They said: We shall by no means cease to be its votaries till Moses return unto us."
+    },
+    {
+      "n": 92,
+      "ar": "قَالَ يَـٰهَـٰرُونُ مَا مَنَعَكَ إِذْ رَأَيْتَهُمْ ضَلُّوٓا۟",
+      "en": "He (Moses) said: O Aaron! What held thee back when thou didst see them gone astray,"
+    },
+    {
+      "n": 93,
+      "ar": "أَلَّا تَتَّبِعَنِ ۖ أَفَعَصَيْتَ أَمْرِى",
+      "en": "That thou followedst me not? Hast thou then disobeyed my order?"
+    },
+    {
+      "n": 94,
+      "ar": "قَالَ يَبْنَؤُمَّ لَا تَأْخُذْ بِلِحْيَتِى وَلَا بِرَأْسِىٓ ۖ إِنِّى خَشِيتُ أَن تَقُولَ فَرَّقْتَ بَيْنَ بَنِىٓ إِسْرَٰٓءِيلَ وَلَمْ تَرْقُبْ قَوْلِى",
+      "en": "He said: O son of my mother! Clutch not my beard nor my head! I feared lest thou shouldst say: Thou hast caused division among the Children of Israel, and hast not waited for my word."
+    },
+    {
+      "n": 95,
+      "ar": "قَالَ فَمَا خَطْبُكَ يَـٰسَـٰمِرِىُّ",
+      "en": "(Moses) said: And what hast thou to say, O Samiri?"
+    },
+    {
+      "n": 96,
+      "ar": "قَالَ بَصُرْتُ بِمَا لَمْ يَبْصُرُوا۟ بِهِۦ فَقَبَضْتُ قَبْضَةً مِّنْ أَثَرِ ٱلرَّسُولِ فَنَبَذْتُهَا وَكَذَٰلِكَ سَوَّلَتْ لِى نَفْسِى",
+      "en": "He said: I perceived what they perceive not, so I seized a handful from the footsteps of the messenger, and then threw it in. Thus my soul commended to me."
+    },
+    {
+      "n": 97,
+      "ar": "قَالَ فَٱذْهَبْ فَإِنَّ لَكَ فِى ٱلْحَيَوٰةِ أَن تَقُولَ لَا مِسَاسَ ۖ وَإِنَّ لَكَ مَوْعِدًا لَّن تُخْلَفَهُۥ ۖ وَٱنظُرْ إِلَىٰٓ إِلَـٰهِكَ ٱلَّذِى ظَلْتَ عَلَيْهِ عَاكِفًا ۖ لَّنُحَرِّقَنَّهُۥ ثُمَّ لَنَنسِفَنَّهُۥ فِى ٱلْيَمِّ نَسْفًا",
+      "en": "(Moses) said: Then go! and lo! in this life it is for thee to say: Touch me not! and lo! there is for thee a tryst thou canst not break. Now look upon thy god of which thou hast remained a votary. Verily we will burn it and will scatter its dust over the sea."
+    },
+    {
+      "n": 98,
+      "ar": "إِنَّمَآ إِلَـٰهُكُمُ ٱللَّهُ ٱلَّذِى لَآ إِلَـٰهَ إِلَّا هُوَ ۚ وَسِعَ كُلَّ شَىْءٍ عِلْمًا",
+      "en": "Your Allah is only Allah, than Whom there is no other Allah. He embraceth all things in His knowledge."
+    },
+    {
+      "n": 99,
+      "ar": "كَذَٰلِكَ نَقُصُّ عَلَيْكَ مِنْ أَنۢبَآءِ مَا قَدْ سَبَقَ ۚ وَقَدْ ءَاتَيْنَـٰكَ مِن لَّدُنَّا ذِكْرًا",
+      "en": "Thus relate We unto thee (Muhammad) some tidings of that which happened of old, and We have given thee from Our presence a reminder."
+    },
+    {
+      "n": 100,
+      "ar": "مَّنْ أَعْرَضَ عَنْهُ فَإِنَّهُۥ يَحْمِلُ يَوْمَ ٱلْقِيَـٰمَةِ وِزْرًا",
+      "en": "Whoso turneth away from it, he verily will bear a burden on the Day of Resurrection,"
+    },
+    {
+      "n": 101,
+      "ar": "خَـٰلِدِينَ فِيهِ ۖ وَسَآءَ لَهُمْ يَوْمَ ٱلْقِيَـٰمَةِ حِمْلًا",
+      "en": "Abiding under it - an evil burden for them on the Day of Resurrection,"
+    },
+    {
+      "n": 102,
+      "ar": "يَوْمَ يُنفَخُ فِى ٱلصُّورِ ۚ وَنَحْشُرُ ٱلْمُجْرِمِينَ يَوْمَئِذٍ زُرْقًا",
+      "en": "The day when the Trumpet is blown. On that day we assemble the guilty white-eyed (with terror),"
+    },
+    {
+      "n": 103,
+      "ar": "يَتَخَـٰفَتُونَ بَيْنَهُمْ إِن لَّبِثْتُمْ إِلَّا عَشْرًا",
+      "en": "Murmuring among themselves: Ye have tarried but ten (days)."
+    },
+    {
+      "n": 104,
+      "ar": "نَّحْنُ أَعْلَمُ بِمَا يَقُولُونَ إِذْ يَقُولُ أَمْثَلُهُمْ طَرِيقَةً إِن لَّبِثْتُمْ إِلَّا يَوْمًا",
+      "en": "We are Best Aware of what they utter when their best in conduct say: Ye have tarried but a day."
+    },
+    {
+      "n": 105,
+      "ar": "وَيَسْـَٔلُونَكَ عَنِ ٱلْجِبَالِ فَقُلْ يَنسِفُهَا رَبِّى نَسْفًا",
+      "en": "They will ask thee of the mountains (on that day). Say: My Lord will break them into scattered dust."
+    },
+    { "n": 106, "ar": "فَيَذَرُهَا قَاعًا صَفْصَفًا", "en": "And leave it as an empty plain," },
+    {
+      "n": 107,
+      "ar": "لَّا تَرَىٰ فِيهَا عِوَجًا وَلَآ أَمْتًا",
+      "en": "Wherein thou seest neither curve nor ruggedness."
+    },
+    {
+      "n": 108,
+      "ar": "يَوْمَئِذٍ يَتَّبِعُونَ ٱلدَّاعِىَ لَا عِوَجَ لَهُۥ ۖ وَخَشَعَتِ ٱلْأَصْوَاتُ لِلرَّحْمَـٰنِ فَلَا تَسْمَعُ إِلَّا هَمْسًا",
+      "en": "On that day they follow the summoner who deceiveth not, and voices are hushed for the Beneficent, and thou hearest but a faint murmur."
+    },
+    {
+      "n": 109,
+      "ar": "يَوْمَئِذٍ لَّا تَنفَعُ ٱلشَّفَـٰعَةُ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَـٰنُ وَرَضِىَ لَهُۥ قَوْلًا",
+      "en": "On that day no intercession availeth save (that of) him unto whom the Beneficent hath given leave and whose word He accepteth."
+    },
+    {
+      "n": 110,
+      "ar": "يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلَا يُحِيطُونَ بِهِۦ عِلْمًا",
+      "en": "He knoweth (all) that is before them and (all) that is behind them, while they cannot compass it in knowledge."
+    },
+    {
+      "n": 111,
+      "ar": "۞ وَعَنَتِ ٱلْوُجُوهُ لِلْحَىِّ ٱلْقَيُّومِ ۖ وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًا",
+      "en": "And faces humble themselves before the Living, the Eternal. And he who beareth (a burden of) wrongdoing is indeed a failure (on that day)."
+    },
+    {
+      "n": 112,
+      "ar": "وَمَن يَعْمَلْ مِنَ ٱلصَّـٰلِحَـٰتِ وَهُوَ مُؤْمِنٌ فَلَا يَخَافُ ظُلْمًا وَلَا هَضْمًا",
+      "en": "And he who hath done some good works, being a believer, he feareth not injustice nor begrudging (of his wage)."
+    },
+    {
+      "n": 113,
+      "ar": "وَكَذَٰلِكَ أَنزَلْنَـٰهُ قُرْءَانًا عَرَبِيًّا وَصَرَّفْنَا فِيهِ مِنَ ٱلْوَعِيدِ لَعَلَّهُمْ يَتَّقُونَ أَوْ يُحْدِثُ لَهُمْ ذِكْرًا",
+      "en": "Thus we have revealed it as a Lecture in Arabic, and have displayed therein certain threats, that peradventure they may keep from evil or that it may cause them to take heed."
+    },
+    {
+      "n": 114,
+      "ar": "فَتَعَـٰلَى ٱللَّهُ ٱلْمَلِكُ ٱلْحَقُّ ۗ وَلَا تَعْجَلْ بِٱلْقُرْءَانِ مِن قَبْلِ أَن يُقْضَىٰٓ إِلَيْكَ وَحْيُهُۥ ۖ وَقُل رَّبِّ زِدْنِى عِلْمًا",
+      "en": "Then exalted be Allah, the True King! And hasten not (O Muhammad) with the Qur'an ere its revelation hath been perfected unto thee, and say: My Lord! Increase me in knowledge."
+    },
+    {
+      "n": 115,
+      "ar": "وَلَقَدْ عَهِدْنَآ إِلَىٰٓ ءَادَمَ مِن قَبْلُ فَنَسِىَ وَلَمْ نَجِدْ لَهُۥ عَزْمًا",
+      "en": "And verily We made a covenant of old with Adam, but he forgot, and We found no constancy in him."
+    },
+    {
+      "n": 116,
+      "ar": "وَإِذْ قُلْنَا لِلْمَلَـٰٓئِكَةِ ٱسْجُدُوا۟ لِـَٔادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ أَبَىٰ",
+      "en": "And when We said unto the angels: Fall prostrate before Adam, they fell prostrate (all) save Iblis; he refused."
+    },
+    {
+      "n": 117,
+      "ar": "فَقُلْنَا يَـٰٓـَٔادَمُ إِنَّ هَـٰذَا عَدُوٌّ لَّكَ وَلِزَوْجِكَ فَلَا يُخْرِجَنَّكُمَا مِنَ ٱلْجَنَّةِ فَتَشْقَىٰٓ",
+      "en": "Therefor we said: O Adam! This is an enemy unto thee and unto thy wife, so let him not drive you both out of the Garden so that thou come to toil."
+    },
+    {
+      "n": 118,
+      "ar": "إِنَّ لَكَ أَلَّا تَجُوعَ فِيهَا وَلَا تَعْرَىٰ",
+      "en": "It is (vouchsafed) unto thee that thou hungerest not therein nor art naked,"
+    },
+    {
+      "n": 119,
+      "ar": "وَأَنَّكَ لَا تَظْمَؤُا۟ فِيهَا وَلَا تَضْحَىٰ",
+      "en": "And that thou thirstest not therein nor art exposed to the sun's heat."
+    },
+    {
+      "n": 120,
+      "ar": "فَوَسْوَسَ إِلَيْهِ ٱلشَّيْطَـٰنُ قَالَ يَـٰٓـَٔادَمُ هَلْ أَدُلُّكَ عَلَىٰ شَجَرَةِ ٱلْخُلْدِ وَمُلْكٍ لَّا يَبْلَىٰ",
+      "en": "But the devil whispered to him, saying: O Adam! Shall I show thee the tree of immortality and power that wasteth not away?"
+    },
+    {
+      "n": 121,
+      "ar": "فَأَكَلَا مِنْهَا فَبَدَتْ لَهُمَا سَوْءَٰتُهُمَا وَطَفِقَا يَخْصِفَانِ عَلَيْهِمَا مِن وَرَقِ ٱلْجَنَّةِ ۚ وَعَصَىٰٓ ءَادَمُ رَبَّهُۥ فَغَوَىٰ",
+      "en": "Then they twain ate thereof, so that their shame became apparent unto them, and they began to hide by heaping on themselves some of the leaves of the Garden. And Adam disobeyed his Lord, so went astray."
+    },
+    {
+      "n": 122,
+      "ar": "ثُمَّ ٱجْتَبَـٰهُ رَبُّهُۥ فَتَابَ عَلَيْهِ وَهَدَىٰ",
+      "en": "Then his Lord chose him, and relented toward him, and guided him."
+    },
+    {
+      "n": 123,
+      "ar": "قَالَ ٱهْبِطَا مِنْهَا جَمِيعًۢا ۖ بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًى فَمَنِ ٱتَّبَعَ هُدَاىَ فَلَا يَضِلُّ وَلَا يَشْقَىٰ",
+      "en": "He said: Go down hence, both of you, one of you a foe unto the other. But when there come unto you from Me a guidance, then whoso followeth My guidance, he will not go astray nor come to grief."
+    },
+    {
+      "n": 124,
+      "ar": "وَمَنْ أَعْرَضَ عَن ذِكْرِى فَإِنَّ لَهُۥ مَعِيشَةً ضَنكًا وَنَحْشُرُهُۥ يَوْمَ ٱلْقِيَـٰمَةِ أَعْمَىٰ",
+      "en": "But he who turneth away from remembrance of Me, his will be a narrow life, and I shall bring him blind to the assembly on the Day of Resurrection."
+    },
+    {
+      "n": 125,
+      "ar": "قَالَ رَبِّ لِمَ حَشَرْتَنِىٓ أَعْمَىٰ وَقَدْ كُنتُ بَصِيرًا",
+      "en": "He will say: My Lord! Wherefor hast Thou gathered me (hither) blind, when I was wont to see?"
+    },
+    {
+      "n": 126,
+      "ar": "قَالَ كَذَٰلِكَ أَتَتْكَ ءَايَـٰتُنَا فَنَسِيتَهَا ۖ وَكَذَٰلِكَ ٱلْيَوْمَ تُنسَىٰ",
+      "en": "He will say: So (it must be). Our revelations came unto thee but thou didst forget them. In like manner thou art forgotten this Day."
+    },
+    {
+      "n": 127,
+      "ar": "وَكَذَٰلِكَ نَجْزِى مَنْ أَسْرَفَ وَلَمْ يُؤْمِنۢ بِـَٔايَـٰتِ رَبِّهِۦ ۚ وَلَعَذَابُ ٱلْـَٔاخِرَةِ أَشَدُّ وَأَبْقَىٰٓ",
+      "en": "Thus do We reward him who is prodigal and believeth not the revelations of his Lord; and verily the doom of the Hereafter will be sterner and more lasting."
+    },
+    {
+      "n": 128,
+      "ar": "أَفَلَمْ يَهْدِ لَهُمْ كَمْ أَهْلَكْنَا قَبْلَهُم مِّنَ ٱلْقُرُونِ يَمْشُونَ فِى مَسَـٰكِنِهِمْ ۗ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّأُو۟لِى ٱلنُّهَىٰ",
+      "en": "Is it not a guidance for them (to know) how many a generation We destroyed before them, amid whose dwellings they walk? Lo! therein verily are signs for men of thought."
+    },
+    {
+      "n": 129,
+      "ar": "وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِن رَّبِّكَ لَكَانَ لِزَامًا وَأَجَلٌ مُّسَمًّى",
+      "en": "And but for a decree that had already gone forth from thy Lord, and a term already fixed, the judgment would have been inevitable (in this world)."
+    },
+    {
+      "n": 130,
+      "ar": "فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ ٱلشَّمْسِ وَقَبْلَ غُرُوبِهَا ۖ وَمِنْ ءَانَآئِ ٱلَّيْلِ فَسَبِّحْ وَأَطْرَافَ ٱلنَّهَارِ لَعَلَّكَ تَرْضَىٰ",
+      "en": "Therefor (O Muhammad), bear with what they say, and celebrate the praise of thy Lord ere the rising of the sun and ere the going down thereof. And glorify Him some hours of the night and at the two ends of the day, that thou mayst find acceptance."
+    },
+    {
+      "n": 131,
+      "ar": "وَلَا تَمُدَّنَّ عَيْنَيْكَ إِلَىٰ مَا مَتَّعْنَا بِهِۦٓ أَزْوَٰجًا مِّنْهُمْ زَهْرَةَ ٱلْحَيَوٰةِ ٱلدُّنْيَا لِنَفْتِنَهُمْ فِيهِ ۚ وَرِزْقُ رَبِّكَ خَيْرٌ وَأَبْقَىٰ",
+      "en": "And strain not thine eyes toward that which We cause some wedded pairs among them to enjoy, the flower of the life of the world, that We may try them thereby. The provision of thy Lord is better and more lasting."
+    },
+    {
+      "n": 132,
+      "ar": "وَأْمُرْ أَهْلَكَ بِٱلصَّلَوٰةِ وَٱصْطَبِرْ عَلَيْهَا ۖ لَا نَسْـَٔلُكَ رِزْقًا ۖ نَّحْنُ نَرْزُقُكَ ۗ وَٱلْعَـٰقِبَةُ لِلتَّقْوَىٰ",
+      "en": "And enjoin upon thy people worship, and be constant therein. We ask not of thee a provision: We provided for thee. And the sequel is for righteousness."
+    },
+    {
+      "n": 133,
+      "ar": "وَقَالُوا۟ لَوْلَا يَأْتِينَا بِـَٔايَةٍ مِّن رَّبِّهِۦٓ ۚ أَوَلَمْ تَأْتِهِم بَيِّنَةُ مَا فِى ٱلصُّحُفِ ٱلْأُولَىٰ",
+      "en": "And they say: If only he would bring us a miracle from his Lord! Hath there not come unto them the proof of what is in the former scriptures?"
+    },
+    {
+      "n": 134,
+      "ar": "وَلَوْ أَنَّآ أَهْلَكْنَـٰهُم بِعَذَابٍ مِّن قَبْلِهِۦ لَقَالُوا۟ رَبَّنَا لَوْلَآ أَرْسَلْتَ إِلَيْنَا رَسُولًا فَنَتَّبِعَ ءَايَـٰتِكَ مِن قَبْلِ أَن نَّذِلَّ وَنَخْزَىٰ",
+      "en": "And if we had destroyed them with some punishment before it, they would assuredly have said: Our Lord! If only Thou hadst sent unto us a messenger, so that we might have followed Thy revelations before we were (thus) humbled and disgraced!"
+    },
+    {
+      "n": 135,
+      "ar": "قُلْ كُلٌّ مُّتَرَبِّصٌ فَتَرَبَّصُوا۟ ۖ فَسَتَعْلَمُونَ مَنْ أَصْحَـٰبُ ٱلصِّرَٰطِ ٱلسَّوِىِّ وَمَنِ ٱهْتَدَىٰ",
+      "en": "Say: Each is awaiting; so await ye! Ye will come to know who are the owners of the path of equity, and who is right."
+    }
+  ]
+}

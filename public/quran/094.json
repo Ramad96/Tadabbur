@@ -1,0 +1,15 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 94,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ", "en": "Have We not caused thy bosom to dilate," },
+    { "n": 2, "ar": "وَوَضَعْنَا عَنكَ وِزْرَكَ", "en": "And eased thee of the burden" },
+    { "n": 3, "ar": "ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ", "en": "Which weighed down thy back;" },
+    { "n": 4, "ar": "وَرَفَعْنَا لَكَ ذِكْرَكَ", "en": "And exalted thy fame?" },
+    { "n": 5, "ar": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا", "en": "But lo! with hardship goeth ease," },
+    { "n": 6, "ar": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا", "en": "Lo! with hardship goeth ease;" },
+    { "n": 7, "ar": "فَإِذَا فَرَغْتَ فَٱنصَبْ", "en": "So when thou art relieved, still toil" },
+    { "n": 8, "ar": "وَإِلَىٰ رَبِّكَ فَٱرْغَب", "en": "And strive to please thy Lord." }
+  ]
+}

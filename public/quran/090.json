@@ -1,0 +1,59 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 90,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "لَآ أُقْسِمُ بِهَـٰذَا ٱلْبَلَدِ", "en": "Nay, I swear by this city -" },
+    { "n": 2, "ar": "وَأَنتَ حِلٌّۢ بِهَـٰذَا ٱلْبَلَدِ", "en": "And thou art an indweller of this city -" },
+    { "n": 3, "ar": "وَوَالِدٍ وَمَا وَلَدَ", "en": "And the begetter and that which he begat," },
+    {
+      "n": 4,
+      "ar": "لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِى كَبَدٍ",
+      "en": "We verily have created man in an atmosphere:"
+    },
+    {
+      "n": 5,
+      "ar": "أَيَحْسَبُ أَن لَّن يَقْدِرَ عَلَيْهِ أَحَدٌ",
+      "en": "Thinketh he that none hath power over him?"
+    },
+    {
+      "n": 6,
+      "ar": "يَقُولُ أَهْلَكْتُ مَالًا لُّبَدًا",
+      "en": "And he saith: I have destroyed vast wealth:"
+    },
+    { "n": 7, "ar": "أَيَحْسَبُ أَن لَّمْ يَرَهُۥٓ أَحَدٌ", "en": "Thinketh he that none beholdeth him?" },
+    { "n": 8, "ar": "أَلَمْ نَجْعَل لَّهُۥ عَيْنَيْنِ", "en": "Did We not assign unto him two eyes" },
+    { "n": 9, "ar": "وَلِسَانًا وَشَفَتَيْنِ", "en": "And a tongue and two lips," },
+    {
+      "n": 10,
+      "ar": "وَهَدَيْنَـٰهُ ٱلنَّجْدَيْنِ",
+      "en": "And guide him to the parting of the mountain ways?"
+    },
+    { "n": 11, "ar": "فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ", "en": "But he hath not attempted the Ascent -" },
+    {
+      "n": 12,
+      "ar": "وَمَآ أَدْرَىٰكَ مَا ٱلْعَقَبَةُ",
+      "en": "Ah, what will convey unto thee what the Ascent is! -"
+    },
+    { "n": 13, "ar": "فَكُّ رَقَبَةٍ", "en": "(It is) to free a slave," },
+    { "n": 14, "ar": "أَوْ إِطْعَـٰمٌ فِى يَوْمٍ ذِى مَسْغَبَةٍ", "en": "And to feed in the day of hunger." },
+    { "n": 15, "ar": "يَتِيمًا ذَا مَقْرَبَةٍ", "en": "An orphan near of kin," },
+    { "n": 16, "ar": "أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ", "en": "Or some poor wretch in misery," },
+    {
+      "n": 17,
+      "ar": "ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ",
+      "en": "And to be of those who believe and exhort one another to perseverance and exhort one another to pity."
+    },
+    {
+      "n": 18,
+      "ar": "أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْمَيْمَنَةِ",
+      "en": "Their place will be on the right hand."
+    },
+    {
+      "n": 19,
+      "ar": "وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِنَا هُمْ أَصْحَـٰبُ ٱلْمَشْـَٔمَةِ",
+      "en": "But those who disbelieve Our revelations, their place will be on the left hand."
+    },
+    { "n": 20, "ar": "عَلَيْهِمْ نَارٌ مُّؤْصَدَةٌۢ", "en": "Fire will be an awning over them." }
+  ]
+}

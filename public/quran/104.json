@@ -1,0 +1,36 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 104,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ", "en": "Woe unto every slandering traducer," },
+    {
+      "n": 2,
+      "ar": "ٱلَّذِى جَمَعَ مَالًا وَعَدَّدَهُۥ",
+      "en": "Who hath gathered wealth (of this world) and arranged it."
+    },
+    {
+      "n": 3,
+      "ar": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ",
+      "en": "He thinketh that his wealth will render him immortal."
+    },
+    {
+      "n": 4,
+      "ar": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
+      "en": "Nay, but verily he will be flung to the Consuming One."
+    },
+    {
+      "n": 5,
+      "ar": "وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ",
+      "en": "Ah, what will convey unto thee what the Consuming One is!"
+    },
+    { "n": 6, "ar": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ", "en": "(It is) the fire of Allah, kindled," },
+    {
+      "n": 7,
+      "ar": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ",
+      "en": "Which leapeth up over the hearts (of men)."
+    },
+    { "n": 8, "ar": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ", "en": "Lo! it is closed in on them" },
+    { "n": 9, "ar": "فِى عَمَدٍ مُّمَدَّدَةٍۭ", "en": "In outstretched columns." }
+  ]
+}

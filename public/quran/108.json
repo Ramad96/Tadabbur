@@ -1,0 +1,14 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 108,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    { "n": 1, "ar": "إِنَّآ أَعْطَيْنَـٰكَ ٱلْكَوْثَرَ", "en": "Lo! We have given thee Abundance;" },
+    { "n": 2, "ar": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ", "en": "So pray unto thy Lord, and sacrifice." },
+    {
+      "n": 3,
+      "ar": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+      "en": "Lo! it is thy insulter (and not thou) who is without posterity."
+    }
+  ]
+}

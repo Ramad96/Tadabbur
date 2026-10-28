@@ -1,0 +1,486 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 15,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    {
+      "n": 1,
+      "ar": "الٓر ۚ تِلْكَ ءَايَـٰتُ ٱلْكِتَـٰبِ وَقُرْءَانٍ مُّبِينٍ",
+      "en": "Alif. Lam. Ra. These are verses of the Scripture and a plain Reading."
+    },
+    {
+      "n": 2,
+      "ar": "رُّبَمَا يَوَدُّ ٱلَّذِينَ كَفَرُوا۟ لَوْ كَانُوا۟ مُسْلِمِينَ",
+      "en": "It may be that those who disbelieve wish ardently that they were Muslims."
+    },
+    {
+      "n": 3,
+      "ar": "ذَرْهُمْ يَأْكُلُوا۟ وَيَتَمَتَّعُوا۟ وَيُلْهِهِمُ ٱلْأَمَلُ ۖ فَسَوْفَ يَعْلَمُونَ",
+      "en": "Let them eat and enjoy life, and let (false) hope beguile them. They will come to know!"
+    },
+    {
+      "n": 4,
+      "ar": "وَمَآ أَهْلَكْنَا مِن قَرْيَةٍ إِلَّا وَلَهَا كِتَابٌ مَّعْلُومٌ",
+      "en": "And We destroyed no township but there was a known decree for it."
+    },
+    {
+      "n": 5,
+      "ar": "مَّا تَسْبِقُ مِنْ أُمَّةٍ أَجَلَهَا وَمَا يَسْتَـْٔخِرُونَ",
+      "en": "No nation can outstrip its term nor can they lag behind."
+    },
+    {
+      "n": 6,
+      "ar": "وَقَالُوا۟ يَـٰٓأَيُّهَا ٱلَّذِى نُزِّلَ عَلَيْهِ ٱلذِّكْرُ إِنَّكَ لَمَجْنُونٌ",
+      "en": "And they say: O thou unto whom the Reminder is revealed, lo! thou art indeed a madman!"
+    },
+    {
+      "n": 7,
+      "ar": "لَّوْ مَا تَأْتِينَا بِٱلْمَلَـٰٓئِكَةِ إِن كُنتَ مِنَ ٱلصَّـٰدِقِينَ",
+      "en": "Why bringest thou not angels unto us, if thou art of the truthful?"
+    },
+    {
+      "n": 8,
+      "ar": "مَا نُنَزِّلُ ٱلْمَلَـٰٓئِكَةَ إِلَّا بِٱلْحَقِّ وَمَا كَانُوٓا۟ إِذًا مُّنظَرِينَ",
+      "en": "We send not down the angels save with the Fact, and in that case (the disbelievers) would not be tolerated."
+    },
+    {
+      "n": 9,
+      "ar": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَـٰفِظُونَ",
+      "en": "Lo! We, even We, reveal the Reminder, and lo! We verily are its Guardian."
+    },
+    {
+      "n": 10,
+      "ar": "وَلَقَدْ أَرْسَلْنَا مِن قَبْلِكَ فِى شِيَعِ ٱلْأَوَّلِينَ",
+      "en": "We verily sent (messengers) before thee among the factions of the men of old."
+    },
+    {
+      "n": 11,
+      "ar": "وَمَا يَأْتِيهِم مِّن رَّسُولٍ إِلَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
+      "en": "And never came there unto them a messenger but they did mock him."
+    },
+    {
+      "n": 12,
+      "ar": "كَذَٰلِكَ نَسْلُكُهُۥ فِى قُلُوبِ ٱلْمُجْرِمِينَ",
+      "en": "Thus do We make it traverse the hearts of the guilty:"
+    },
+    {
+      "n": 13,
+      "ar": "لَا يُؤْمِنُونَ بِهِۦ ۖ وَقَدْ خَلَتْ سُنَّةُ ٱلْأَوَّلِينَ",
+      "en": "They believe not therein, though the example of the men of old hath gone before."
+    },
+    {
+      "n": 14,
+      "ar": "وَلَوْ فَتَحْنَا عَلَيْهِم بَابًا مِّنَ ٱلسَّمَآءِ فَظَلُّوا۟ فِيهِ يَعْرُجُونَ",
+      "en": "And even if We opened unto them a gate of heaven and they kept mounting through it,"
+    },
+    {
+      "n": 15,
+      "ar": "لَقَالُوٓا۟ إِنَّمَا سُكِّرَتْ أَبْصَـٰرُنَا بَلْ نَحْنُ قَوْمٌ مَّسْحُورُونَ",
+      "en": "They would say: Our sight is wrong - nay, but we are folk bewitched."
+    },
+    {
+      "n": 16,
+      "ar": "وَلَقَدْ جَعَلْنَا فِى ٱلسَّمَآءِ بُرُوجًا وَزَيَّنَّـٰهَا لِلنَّـٰظِرِينَ",
+      "en": "And verily in the heaven we have set mansions of the stars, and We have beautified it for beholders."
+    },
+    {
+      "n": 17,
+      "ar": "وَحَفِظْنَـٰهَا مِن كُلِّ شَيْطَـٰنٍ رَّجِيمٍ",
+      "en": "And We have guarded it from every outcast devil,"
+    },
+    {
+      "n": 18,
+      "ar": "إِلَّا مَنِ ٱسْتَرَقَ ٱلسَّمْعَ فَأَتْبَعَهُۥ شِهَابٌ مُّبِينٌ",
+      "en": "Save him who stealeth the hearing, and them doth a clear flame pursue."
+    },
+    {
+      "n": 19,
+      "ar": "وَٱلْأَرْضَ مَدَدْنَـٰهَا وَأَلْقَيْنَا فِيهَا رَوَٰسِىَ وَأَنۢبَتْنَا فِيهَا مِن كُلِّ شَىْءٍ مَّوْزُونٍ",
+      "en": "And the earth have We spread out, and placed therein firm hills, and caused each seemly thing to grow therein."
+    },
+    {
+      "n": 20,
+      "ar": "وَجَعَلْنَا لَكُمْ فِيهَا مَعَـٰيِشَ وَمَن لَّسْتُمْ لَهُۥ بِرَٰزِقِينَ",
+      "en": "And we have given unto you livelihoods therein, and unto those for whom ye provide not."
+    },
+    {
+      "n": 21,
+      "ar": "وَإِن مِّن شَىْءٍ إِلَّا عِندَنَا خَزَآئِنُهُۥ وَمَا نُنَزِّلُهُۥٓ إِلَّا بِقَدَرٍ مَّعْلُومٍ",
+      "en": "And there is not a thing but with Us are the stores thereof. And we send it not down save in appointed measure."
+    },
+    {
+      "n": 22,
+      "ar": "وَأَرْسَلْنَا ٱلرِّيَـٰحَ لَوَٰقِحَ فَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً فَأَسْقَيْنَـٰكُمُوهُ وَمَآ أَنتُمْ لَهُۥ بِخَـٰزِنِينَ",
+      "en": "And We send the winds fertilising, and cause water to descend from the sky, and give it you to drink. It is not ye who are the holders of the store thereof."
+    },
+    {
+      "n": 23,
+      "ar": "وَإِنَّا لَنَحْنُ نُحْىِۦ وَنُمِيتُ وَنَحْنُ ٱلْوَٰرِثُونَ",
+      "en": "Lo! and it is We, even We, Who quicken and give death, and We are the Inheritor."
+    },
+    {
+      "n": 24,
+      "ar": "وَلَقَدْ عَلِمْنَا ٱلْمُسْتَقْدِمِينَ مِنكُمْ وَلَقَدْ عَلِمْنَا ٱلْمُسْتَـْٔخِرِينَ",
+      "en": "And verily We know the eager among you and verily We know the laggards."
+    },
+    {
+      "n": 25,
+      "ar": "وَإِنَّ رَبَّكَ هُوَ يَحْشُرُهُمْ ۚ إِنَّهُۥ حَكِيمٌ عَلِيمٌ",
+      "en": "Lo! thy Lord will gather them together. Lo! He is Wise, Aware."
+    },
+    {
+      "n": 26,
+      "ar": "وَلَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ مِن صَلْصَـٰلٍ مِّنْ حَمَإٍ مَّسْنُونٍ",
+      "en": "Verily We created man of potter's clay of black mud altered,"
+    },
+    {
+      "n": 27,
+      "ar": "وَٱلْجَآنَّ خَلَقْنَـٰهُ مِن قَبْلُ مِن نَّارِ ٱلسَّمُومِ",
+      "en": "And the jinn did We create aforetime of essential fire."
+    },
+    {
+      "n": 28,
+      "ar": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَـٰٓئِكَةِ إِنِّى خَـٰلِقٌۢ بَشَرًا مِّن صَلْصَـٰلٍ مِّنْ حَمَإٍ مَّسْنُونٍ",
+      "en": "And (remember) when thy Lord said unto the angels: Lo! I am creating a mortal out of potter's clay of black mud altered,"
+    },
+    {
+      "n": 29,
+      "ar": "فَإِذَا سَوَّيْتُهُۥ وَنَفَخْتُ فِيهِ مِن رُّوحِى فَقَعُوا۟ لَهُۥ سَـٰجِدِينَ",
+      "en": "So, when I have made him and have breathed into him of My Spirit, do ye fall down, prostrating yourselves unto him."
+    },
+    {
+      "n": 30,
+      "ar": "فَسَجَدَ ٱلْمَلَـٰٓئِكَةُ كُلُّهُمْ أَجْمَعُونَ",
+      "en": "So the angels fell prostrate, all of them together"
+    },
+    {
+      "n": 31,
+      "ar": "إِلَّآ إِبْلِيسَ أَبَىٰٓ أَن يَكُونَ مَعَ ٱلسَّـٰجِدِينَ",
+      "en": "Save Iblis. He refused to be among the prostrate."
+    },
+    {
+      "n": 32,
+      "ar": "قَالَ يَـٰٓإِبْلِيسُ مَا لَكَ أَلَّا تَكُونَ مَعَ ٱلسَّـٰجِدِينَ",
+      "en": "He said: O Iblis! What aileth thee that thou art not among the prostrate?"
+    },
+    {
+      "n": 33,
+      "ar": "قَالَ لَمْ أَكُن لِّأَسْجُدَ لِبَشَرٍ خَلَقْتَهُۥ مِن صَلْصَـٰلٍ مِّنْ حَمَإٍ مَّسْنُونٍ",
+      "en": "He said: I am not one to prostrate myself unto a mortal whom Thou hast created out of potter's clay of black mud altered!"
+    },
+    {
+      "n": 34,
+      "ar": "قَالَ فَٱخْرُجْ مِنْهَا فَإِنَّكَ رَجِيمٌ",
+      "en": "He said: Then go thou forth from hence, for lo! thou art outcast."
+    },
+    {
+      "n": 35,
+      "ar": "وَإِنَّ عَلَيْكَ ٱللَّعْنَةَ إِلَىٰ يَوْمِ ٱلدِّينِ",
+      "en": "And lo! the curse shall be upon thee till the Day of Judgment."
+    },
+    {
+      "n": 36,
+      "ar": "قَالَ رَبِّ فَأَنظِرْنِىٓ إِلَىٰ يَوْمِ يُبْعَثُونَ",
+      "en": "He said: My Lord! Reprieve me till the day when they are raised."
+    },
+    {
+      "n": 37,
+      "ar": "قَالَ فَإِنَّكَ مِنَ ٱلْمُنظَرِينَ",
+      "en": "He said: Then lo! thou art of those reprieved"
+    },
+    { "n": 38, "ar": "إِلَىٰ يَوْمِ ٱلْوَقْتِ ٱلْمَعْلُومِ", "en": "Till the Day of appointed time." },
+    {
+      "n": 39,
+      "ar": "قَالَ رَبِّ بِمَآ أَغْوَيْتَنِى لَأُزَيِّنَنَّ لَهُمْ فِى ٱلْأَرْضِ وَلَأُغْوِيَنَّهُمْ أَجْمَعِينَ",
+      "en": "He said: My Lord! Because Thou hast sent me astray, I verily shall adorn the path of error for them in the earth, and shall mislead them every one,"
+    },
+    {
+      "n": 40,
+      "ar": "إِلَّا عِبَادَكَ مِنْهُمُ ٱلْمُخْلَصِينَ",
+      "en": "Save such of them as are Thy perfectly devoted slaves."
+    },
+    {
+      "n": 41,
+      "ar": "قَالَ هَـٰذَا صِرَٰطٌ عَلَىَّ مُسْتَقِيمٌ",
+      "en": "He said: This is a right course incumbent upon Me:"
+    },
+    {
+      "n": 42,
+      "ar": "إِنَّ عِبَادِى لَيْسَ لَكَ عَلَيْهِمْ سُلْطَـٰنٌ إِلَّا مَنِ ٱتَّبَعَكَ مِنَ ٱلْغَاوِينَ",
+      "en": "Lo! as for My slaves, thou hast no power over any of them save such of the froward as follow thee,"
+    },
+    {
+      "n": 43,
+      "ar": "وَإِنَّ جَهَنَّمَ لَمَوْعِدُهُمْ أَجْمَعِينَ",
+      "en": "And lo! for all such, hell will be the promised place."
+    },
+    {
+      "n": 44,
+      "ar": "لَهَا سَبْعَةُ أَبْوَٰبٍ لِّكُلِّ بَابٍ مِّنْهُمْ جُزْءٌ مَّقْسُومٌ",
+      "en": "It hath seven gates, and each gate hath an appointed portion."
+    },
+    {
+      "n": 45,
+      "ar": "إِنَّ ٱلْمُتَّقِينَ فِى جَنَّـٰتٍ وَعُيُونٍ",
+      "en": "Lo! those who ward off (evil) are among gardens and watersprings."
+    },
+    {
+      "n": 46,
+      "ar": "ٱدْخُلُوهَا بِسَلَـٰمٍ ءَامِنِينَ",
+      "en": "(And it is said unto them): Enter them in peace, secure."
+    },
+    {
+      "n": 47,
+      "ar": "وَنَزَعْنَا مَا فِى صُدُورِهِم مِّنْ غِلٍّ إِخْوَٰنًا عَلَىٰ سُرُرٍ مُّتَقَـٰبِلِينَ",
+      "en": "And We remove whatever rancour may be in their breasts. As brethren, face to face, (they rest) on couches raised."
+    },
+    {
+      "n": 48,
+      "ar": "لَا يَمَسُّهُمْ فِيهَا نَصَبٌ وَمَا هُم مِّنْهَا بِمُخْرَجِينَ",
+      "en": "Toil cometh not unto them there, nor will they be expelled from thence."
+    },
+    {
+      "n": 49,
+      "ar": "۞ نَبِّئْ عِبَادِىٓ أَنِّىٓ أَنَا ٱلْغَفُورُ ٱلرَّحِيمُ",
+      "en": "Announce, (O Muhammad) unto My slaves that verily I am the Forgiving, the Merciful,"
+    },
+    {
+      "n": 50,
+      "ar": "وَأَنَّ عَذَابِى هُوَ ٱلْعَذَابُ ٱلْأَلِيمُ",
+      "en": "And that My doom is the dolorous doom."
+    },
+    { "n": 51, "ar": "وَنَبِّئْهُمْ عَن ضَيْفِ إِبْرَٰهِيمَ", "en": "And tell them of Abraham's guests," },
+    {
+      "n": 52,
+      "ar": "إِذْ دَخَلُوا۟ عَلَيْهِ فَقَالُوا۟ سَلَـٰمًا قَالَ إِنَّا مِنكُمْ وَجِلُونَ",
+      "en": "(How) when they came in unto him, and said: Peace. He said: Lo! we are afraid of you."
+    },
+    {
+      "n": 53,
+      "ar": "قَالُوا۟ لَا تَوْجَلْ إِنَّا نُبَشِّرُكَ بِغُلَـٰمٍ عَلِيمٍ",
+      "en": "They said: Be not afraid! Lo! we bring thee good tidings of a boy possessing wisdom."
+    },
+    {
+      "n": 54,
+      "ar": "قَالَ أَبَشَّرْتُمُونِى عَلَىٰٓ أَن مَّسَّنِىَ ٱلْكِبَرُ فَبِمَ تُبَشِّرُونَ",
+      "en": "He said: Bring ye me good tidings (of a son) when old age hath overtaken me? Of what then can ye bring good tidings?"
+    },
+    {
+      "n": 55,
+      "ar": "قَالُوا۟ بَشَّرْنَـٰكَ بِٱلْحَقِّ فَلَا تَكُن مِّنَ ٱلْقَـٰنِطِينَ",
+      "en": "They said: We bring thee good tidings in truth. So be not thou of the despairing."
+    },
+    {
+      "n": 56,
+      "ar": "قَالَ وَمَن يَقْنَطُ مِن رَّحْمَةِ رَبِّهِۦٓ إِلَّا ٱلضَّآلُّونَ",
+      "en": "He said: And who despaireth of the mercy of his Lord save those who are astray?"
+    },
+    {
+      "n": 57,
+      "ar": "قَالَ فَمَا خَطْبُكُمْ أَيُّهَا ٱلْمُرْسَلُونَ",
+      "en": "He said: And afterward what is your business, O ye messengers (of Allah)?"
+    },
+    {
+      "n": 58,
+      "ar": "قَالُوٓا۟ إِنَّآ أُرْسِلْنَآ إِلَىٰ قَوْمٍ مُّجْرِمِينَ",
+      "en": "They said: We have been sent unto a guilty folk,"
+    },
+    {
+      "n": 59,
+      "ar": "إِلَّآ ءَالَ لُوطٍ إِنَّا لَمُنَجُّوهُمْ أَجْمَعِينَ",
+      "en": "(All) save the family of Lot. Them we shall deliver every one,"
+    },
+    {
+      "n": 60,
+      "ar": "إِلَّا ٱمْرَأَتَهُۥ قَدَّرْنَآ ۙ إِنَّهَا لَمِنَ ٱلْغَـٰبِرِينَ",
+      "en": "Except his wife, of whom We had decreed that she should be of those who stay behind."
+    },
+    {
+      "n": 61,
+      "ar": "فَلَمَّا جَآءَ ءَالَ لُوطٍ ٱلْمُرْسَلُونَ",
+      "en": "And when the messengers came unto the family of Lot,"
+    },
+    {
+      "n": 62,
+      "ar": "قَالَ إِنَّكُمْ قَوْمٌ مُّنكَرُونَ",
+      "en": "He said: Lo! ye are folk unknown (to me)."
+    },
+    {
+      "n": 63,
+      "ar": "قَالُوا۟ بَلْ جِئْنَـٰكَ بِمَا كَانُوا۟ فِيهِ يَمْتَرُونَ",
+      "en": "They said: Nay, but we bring thee that concerning which they keep disputing,"
+    },
+    {
+      "n": 64,
+      "ar": "وَأَتَيْنَـٰكَ بِٱلْحَقِّ وَإِنَّا لَصَـٰدِقُونَ",
+      "en": "And bring thee the Truth, and lo! we are truth-tellers."
+    },
+    {
+      "n": 65,
+      "ar": "فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَٱتَّبِعْ أَدْبَـٰرَهُمْ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ وَٱمْضُوا۟ حَيْثُ تُؤْمَرُونَ",
+      "en": "So travel with thy household in a portion of the night, and follow thou their backs. Let none of you turn round, but go whither ye are commanded."
+    },
+    {
+      "n": 66,
+      "ar": "وَقَضَيْنَآ إِلَيْهِ ذَٰلِكَ ٱلْأَمْرَ أَنَّ دَابِرَ هَـٰٓؤُلَآءِ مَقْطُوعٌ مُّصْبِحِينَ",
+      "en": "And We made plain the case to him, that the root of them (who did wrong) was to be cut at early morn."
+    },
+    {
+      "n": 67,
+      "ar": "وَجَآءَ أَهْلُ ٱلْمَدِينَةِ يَسْتَبْشِرُونَ",
+      "en": "And the people of the city came, rejoicing at the news (of new arrivals)."
+    },
+    {
+      "n": 68,
+      "ar": "قَالَ إِنَّ هَـٰٓؤُلَآءِ ضَيْفِى فَلَا تَفْضَحُونِ",
+      "en": "He said: Lo! they are my guests. Affront me not!"
+    },
+    {
+      "n": 69,
+      "ar": "وَٱتَّقُوا۟ ٱللَّهَ وَلَا تُخْزُونِ",
+      "en": "And keep your duty to Allah, and shame me not!"
+    },
+    {
+      "n": 70,
+      "ar": "قَالُوٓا۟ أَوَلَمْ نَنْهَكَ عَنِ ٱلْعَـٰلَمِينَ",
+      "en": "They said; Have we not forbidden you from (entertaining) anyone?"
+    },
+    {
+      "n": 71,
+      "ar": "قَالَ هَـٰٓؤُلَآءِ بَنَاتِىٓ إِن كُنتُمْ فَـٰعِلِينَ",
+      "en": "He said: Here are my daughters, if ye must be doing (so)."
+    },
+    {
+      "n": 72,
+      "ar": "لَعَمْرُكَ إِنَّهُمْ لَفِى سَكْرَتِهِمْ يَعْمَهُونَ",
+      "en": "By thy life (O Muhammad) they moved blindly in the frenzy of approaching death."
+    },
+    {
+      "n": 73,
+      "ar": "فَأَخَذَتْهُمُ ٱلصَّيْحَةُ مُشْرِقِينَ",
+      "en": "Then the (Awful) Cry overtook them at the sunrise."
+    },
+    {
+      "n": 74,
+      "ar": "فَجَعَلْنَا عَـٰلِيَهَا سَافِلَهَا وَأَمْطَرْنَا عَلَيْهِمْ حِجَارَةً مِّن سِجِّيلٍ",
+      "en": "And We utterly confounded them, and We rained upon them stones of heated clay."
+    },
+    {
+      "n": 75,
+      "ar": "إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّلْمُتَوَسِّمِينَ",
+      "en": "Lo! therein verily are portents for those who read the signs."
+    },
+    { "n": 76, "ar": "وَإِنَّهَا لَبِسَبِيلٍ مُّقِيمٍ", "en": "And lo! it is upon a road still uneffaced." },
+    {
+      "n": 77,
+      "ar": "إِنَّ فِى ذَٰلِكَ لَـَٔايَةً لِّلْمُؤْمِنِينَ",
+      "en": "Lo! therein is indeed a portent for believers."
+    },
+    {
+      "n": 78,
+      "ar": "وَإِن كَانَ أَصْحَـٰبُ ٱلْأَيْكَةِ لَظَـٰلِمِينَ",
+      "en": "And the dwellers in the wood indeed were evil-doers."
+    },
+    {
+      "n": 79,
+      "ar": "فَٱنتَقَمْنَا مِنْهُمْ وَإِنَّهُمَا لَبِإِمَامٍ مُّبِينٍ",
+      "en": "So we took vengeance on them; and lo! they both are on a high-road plain to see."
+    },
+    {
+      "n": 80,
+      "ar": "وَلَقَدْ كَذَّبَ أَصْحَـٰبُ ٱلْحِجْرِ ٱلْمُرْسَلِينَ",
+      "en": "And the dwellers in Al-Hijr denied (Our) messengers."
+    },
+    {
+      "n": 81,
+      "ar": "وَءَاتَيْنَـٰهُمْ ءَايَـٰتِنَا فَكَانُوا۟ عَنْهَا مُعْرِضِينَ",
+      "en": "And we gave them Our revelations, but they were averse to them."
+    },
+    {
+      "n": 82,
+      "ar": "وَكَانُوا۟ يَنْحِتُونَ مِنَ ٱلْجِبَالِ بُيُوتًا ءَامِنِينَ",
+      "en": "And they used to hew out dwellings from the hills, (wherein they dwelt) secure."
+    },
+    {
+      "n": 83,
+      "ar": "فَأَخَذَتْهُمُ ٱلصَّيْحَةُ مُصْبِحِينَ",
+      "en": "But the (Awful) Cry overtook them at the morning hour,"
+    },
+    {
+      "n": 84,
+      "ar": "فَمَآ أَغْنَىٰ عَنْهُم مَّا كَانُوا۟ يَكْسِبُونَ",
+      "en": "And that which they were wont to count as gain availed them not."
+    },
+    {
+      "n": 85,
+      "ar": "وَمَا خَلَقْنَا ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَآ إِلَّا بِٱلْحَقِّ ۗ وَإِنَّ ٱلسَّاعَةَ لَـَٔاتِيَةٌ ۖ فَٱصْفَحِ ٱلصَّفْحَ ٱلْجَمِيلَ",
+      "en": "We created not the heavens and the earth and all that is between them save with truth, and lo! the Hour is surely coming. So forgive, (O Muhammad), with a gracious forgiveness."
+    },
+    {
+      "n": 86,
+      "ar": "إِنَّ رَبَّكَ هُوَ ٱلْخَلَّـٰقُ ٱلْعَلِيمُ",
+      "en": "Lo! Thy Lord! He is the All-Wise Creator."
+    },
+    {
+      "n": 87,
+      "ar": "وَلَقَدْ ءَاتَيْنَـٰكَ سَبْعًا مِّنَ ٱلْمَثَانِى وَٱلْقُرْءَانَ ٱلْعَظِيمَ",
+      "en": "We have given thee seven of the oft-repeated (verses) and the great Qur'an."
+    },
+    {
+      "n": 88,
+      "ar": "لَا تَمُدَّنَّ عَيْنَيْكَ إِلَىٰ مَا مَتَّعْنَا بِهِۦٓ أَزْوَٰجًا مِّنْهُمْ وَلَا تَحْزَنْ عَلَيْهِمْ وَٱخْفِضْ جَنَاحَكَ لِلْمُؤْمِنِينَ",
+      "en": "Strain not thine eyes toward that which We cause some wedded pairs among them to enjoin, and be not grieved on their account, and lower thy wing (in tenderness) for the believers."
+    },
+    {
+      "n": 89,
+      "ar": "وَقُلْ إِنِّىٓ أَنَا ٱلنَّذِيرُ ٱلْمُبِينُ",
+      "en": "And say: Lo! I, even I, am a plain warner,"
+    },
+    {
+      "n": 90,
+      "ar": "كَمَآ أَنزَلْنَا عَلَى ٱلْمُقْتَسِمِينَ",
+      "en": "Such as We send down for those who make division,"
+    },
+    {
+      "n": 91,
+      "ar": "ٱلَّذِينَ جَعَلُوا۟ ٱلْقُرْءَانَ عِضِينَ",
+      "en": "Those who break the Qur'an into parts."
+    },
+    {
+      "n": 92,
+      "ar": "فَوَرَبِّكَ لَنَسْـَٔلَنَّهُمْ أَجْمَعِينَ",
+      "en": "Them, by thy Lord, We shall question, every one,"
+    },
+    { "n": 93, "ar": "عَمَّا كَانُوا۟ يَعْمَلُونَ", "en": "Of what they used to do." },
+    {
+      "n": 94,
+      "ar": "فَٱصْدَعْ بِمَا تُؤْمَرُ وَأَعْرِضْ عَنِ ٱلْمُشْرِكِينَ",
+      "en": "So proclaim that which thou art commanded, and withdraw from the idolaters."
+    },
+    {
+      "n": 95,
+      "ar": "إِنَّا كَفَيْنَـٰكَ ٱلْمُسْتَهْزِءِينَ",
+      "en": "Lo! We defend thee from the scoffers,"
+    },
+    {
+      "n": 96,
+      "ar": "ٱلَّذِينَ يَجْعَلُونَ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ ۚ فَسَوْفَ يَعْلَمُونَ",
+      "en": "Who set some other god along with Allah. But they will come to know."
+    },
+    {
+      "n": 97,
+      "ar": "وَلَقَدْ نَعْلَمُ أَنَّكَ يَضِيقُ صَدْرُكَ بِمَا يَقُولُونَ",
+      "en": "Well know We that thy bosom is oppressed by what they say,"
+    },
+    {
+      "n": 98,
+      "ar": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَكُن مِّنَ ٱلسَّـٰجِدِينَ",
+      "en": "But hymn the praise of thy Lord, and be of those who make prostration (unto Him)."
+    },
+    {
+      "n": 99,
+      "ar": "وَٱعْبُدْ رَبَّكَ حَتَّىٰ يَأْتِيَكَ ٱلْيَقِينُ",
+      "en": "And serve thy Lord till the Inevitable cometh unto thee."
+    }
+  ]
+}

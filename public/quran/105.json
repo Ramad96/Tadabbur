@@ -1,0 +1,32 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 105,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    {
+      "n": 1,
+      "ar": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَـٰبِ ٱلْفِيلِ",
+      "en": "Hast thou not seen how thy Lord dealt with the owners of the Elephant?"
+    },
+    {
+      "n": 2,
+      "ar": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍ",
+      "en": "Did He not bring their stratagem to naught,"
+    },
+    {
+      "n": 3,
+      "ar": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+      "en": "And send against them swarms of flying creatures,"
+    },
+    {
+      "n": 4,
+      "ar": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
+      "en": "Which pelted them with stones of baked clay,"
+    },
+    {
+      "n": 5,
+      "ar": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
+      "en": "And made them like green crops devoured (by cattle)?"
+    }
+  ]
+}

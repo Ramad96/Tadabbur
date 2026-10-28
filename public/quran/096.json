@@ -1,0 +1,46 @@
+{
+  "notice": "Tanzil Quran Text (Uthmani, Version 1.1). Copyright (C) 2007-2026 Tanzil Project. License: Creative Commons Attribution 3.0. Verbatim copy; changing it is not allowed. Source: https://tanzil.net. Translation: M. M. Pickthall (1930), public domain, via Tanzil.",
+  "surah": 96,
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+  "ayahs": [
+    {
+      "n": 1,
+      "ar": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+      "en": "Read: In the name of thy Lord Who createth,"
+    },
+    { "n": 2, "ar": "خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ", "en": "Createth man from a clot." },
+    { "n": 3, "ar": "ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ", "en": "Read: And thy Lord is the Most Bounteous," },
+    { "n": 4, "ar": "ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ", "en": "Who teacheth by the pen," },
+    { "n": 5, "ar": "عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ", "en": "Teacheth man that which he knew not." },
+    { "n": 6, "ar": "كَلَّآ إِنَّ ٱلْإِنسَـٰنَ لَيَطْغَىٰٓ", "en": "Nay, but verily man is rebellious" },
+    { "n": 7, "ar": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ", "en": "That he thinketh himself independent!" },
+    { "n": 8, "ar": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ", "en": "Lo! unto thy Lord is the return." },
+    { "n": 9, "ar": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ", "en": "Hast thou seen him who dissuadeth" },
+    { "n": 10, "ar": "عَبْدًا إِذَا صَلَّىٰٓ", "en": "A slave when he prayeth?" },
+    {
+      "n": 11,
+      "ar": "أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ",
+      "en": "Hast thou seen if he relieth on the guidance (of Allah)"
+    },
+    { "n": 12, "ar": "أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ", "en": "Or enjoineth piety?" },
+    {
+      "n": 13,
+      "ar": "أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ",
+      "en": "Hast thou seen if he denieth (Allah's guidance) and is froward?"
+    },
+    { "n": 14, "ar": "أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ", "en": "Is he then unaware that Allah seeth?" },
+    {
+      "n": 15,
+      "ar": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
+      "en": "Nay, but if he cease not We will seize him by the forelock -"
+    },
+    { "n": 16, "ar": "نَاصِيَةٍ كَـٰذِبَةٍ خَاطِئَةٍ", "en": "The lying, sinful forelock -" },
+    { "n": 17, "ar": "فَلْيَدْعُ نَادِيَهُۥ", "en": "Then let him call upon his henchmen!" },
+    { "n": 18, "ar": "سَنَدْعُ ٱلزَّبَانِيَةَ", "en": "We will call the guards of hell." },
+    {
+      "n": 19,
+      "ar": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
+      "en": "Nay, Obey not thou him. But prostrate thyself, and draw near (unto Allah)."
+    }
+  ]
+}
