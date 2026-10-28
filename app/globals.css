@@ -149,3 +149,14 @@
 :root[data-theme="light"] {
   --map-icon-filter: none;
 }
+
+/* UI-02 About sheet: slides up from below. Reduced motion is handled by the global rule above. */
+@keyframes sheet-up {
+  from {
+    transform: translateY(24px);
+    opacity: 0;
+  }
+}
+@theme {
+  --animate-sheet-up: sheet-up 220ms ease-out;
+}

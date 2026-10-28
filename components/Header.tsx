@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { AboutUs } from "./about/AboutUs";
 import { ThemeToggle } from "./ThemeToggle";
 
 const NAV = [
@@ -14,7 +15,8 @@ function isActive(pathname: string, href: string) {
   return pathname.startsWith(href.replace(/\/$/, ""));
 }
 
-export function Header() {
+/** about: the About content, rendered on the server with its ayahs, shown in the About sheet. */
+export function Header({ about }: { about: React.ReactNode }) {
   const pathname = usePathname();
 
   return (
@@ -51,6 +53,7 @@ export function Header() {
             );
           })}
         </nav>
+        <AboutUs>{about}</AboutUs>
         <ThemeToggle />
       </div>
     </header>

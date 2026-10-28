@@ -14,6 +14,9 @@ export function Footer() {
         <Link href="/upload/" className="hover:text-fg underline">
           Share a recitation <span className="label">soon</span>
         </Link>
+        <Link href="/about/" className="hover:text-fg underline">
+          About us
+        </Link>
         <Link href="/privacy/" className="hover:text-fg underline">
           Privacy
         </Link>

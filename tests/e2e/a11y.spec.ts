@@ -11,6 +11,7 @@ const PAGES = [
   ["Mosque", "/mosques/00000000-0000-4000-8000-aaaa00000006/"],
   ["Upload (coming soon)", "/upload/"],
   ["Privacy", "/privacy/"],
+  ["About", "/about/"],
   ["404", "/no-such-page/"],
 ] as const;
 
@@ -28,6 +29,15 @@ async function audit(page: Page) {
 }
 
 for (const theme of ["dark", "light"] as const) {
+  test(`About sheet, open (${theme}) has no WCAG 2.2 AA violations`, async ({ page }) => {
+    await page.addInitScript((t) => t === "light" && localStorage.setItem("tadabbur-theme", "light"), theme);
+    await page.goto("/");
+    await page.getByRole("banner").getByRole("link", { name: "About us" }).click();
+    await expect(page.getByRole("dialog", { name: "About us" })).toBeVisible();
+    const { violations } = await audit(page);
+    expect(violations.map((v) => `${v.id}: ${v.help}`)).toEqual([]);
+  });
+
   for (const [name, path] of PAGES) {
     test(`${name} (${theme}) has no WCAG 2.2 AA violations`, async ({ page }) => {
       await page.addInitScript(

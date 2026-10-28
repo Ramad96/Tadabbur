@@ -1,10 +1,12 @@
 import type { Metadata, Viewport } from "next";
 import { Aref_Ruqaa, IBM_Plex_Mono, IBM_Plex_Sans, Instrument_Serif } from "next/font/google";
 import localFont from "next/font/local";
+import { ABOUT_DUA, ABOUT_QUOTE, AboutContent } from "@/components/about/AboutContent";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { MiniPlayer } from "@/components/player/MiniPlayer";
 import { PlayerProvider } from "@/components/player/PlayerProvider";
+import { getAyahRangeAtBuild } from "@/lib/quran/server";
 import { themeInitScript } from "@/lib/theme";
 import "./globals.css";
 
@@ -36,6 +38,9 @@ const plexMono = IBM_Plex_Mono({
   preload: false, // small labels only; not worth competing with the ayah font
 });
 
+const DEDICATION =
+  "<!-- This is dedicated to, and an idea that spawned from, Tagrid H. May Allah reward her. -->";
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://tadabbur.amanahdigital.co.uk"),
   title: { default: "Tadabbur · تَدَبُّر", template: "%s · Tadabbur" },
@@ -61,7 +66,11 @@ export const viewport: Viewport = {
   viewportFit: "cover",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default async function RootLayout({ children }: LayoutProps<"/">) {
+  const [quote, dua] = await Promise.all([
+    getAyahRangeAtBuild(ABOUT_QUOTE.surah, ABOUT_QUOTE.ayah, ABOUT_QUOTE.ayah),
+    getAyahRangeAtBuild(ABOUT_DUA.surah, ABOUT_DUA.ayah, ABOUT_DUA.ayah),
+  ]);
   const fonts = [aref, amiri, instrument, plexSans, plexMono].map((f) => f.variable).join(" ");
 
   return (
@@ -71,6 +80,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
       </head>
       <body className="min-h-dvh px-[max(16px,env(safe-area-inset-left))] pb-12">
+        <div hidden dangerouslySetInnerHTML={{ __html: DEDICATION }} />
         <a
           href="#main"
           className="bg-lamp text-lamp-ink sr-only rounded-md px-4 py-2 focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50"
@@ -79,7 +89,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         </a>
         <PlayerProvider>
           <div className="mx-auto max-w-[1180px]">
-            <Header />
+            <Header about={<AboutContent quote={quote} dua={dua} idPrefix="about-sheet" />} />
             <main id="main" tabIndex={-1} className="focus:outline-none">
               {children}
             </main>
